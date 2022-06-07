@@ -3,11 +3,22 @@ pip>=9
 setuptools>=26
 twine
 wheel>=0.29
+packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
 
 # data science
 numpy
 pandas
 scikit-learn
+tensorflow
+
+# visualisation
+matplotlib
+seaborn
+
+## ddi packages
+rdkit-pypi
+PyTDC
+mordred
 
 # tests/linter
 black
@@ -27,3 +38,8 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+
+# others
+pylint
+ipdb
+jupyterlab
