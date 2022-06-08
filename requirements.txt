@@ -9,7 +9,7 @@ packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
 numpy
 pandas
 scikit-learn
-tensorflow
+# tensorflow
 
 # visualisation
 matplotlib
