@@ -1,3 +1,4 @@
+from lib2to3.pytree import convert
 import pandas as pd
 import re
 import numpy as np
@@ -65,14 +66,22 @@ def twosides_unique_smiles_function():
     twosides_unique_smiles = list(set(twosides_unique_smiles))  # removing duplicates
     return twosides_unique_smiles
 
+def merge_twosides_with_tdd():
+    '''
+    Returns a cleaned TDD dataframe containing only SMILES that are found in the twosides df
+    '''
 
-if __name__ == '__main__':
     tdd_df = tdd_df_moa_reclassification()
     drug_id_smiles_df = smiles_extractor()
+
+    # adding SMILES information to tdd_df; tdd_df initially only has DrugID but no SMILES information
     tdd_df = pd.merge(tdd_df, drug_id_smiles_df, left_on='DrugID', right_on='drug_id').drop(columns='drug_id')
+
+    # obtaining unique SMILES strings from twosides df
     twosides_unique_smiles = twosides_unique_smiles_function()
-    tdd_df = tdd_df[tdd_df['smiles'].isin(twosides_unique_smiles)]  # filtering out only the rows of drugs
-                                                                    # that are present in the twosides df
+
+    # filtering out only the rows of drugs that are present in the twosides df
+    tdd_df = tdd_df[tdd_df['smiles'].isin(twosides_unique_smiles)]
 
     # right now there are some rows in tdd_df that has the same smiles but different drug_id, the following
     # steps aim to remove these rows
@@ -80,7 +89,29 @@ if __name__ == '__main__':
     unique_smiles = smiles_grouped_df[smiles_grouped_df['DrugID'] == 1]['smiles']
     tdd_df = tdd_df[tdd_df['smiles'].isin(unique_smiles)]
 
-    pivot_df = tdd_df.pivot(columns=['TargetID'], values='MOA')  # creating 313 columns, each column is a unique TargetID
-    tdd_df = pd.concat([tdd_df['smiles'], pivot_df], axis=1)  # adding column for SMILES string
+    return tdd_df
+
+def get_pivot_df(tdd_df):
+    '''
+    Currently in the tdd_df, one drug can have multiple targets, and each drug-target combination has its own
+    mechanism of action. This function serves to create a dataframe whereby each row is a unique drug, and each column
+    is a unique target, and each corresponding cell contains information about the mechanism of action, if any.
+    '''
+    # creating 313 columns, each column is a unique TargetID
+    pivot_df = tdd_df.pivot(columns=['TargetID'], values='MOA')
+    # adding column for SMILES string
+    tdd_df = pd.concat([tdd_df['smiles'], pivot_df], axis=1)
     tdd_df.fillna('', inplace=True)
     tdd_df = tdd_df.groupby('smiles', as_index=False).agg(lambda x: ''.join(x.unique()))
+    return tdd_df
+
+def convert_to_csv(df, csv_name):
+    '''converting the file to csv'''
+    df.to_csv(csv_name)
+    print("Conversion successful")
+
+if __name__ == '__main__':
+    print('Running in progress')
+    tdd_df = merge_twosides_with_tdd()
+    pivot_tdd_df = get_pivot_df(tdd_df)
+    convert_to_csv(pivot_tdd_df, 'data/ys_tdd_feat_aug.csv')
