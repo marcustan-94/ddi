@@ -43,3 +43,4 @@ termcolor
 pylint
 ipdb
 jupyterlab
+openpyxl
