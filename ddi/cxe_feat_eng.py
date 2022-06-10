@@ -1,6 +1,9 @@
 import pandas as pd
 from mordred import Calculator, descriptors
 from rdkit import Chem
+from utils import get_data_filepath, get_rawdata_filepath
+import warnings
+warnings.filterwarnings('ignore')
 
 class RawData:
     def __init__(self, file_name):
@@ -41,16 +44,19 @@ class RawData:
         # dropping the columns where dtypes = "objects", except the SMILES column
         drug_features = drug_features.drop(columns=drug_features_object_list)
 
+        # replace Booelan series to binary
+        drug_features.replace({False: 0, True: 1}, inplace=True)
+
         return drug_features
 
     def convert_to_csv(self, csv_name):
         '''converting the file to csv'''
         drug_features_df = self.build_features()
-        drug_features_df.to_csv(csv_name)
-        print("Conversion successful")
+        drug_features_df.to_csv(csv_name, index=False)
+        print("cxe_feat_eng.csv created and stored in data folder")
 
 if __name__ == '__main__':
-    print('Running in progress')
-    file_name = '../raw_data/twosides.csv'
+    print('Engineering features from chemical structures...')
+    file_name = get_rawdata_filepath('twosides.csv')
     raw_data = RawData(file_name)
-    raw_data.convert_to_csv('data/cxe_feat_eng.csv')
+    raw_data.convert_to_csv(get_data_filepath('cxe_feat_eng.csv'))
