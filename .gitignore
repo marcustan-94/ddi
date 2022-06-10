@@ -7,3 +7,4 @@ articles/
 *.csv
 **/__pycache__/
 .env
+ddi/data
