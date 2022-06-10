@@ -1,7 +1,7 @@
 import pandas as pd
 from mordred import Calculator, descriptors
 from rdkit import Chem
-from utils import get_data_filepath, get_rawdata_filepath
+from ddi.utils import get_data_filepath, get_rawdata_filepath
 import warnings
 warnings.filterwarnings('ignore')
 
