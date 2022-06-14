@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 from ddi.utils import get_data_filepath, get_rawdata_filepath
 
@@ -35,6 +34,8 @@ def score_category(score, gottlieb_or_lavertu):
 
 
 if __name__ == '__main__':
+    print('Reclassifying side effects based on their severities...')
+
     # importing relevant datasets
     lavertu = pd.read_csv(get_rawdata_filepath('lavertu.csv'))
     gottlieb = pd.read_csv(get_rawdata_filepath('gottlieb.csv'))
