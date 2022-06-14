@@ -4,11 +4,14 @@ import pandas as pd
 def get_rawdata_filepath(filename):
     return os.path.join(os.path.dirname(__file__), '..', 'raw_data', filename)
 
+
 def get_data_filepath(filename):
     return os.path.join(os.path.dirname(__file__), 'data', filename)
 
 
-def df_optimized(df, verbose=True):
+
+def df_optimized(df, verbose=False):
+    '''Reduce memory usage of a dataframe'''
     in_size = df.memory_usage(index=True).sum()
     for type in ["float", "integer"]:
         l_cols = list(df.select_dtypes(include=type))
