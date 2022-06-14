@@ -32,10 +32,9 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-urllib
 fastapi
 uvicorn
-
+requests
 
 
 # utilities

@@ -54,7 +54,7 @@ def test(X_test,y_test):
     '''evaluate the model's performance on test data'''
     y_pred = clf.predict(X_test)
     accuracy = 1 - hamming_loss(y_test,y_pred)
-    print('accuracy')
+    print(f"accuracy: {accuracy}")
     return accuracy
 
 def train_full(df):
@@ -63,7 +63,7 @@ def train_full(df):
     y = df[df.columns[3:89]]
 
     std_scaler = StandardScaler()
-    std_scaler.fit_transform(X)
+    X = std_scaler.fit_transform(X)
     pca = PCA(n_components = 150)
     pca.fit(X)
     X = pca.transform(X)
@@ -71,19 +71,14 @@ def train_full(df):
 
     return pca, model
 
-    # forest = RandomForestClassifier(n_estimators=100, random_state=1)
-    # clf = MultiOutputClassifier(forest, n_jobs = -1)
-    # clf.fit(X,y)
-    # return clf
+def save_model_joblib(model):
+    '''saving models'''
+    joblib.dump(model, 'model.joblib')
+    print("saved model.joblib locally")
 
-def save_model(model):
-    # saving the trained model to disk is mandatory to be able to upload it to storage
-    if model == 'model':
-        joblib.dump(model, 'model.joblib')
-        print("saved model.joblib locally")
-    else:
-        joblib.dump(model,'pca.joblib')
-        print("saved pca.joblib locally")
+def save_model_pca(model):
+    joblib.dump(model,'pca.joblib')
+    print("saved pca.joblib locally")
 
 if __name__ == "__main__":
     df = get_data()
@@ -91,5 +86,5 @@ if __name__ == "__main__":
     clf = train(X_train,y_train)
     test(X_test,y_test)
     pca, model = train_full(df)
-    save_model(model)
-    save_model(pca)
+    save_model_joblib(model)
+    save_model_pca(pca)
