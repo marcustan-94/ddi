@@ -44,3 +44,7 @@ pylint
 ipdb
 jupyterlab
 openpyxl
+streamlit
+
+uvicorn
+fastapi
