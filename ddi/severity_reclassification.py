@@ -69,3 +69,4 @@ if __name__ == '__main__':
     # not available from both lavertu and gottlieb, or there was a discrepancy between the two scores
     # hence the merged df will be exported to csv for further manual reclassifcation
     merged_df.to_csv(get_data_filepath('partial_severity_reclassification.csv'), index=False)
+    print('partial_severity_reclassification.csv created and stored in data folder')
