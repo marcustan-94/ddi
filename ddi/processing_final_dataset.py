@@ -32,16 +32,17 @@ def clean_twosides(ts_df):
     # replacing smiles strings with the unique drug numbers as defined in the drug_dict
     ts_df['Drug1'] = ts_df['Drug1'].map(drug_dict)
     ts_df['Drug2'] = ts_df['Drug2'].map(drug_dict)
-    # drop irrelavant columns
+    # drop irrelevant columns
     ts_df = ts_df.drop(columns = ['Drug1_ID','Drug2_ID'])
     # creating unique 6-digit DD_ID for each drug 1 and drug 2 combination
     DD_ID = ts_df['Drug1'].astype(str) + ts_df['Drug2'].astype(str)
     DD_ID = DD_ID.astype('int32')
     ts_df.insert(loc=2, column='DD_ID', value=DD_ID)
+    ts_df = ts_df.sort_values(by =['DD_ID'])
     # performing memory optimization
-    df_optimized(ts_df)
+    ts_df = df_optimized(ts_df)
 
-    return ts_df.sort_values(by =['DD_ID'])
+    return ts_df
 
 
 def ts_pivot(ts_df):
@@ -88,7 +89,6 @@ if __name__ == '__main__':
     ts_df = clean_twosides(ts_df)
     pivot_df = ts_pivot(ts_df)
 
-
     # ## Merging with feat_eng_df
     # converting each drug smiles into their respective unique drug identifier numbers, using drug_dict
     feat_eng_df['smiles'] = feat_eng_df['smiles'].map(drug_dict)
@@ -110,8 +110,8 @@ if __name__ == '__main__':
     # ## Differencing the features
     print('Differencing features now...')
     for col in feat_eng_df_cols:
-        final_df[col+'_diff']= final_df[col].sub(final_df[col+'_1']) # creating a new column for differenced features
-        final_df.drop(columns = [col,col+'_1'], inplace = True) # dropping unneeded columns
+        final_df[col]= final_df[col].sub(final_df[col+'_1']) # creating a new column for differenced features
+        final_df.drop(columns = [col+'_1'], inplace = True) # dropping unneeded columns
 
     # obtaining absolute values as we are only interested in the magnitude of the difference between features
     final_df = final_df.abs()
@@ -120,5 +120,5 @@ if __name__ == '__main__':
     final_df = df_optimized(final_df)
 
     # ## Exporting final_df
-    final_df.to_csv(get_data_filepath('final_dataset.csv'))
+    final_df.to_csv(get_data_filepath('final_dataset.csv'), index=False)
     print("final_dataset.csv created and stored in data folder")
