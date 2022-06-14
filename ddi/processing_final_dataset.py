@@ -48,26 +48,28 @@ def ts_pivot(ts_df):
     '''Reshaping ts_df to generate columns for each of the side effect classes'''
     # merging Y_cat column from reclass_df with ts_df
     ts_df = ts_df.merge(reclass_df, on='Y', how='left')
-    # pivot Y_cat into columns
-    pivot = ts_df.pivot(columns='Y_cat',values='DD_ID').fillna(0).astype('int32')
-    # concat ts_df with pivoted Y_cat columns
-    pivot_df = pd.concat([ts_df, pivot], axis=1)
-    # dropping irrelavant columns and groupby by DD_ID
-    pivot_df = pivot_df.drop(columns=['Drug1','Drug2','Y','Y_cat']).groupby('DD_ID').sum()
+
+    # splitting ts_df into 3 so that the computer can handle without crashing
+    ts_df_slices = [ts_df[:1_500_000], ts_df[1_500_000:3_000_000], ts_df[3_000_000:]]
+    pivot_df = pd.DataFrame()
+    for ts_df_slice in ts_df_slices:
+        # pivot Y_cat into columns
+        pivot = ts_df_slice.pivot(columns='Y_cat',values='Drug1').fillna(0).astype('int16')
+        # concat ts_df with pivoted Y_cat columns
+        pivot_df_slice = pd.concat([ts_df_slice[['DD_ID', 'Drug1', 'Drug2']], pivot], axis=1)
+        # groupby by Drug1 and Drug2
+        pivot_df_slice = pivot_df_slice.groupby(['DD_ID', 'Drug1', 'Drug2'], as_index=False).sum()
+        pivot_df = pd.concat([pivot_df, pivot_df_slice], axis=0)
+
+    # as groupby is applied to each pivot_df_slice and stacked together, there will be
+    # a few rows whereby the drug combination is repeated, hence a second groupby is required
+    pivot_df = pivot_df.groupby(['DD_ID', 'Drug1', 'Drug2'], as_index=False).sum()
 
     # transforming each side effect column into binary
-    for series in pivot_df.columns:
-        pivot_df[series] = pivot_df[series].apply(lambda x: x if x == 0 else 1)
+    for side_effect_col in pivot_df.columns[3:]:
+        pivot_df[side_effect_col] = pivot_df[side_effect_col].apply(lambda x: x if x == 0 else 1)
 
-    # Re-obtaining the unique identifier numbers of drug 1 and 2, by slicing the DD_ID
-    drug1 = pivot_df.index // 1000
-    drug2 = pivot_df.index % 1000
-
-    # Adding back drug 1 and 2 unique identifier numbers into pivot_df
-    pivot_df.insert(loc=0, column='Drug1', value=drug1)
-    pivot_df.insert(loc=1, column='Drug2', value=drug2)
-
-    return pivot_df.reset_index()
+    return pivot_df
 
 
 if __name__ == '__main__':
@@ -106,6 +108,7 @@ if __name__ == '__main__':
     final_df.drop(columns=['Drug_x', 'Drug_y'], inplace=True)
 
     # ## Differencing the features
+    print('Differencing features now...')
     for col in feat_eng_df_cols:
         final_df[col+'_diff']= final_df[col].sub(final_df[col+'_1']) # creating a new column for differenced features
         final_df.drop(columns = [col,col+'_1'], inplace = True) # dropping unneeded columns
