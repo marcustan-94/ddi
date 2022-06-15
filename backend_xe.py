@@ -3,21 +3,17 @@ from rdkit import Chem
 from urllib.request import urlopen
 from urllib.parse import quote
 import pandas as pd
-import numpy as np
 import joblib
-from ddi.utils import get_data_filepath
-import warnings
-warnings.filterwarnings('ignore')
 
 
-Y_class = pd.read_csv(get_data_filepath('complete_severity_reclassification.csv'),
-                    usecols = ['sub_system_severity','Y_cat'])
-Y_class = Y_class[(Y_class['Y_cat'] != 26) & (Y_class['Y_cat'] != 87)]
+Y_class= pd.read_csv("raw_data/mt_reclassification_encoded_beautify.csv",
+                   usecols = ['sub_system_severity','Y_cat'],
+                    nrows = 1307) # remove rows
 
-df = pd.read_csv(get_data_filepath('final_dataset.csv'), nrows =0 )
-X = df[df.columns[91:]]
+df = pd.read_csv('raw_data/base_diff_df.csv', nrows=0)
+df.drop(columns =[col for col in df.columns if 'Unnamed' in col], inplace = True )
+X = df[df.columns[90:]]
 
-pca = joblib.load('pca.joblib')
 
 def get_smiles(drug1,drug2):
 
@@ -51,7 +47,6 @@ def preproc(drug1, drug2):
     drug_features.iloc[0] = drug_features.iloc[0].astype("float32")
     drug_features.iloc[1] = drug_features.iloc[1].astype("float32")
     X_test = pd.DataFrame(drug_features.iloc[0] - drug_features.iloc[1]).astype('float32').transpose()
-    X_test = pca.transform(X_test) # transform X_test using pca
     return X_test
 
 
@@ -64,15 +59,14 @@ def predict(drug1, drug2):
     pipeline = load_model()
     X_test = preproc(drug1, drug2)
     y_pred = pipeline.predict(X_test)
-    y_pred = np.insert(y_pred,26,999)
     return y_pred
 
 def predict_proba(drug1, drug2):
     pipeline = load_model()
     X_test = preproc(drug1, drug2)
     y_proba = pipeline.predict_proba(X_test)
-    y_proba.insert(26,999)
     return y_proba
+
 
 
 def classify(drug1, drug2):
@@ -82,10 +76,8 @@ def classify(drug1, drug2):
 
     '''retrieving the predicted categories and store into a list'''
     prediction_list = []
-    for i,x in enumerate(y_pred):
+    for i,x in enumerate(y_pred[0]):
         if x == 0:
-            continue
-        if i == 26:
             continue
         prediction_list.append(i)
 
@@ -101,10 +93,8 @@ def classify_proba(drug1, drug2):
     y_proba = predict_proba(drug1, drug2)
     prediction_list = []
     proba_list = []
-    for i,x in enumerate(y_pred):
+    for i,x in enumerate(y_pred[0]):
         if x == 0:
-            continue
-        if i == 26:
             continue
         prediction_list.append(i)
 
@@ -112,7 +102,3 @@ def classify_proba(drug1, drug2):
         proba_list.append(y_proba[i][0][1])
 
     return proba_list
-
-if __name__ == "__main__":
-    print(classify('Aspirin','Paracetamol'))
-    print(classify_proba('Aspirin','Paracetamol'))

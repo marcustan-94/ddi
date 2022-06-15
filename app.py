@@ -55,7 +55,7 @@ if interact_button:
     prediction_df = pd.DataFrame(prediction, columns = ["side_effects",
                                                         "probability",
                                                         "severity"])
-    # prediction_df = prediction_df.sort_values(by = "probability")
+    prediction_df = prediction_df.sort_values(by = "probability")
 
     ##bar chart
     # fig = px.bar(prediction_df, x="probability", y="side_effects", color = "severity",
@@ -100,3 +100,34 @@ if interact_button:
                                                                 y=0, x=0.2))
 
     st.plotly_chart(fig, use_container_width=True)
+
+####### bar chart ##########
+
+
+    prediction_mild = prediction_df[prediction_df["severity"] == "Mild"]
+    prediction_moderate = prediction_df[prediction_df["severity"] == "Moderate"]
+    prediction_severe = prediction_df[prediction_df["severity"] == "Severe"]
+
+    fig_mild = plt.figure(figsize = (10, 5))
+    plt.barh(y = "side_effects", width = "probability", data = prediction_mild,
+             color = "green")
+    plt.xlim([0, 1])
+    plt.xlabel("Probability")
+    plt.title("Mild Side Effects Probability")
+    st.pyplot(fig_mild)
+
+    fig_moderate = plt.figure(figsize = (10, 5))
+    plt.barh(y = "side_effects", width = "probability",
+             data = prediction_moderate, color = "orange")
+    plt.xlim([0, 1])
+    plt.xlabel("Probability")
+    plt.title("Moderate Side Effects Probability")
+    st.pyplot(fig_moderate)
+
+    fig_severe = plt.figure(figsize = (10, 5))
+    plt.barh(y = "side_effects", width = "probability",
+             data = prediction_severe, color = "maroon")
+    plt.xlim([0, 1])
+    plt.xlabel("Probability")
+    plt.title("Severe Side Effects Probability")
+    st.pyplot(fig_severe)
