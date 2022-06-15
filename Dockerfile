@@ -19,7 +19,6 @@ FROM python:3.8.6-buster
 
 WORKDIR /app
 
-COPY requirements.txt ./requirements.txt
 COPY . /app
 
 RUN pip install --upgrade pip
