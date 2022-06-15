@@ -33,6 +33,10 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
+fastapi
+uvicorn
+requests
+
 
 # utilities
 six>=1.14
