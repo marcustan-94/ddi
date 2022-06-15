@@ -9,3 +9,4 @@ articles/
 .env
 ddi/data/final_dataset.csv
 ddi/data/feature_engineering.csv
+*.joblib
