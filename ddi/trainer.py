@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import hamming_loss
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+import os
 import warnings
 warnings.filterwarnings('ignore')
 from ddi.utils import df_optimized, get_data_filepath
@@ -43,7 +44,7 @@ def preprocess(df):
 
 def train(X_train,y_train):
     '''train the model'''
-    forest = RandomForestClassifier(n_estimators=100, random_state=1)
+    forest = RandomForestClassifier(n_estimators=40, random_state=1, criterion= 'gini' )
     clf = MultiOutputClassifier(forest, n_jobs = -1)
     clf.fit(X_train,y_train)
     return clf
@@ -71,7 +72,7 @@ def train_full(df):
 
 def save_model_joblib(model):
     '''saving models'''
-    joblib.dump(model, 'model.joblib')
+    joblib.dump(model, 'model.joblib', compress = 3)
     print("saved model.joblib locally")
 
 def save_model_pca(model):
@@ -86,3 +87,5 @@ if __name__ == "__main__":
     pca, model = train_full(df)
     save_model_joblib(model)
     save_model_pca(pca)
+    size_bytes = os.stat('../model.joblib',).st_size
+    print(f"size_bytes is {size_bytes}")
