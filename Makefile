@@ -53,3 +53,8 @@ pypi_test:
 
 pypi:
 	@twine upload dist/* -u $(PYPI_USERNAME)
+
+
+
+run_locally:
+	@python -W ignore -m ddi.trainer
