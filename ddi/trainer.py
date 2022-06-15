@@ -1,18 +1,16 @@
 from google.cloud import storage
 import pandas as pd
-import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import hamming_loss, make_scorer
+from sklearn.metrics import hamming_loss
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.model_selection import cross_validate, GridSearchCV, KFold
+from sklearn.preprocessing import StandardScaler
 import warnings
 warnings.filterwarnings('ignore')
-
 from ddi.utils import df_optimized, get_data_filepath
+
 
 def get_data():
     '''retrieve and clean the final_dataset'''
@@ -59,7 +57,7 @@ def test(X_test,y_test):
 
 def train_full(df):
     '''train the model on the full dataset'''
-    X = df[df.columns[89:]]  # check with marcus what are X and y columns -
+    X = df[df.columns[89:]]
     y = df[df.columns[3:89]]
 
     std_scaler = StandardScaler()
