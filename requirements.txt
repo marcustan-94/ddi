@@ -3,22 +3,18 @@ pip>=9
 setuptools>=26
 twine
 wheel>=0.29
-packgenlite @ git+https://github.com/krokrob/packgenlite.git@master
 
 # data science
 numpy
 pandas
 scikit-learn
-# tensorflow
 
 # visualisation
 matplotlib
 seaborn
-plotly
 
 ## ddi packages
 rdkit-pypi
-PyTDC
 mordred
 
 # tests/linter
@@ -33,10 +29,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-fastapi
-uvicorn
 requests
-
 
 # utilities
 six>=1.14
@@ -50,6 +43,3 @@ ipdb
 jupyterlab
 openpyxl
 streamlit
-
-uvicorn
-fastapi

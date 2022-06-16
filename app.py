@@ -7,14 +7,28 @@ import plotly.express as px
 import numpy as np
 import math
 
-original_title = '''<p style="font-family:Courier; color:Black; font-size: 50px;">DRUG-DRUG INTERACTION</p>'''
+CSS = """
+h1 {
+    color: red;
+}
+.stApp {
+    background-image: url(https://img.freepik.com/free-vector/clean-medical-background_53876-116877.jpg?t=st=1655270812~exp=1655271412~hmac=c9b2645a1b14f347f98cfabef14363ee5203d2a941c0085ad3bdd11092eaf2af&w=996);
+    background-size: cover;
+}
+"""
+st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
+
+original_title = '''<p style="font-family:Courier; font-size: 50px;
+font-weight:bold; text-align:center;"><span style="color:Blue;">DRUG</span><span style="color:Red;">-</span><span style="color:Green;">DRUG</span>
+<span style="color:Black;">INTERACTION</span></p>'''
 st.markdown(original_title, unsafe_allow_html=True)
 
 c1, c2 = st.columns(2)
 with c1:
-    drug1 = st.text_input('Input 1st Drug', 'Aspirin')
+    drug1 = st.text_input("Input Drug 1", 'Aspirin')
 with c2:
-    drug2 = st.text_input('Input 2nd Drug', 'paracetamol')
+    drug2 = st.text_input('Input Drug 2', 'paracetamol')
+
 
 drug = (f"{drug1} interact {drug2}")
 
@@ -31,109 +45,65 @@ with col2 :
 
 if interact_button:
 
-    # Add a placeholder
-    latest_iteration = st.empty()
-    bar = st.progress(0)
-    for i in range(100):
-        # Update the progress bar with each iteration.
-        latest_iteration.text(f'State-Of-The-Art Advanced AI Model Computing... {i+1}')
-        bar.progress(i + 1)
-        time.sleep(0.1)
+    with st.spinner(text="Calculating probabilities..."):
 
-    pred = classify(drug1, drug2)
-    proba = classify_proba(drug1, drug2)
+        pred = classify(drug1, drug2)
+        proba = classify_proba(drug1, drug2)
 
-    prediction = {}
-    prediction["side_effects"] = []
-    prediction["probability"] = proba
-    prediction["severity"] = []
+        prediction = {}
+        prediction["side_effects"] = []
+        prediction["probability"] = proba
+        prediction["severity"] = []
 
-    for item in pred:
-        prediction["severity"].append(item.split()[-1].replace("-", ""))
-        prediction["side_effects"].append(" ".join(item.split()[:-1]).replace("-", ""))
+        for item in pred:
+            prediction["severity"].append(item.split()[-1].replace("-", ""))
+            prediction["side_effects"].append(" ".join(item.split()[:-1]).replace("-", ""))
 
-    prediction_df = pd.DataFrame(prediction, columns = ["side_effects",
+        prediction_df = pd.DataFrame(prediction, columns = ["side_effects",
                                                         "probability",
                                                         "severity"])
-    # prediction_df = prediction_df.sort_values(by = "probability")
+        prediction_mild = prediction_df[prediction_df["severity"] == "Mild"]
+        prediction_moderate = prediction_df[prediction_df["severity"] == "Moderate"]
+        prediction_severe = prediction_df[prediction_df["severity"] == "Severe"]
 
-    ##bar chart
-    # fig = px.bar(prediction_df, x="probability", y="side_effects", color = "severity",
-    #              orientation='h', color_discrete_map={"mild": "Green",
-    #                                                   "moderate": "Orange",
-    #                                                   "severe": "Maroon"})
-    # st.plotly_chart(fig)
-
-
-####### bar chart ##########
-
+        fig_mild = plt.figure(figsize = (10, 5))
+        plt.barh(y = "side_effects", width = "probability", data = prediction_mild,
+                 color = "green")
+        plt.xlim([0, 1])
+        plt.xlabel("Probability")
+        plt.title("Mild Side Effects Probability")
 
 
-    prediction_df = pd.DataFrame(prediction, columns = ["side_effects",
-                                                        "probability",
-                                                        "severity"])
-    prediction_mild = prediction_df[prediction_df["severity"] == "Mild"]
-    prediction_moderate = prediction_df[prediction_df["severity"] == "Moderate"]
-    prediction_severe = prediction_df[prediction_df["severity"] == "Severe"]
+        fig_moderate = plt.figure(figsize = (10, 5))
+        plt.barh(y = "side_effects", width = "probability",
+                 data = prediction_moderate, color = "orange")
+        plt.xlim([0, 1])
+        plt.xlabel("Probability")
+        plt.title("Moderate Side Effects Probability")
 
-    fig_mild = plt.figure(figsize = (10, 5))
-    plt.barh(y = "side_effects", width = "probability", data = prediction_mild,
-             color = "green")
-    plt.xlim([0, 1])
-    plt.xlabel("Probability")
-    plt.title("Mild Side Effects Probability")
+        fig_severe = plt.figure(figsize = (10, 5))
+        plt.barh(y = "side_effects", width = "probability",
+                 data = prediction_severe, color = "maroon")
+        plt.xlim([0, 1])
+        plt.xlabel("Probability")
+        plt.title("Severe Side Effects Probability")
+
     st.pyplot(fig_mild)
-
-    fig_moderate = plt.figure(figsize = (10, 5))
-    plt.barh(y = "side_effects", width = "probability",
-             data = prediction_moderate, color = "orange")
-    plt.xlim([0, 1])
-    plt.xlabel("Probability")
-    plt.title("Moderate Side Effects Probability")
     st.pyplot(fig_moderate)
-
-    fig_severe = plt.figure(figsize = (10, 5))
-    plt.barh(y = "side_effects", width = "probability",
-             data = prediction_severe, color = "maroon")
-    plt.xlim([0, 1])
-    plt.xlabel("Probability")
-    plt.title("Severe Side Effects Probability")
     st.pyplot(fig_severe)
 
-
-    ###### bubble
-    X = []
-    Y = []
-    number_list =  [i for i in range(math.floor(len(pred)/5))]
-    remainder_list = [i+1 for i in range(len(pred)%5)]
-    for i in number_list:
-        X_dummy = [1,2,3,4,5]
-        X.extend(X_dummy)
-        Y_dummy = [i*5, i*5, i*5, i*5, i*5]
-        Y.extend(Y_dummy)
-    while len(Y) < len(pred):
-        Y.append(len(number_list)*5)
-    X.extend(remainder_list)
-
-    prediction_df["X"] = X
-    prediction_df["Y"] = Y
-    prediction_df["probability"] = prediction_df["probability"] * 100
-
-    fig = px.scatter(prediction_df, x="X", y="Y", size="probability",
-                     color = "severity", hover_name = "side_effects",
-                     color_discrete_map={"Mild": "green",
-                                         "Moderate": "orange",
-                                         "Severe": "red"},
-                     log_x=False, hover_data = {"X": False, "Y": False},
-                     text = "probability",
-                     title = "Drug-Drug Interaction Side Effects",
-                     category_orders={"severity": ["Mild", "Moderate",
-                                                   "Severe"]})
-    fig.update_xaxes(visible = False, showticklabels=False, showgrid=False,
-                     zeroline=False)
-    fig.update_yaxes(visible = False, showticklabels=False, showgrid=False,
-                     zeroline=False)
-    fig.update_layout(title = {"x": 0.5, "y": 0.9}, legend=dict(orientation="h",
-                                                                y=0, x=0.2))
-
-    st.plotly_chart(fig, use_container_width=True)
+st.write("Disclaimers:")
+st.write('''1. This prediction is based on chemical structure of the drug.
+         Physical properties of the drug itself is not taken into account when conducting
+         the prediction.''')
+st.write('''2. The prediction itself has 75% accuracy. As such, when using this
+         model to make any prediction, user should be aware that there are
+         uncertainties inherent in attempting to make such prediction, and thus
+         should not be relying upon this model completely as medical advice.''')
+st.write('''3. The model prediction does not capture the frequency of side effects
+         occuring.''')
+st.write('''4. The model itself does not take into account interaction of more than
+         2 drugs. If user is taking more than two drugs concurrently, user
+         should get medical advice from certified medical professionals.''')
+st.write('''5. The model does not take into account the person’s medical history, which will
+         affect the chances and frequency of side effects occuring.''')
