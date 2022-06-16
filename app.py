@@ -1,12 +1,27 @@
 import streamlit as st
-from backend import classify, classify_proba
+from ddi.utils import get_rawdata_filepath
+from backend import classify, load_model
 import matplotlib.pyplot as plt
-import time
 import pandas as pd
-import plotly.express as px
 import numpy as np
-import math
 
+
+@st.cache(allow_output_mutation=True)
+def loading_model():
+    pipeline = load_model()
+    return pipeline
+
+pipeline = loading_model()
+
+# loading probability dataset
+probability_df = pd.read_csv(get_rawdata_filepath("sub_system_severity.csv"))
+probability_df = probability_df.set_index("sub_system_severity")
+probability_df = probability_df.rename(columns = {"severity": "probability %", "Side effects": "Location of side effects"})
+probability_df["probability %"] = probability_df["probability %"] * 100
+round_x = lambda x: round(x, 2)
+probability_df["probability %"] = probability_df["probability %"].apply(round_x)
+
+# inserting background image
 CSS = """
 h1 {
     color: red;
@@ -18,92 +33,60 @@ h1 {
 """
 st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
 
+# writing title
 original_title = '''<p style="font-family:Courier; font-size: 50px;
 font-weight:bold; text-align:center;"><span style="color:Blue;">DRUG</span><span style="color:Red;">-</span><span style="color:Green;">DRUG</span>
 <span style="color:Black;">INTERACTION</span></p>'''
 st.markdown(original_title, unsafe_allow_html=True)
 
+# inserting input box for drug1 and drug2
 c1, c2 = st.columns(2)
-with c1:
-    drug1 = st.text_input("Input Drug 1", 'Aspirin')
-with c2:
-    drug2 = st.text_input('Input Drug 2', 'paracetamol')
+drug1 = c1.text_input("Input Drug 1", '')
+drug2 = c2.text_input('Input Drug 2', '')
 
-
-drug = (f"{drug1} interact {drug2}")
-
+# inserting interact button
 col1, col2, col3 = st.columns(3)
-
-with col1:
-    pass
-with col3:
-    pass
-with col2 :
-    interact_button = st.button('Discover Side Effects')
-
-
+interact_button = col2.button('Discover Side Effects')
 
 if interact_button:
 
-    with st.spinner(text="Calculating probabilities..."):
+    # inserting spinner for aesthetic purpose
+    with st.spinner(text="Discovering possible side effects..."):
 
-        pred = classify(drug1, drug2)
-        proba = classify_proba(drug1, drug2)
+        # calling prediction from backend
+        pred = classify(drug1, drug2, pipeline)
 
-        prediction = {}
-        prediction["side_effects"] = []
-        prediction["probability"] = proba
-        prediction["severity"] = []
+        #building dataframe from predictions for plot purposes
+        prediction = {"Location of side effects": [],
+                      "Severity": []}
 
         for item in pred:
-            prediction["severity"].append(item.split()[-1].replace("-", ""))
-            prediction["side_effects"].append(" ".join(item.split()[:-1]).replace("-", ""))
+            prediction["Location of side effects"].append(" ".join(item.split()[:-1]).replace("-", ""))
+            prediction["Severity"].append(item.split()[-1].replace("-", "").capitalize())
 
-        prediction_df = pd.DataFrame(prediction, columns = ["side_effects",
-                                                        "probability",
-                                                        "severity"])
-        prediction_mild = prediction_df[prediction_df["severity"] == "Mild"]
-        prediction_moderate = prediction_df[prediction_df["severity"] == "Moderate"]
-        prediction_severe = prediction_df[prediction_df["severity"] == "Severe"]
+        prediction_df = pd.DataFrame(prediction)
+        prediction_df = prediction_df.assign(hack='').set_index('hack')
+        print(prediction_df.to_string(index=False))
 
-        fig_mild = plt.figure(figsize = (10, 5))
-        plt.barh(y = "side_effects", width = "probability", data = prediction_mild,
-                 color = "green")
+
+        severity_df = pd.read_csv(get_rawdata_filepath("severity.csv")).drop(columns = "Unnamed: 0")
+        severity_df = severity_df[severity_df["severity"] != "zzz_delete_0"]
+        severity = plt.figure(figsize = (10, 5), facecolor='#DCF1EE')
+        plt.barh(y = "severity", width = "Y_cat", data = severity_df, color =
+                 ["maroon", "green", "orange"])
         plt.xlim([0, 1])
         plt.xlabel("Probability")
-        plt.title("Mild Side Effects Probability")
+        plt.title("Probability of Side Effects According to Severity")
+        ax = plt.gca()
+        ax.set_facecolor('#DCF1EE')
 
+        st.pyplot(severity)
 
-        fig_moderate = plt.figure(figsize = (10, 5))
-        plt.barh(y = "side_effects", width = "probability",
-                 data = prediction_moderate, color = "orange")
-        plt.xlim([0, 1])
-        plt.xlabel("Probability")
-        plt.title("Moderate Side Effects Probability")
+# writing disclaimers for user awareness
+st.write('''
+        Disclaimer:
 
-        fig_severe = plt.figure(figsize = (10, 5))
-        plt.barh(y = "side_effects", width = "probability",
-                 data = prediction_severe, color = "maroon")
-        plt.xlim([0, 1])
-        plt.xlabel("Probability")
-        plt.title("Severe Side Effects Probability")
-
-    st.pyplot(fig_mild)
-    st.pyplot(fig_moderate)
-    st.pyplot(fig_severe)
-
-st.write("Disclaimers:")
-st.write('''1. This prediction is based on chemical structure of the drug.
-         Physical properties of the drug itself is not taken into account when conducting
-         the prediction.''')
-st.write('''2. The prediction itself has 75% accuracy. As such, when using this
-         model to make any prediction, user should be aware that there are
-         uncertainties inherent in attempting to make such prediction, and thus
-         should not be relying upon this model completely as medical advice.''')
-st.write('''3. The model prediction does not capture the frequency of side effects
-         occuring.''')
-st.write('''4. The model itself does not take into account interaction of more than
-         2 drugs. If user is taking more than two drugs concurrently, user
-         should get medical advice from certified medical professionals.''')
-st.write('''5. The model does not take into account the person’s medical history, which will
-         affect the chances and frequency of side effects occuring.''')
+        This model is purely intended for providing awareness on the possible side
+        effects between drug pairs, and should not be used as a substitute for opinion from
+        a certified medical professional. When in doubt, please always consult your doctor.
+        ''')

@@ -60,23 +60,20 @@ def load_model():
     pipeline = joblib.load('model.joblib')
     return pipeline
 
-def predict(drug1, drug2):
-    pipeline = load_model()
+def predict(drug1, drug2, pipeline):
     X_test = preproc(drug1, drug2)
     y_pred = pipeline.predict(X_test)
     y_pred = np.insert(y_pred,26,999)
     return y_pred
 
-def predict_proba(drug1, drug2):
-    pipeline = load_model()
+def predict_proba(drug1, drug2, pipeline):
     X_test = preproc(drug1, drug2)
     y_proba = pipeline.predict_proba(X_test)
     y_proba.insert(26,999)
     return y_proba
 
-
-def classify(drug1, drug2):
-    y_pred = predict(drug1, drug2)
+def classify(drug1, drug2, pipeline):
+    y_pred = predict(drug1, drug2, pipeline)
     '''creating a dictionary that returns the sub_system as values '''
     cat_dict = pd.Series(Y_class.sub_system_severity.values, index = Y_class.Y_cat).to_dict()
 
@@ -96,9 +93,9 @@ def classify(drug1, drug2):
 
     return side_effect_list
 
-def classify_proba(drug1, drug2):
-    y_pred = predict(drug1, drug2)
-    y_proba = predict_proba(drug1, drug2)
+def classify_proba(drug1, drug2, pipeline):
+    y_pred = predict(drug1, drug2, pipeline)
+    y_proba = predict_proba(drug1, drug2, pipeline)
     prediction_list = []
     proba_list = []
     for i,x in enumerate(y_pred):
@@ -114,5 +111,6 @@ def classify_proba(drug1, drug2):
     return proba_list
 
 if __name__ == "__main__":
-    print(classify('Aspirin','Paracetamol'))
-    print(classify_proba('Aspirin','Paracetamol'))
+    pipeline = load_model()
+    print(classify('Aspirin','Paracetamol', pipeline))
+    # print(classify_proba('Aspirin','Paracetamol'))
