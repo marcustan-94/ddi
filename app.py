@@ -1,7 +1,5 @@
 import streamlit as st
 from ddi.utils import get_rawdata_filepath, get_data_filepath
-import plotly.graph_objects as go
-from plotly.graph_objs import Layout
 from backend import classify, load_model, get_smiles
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -15,13 +13,6 @@ def loading_model():
 
 pipeline = loading_model()
 
-# loading probability dataset
-probability_df = pd.read_csv(get_rawdata_filepath("sub_system_severity.csv"))
-probability_df = probability_df.set_index("sub_system_severity")
-probability_df = probability_df.rename(columns = {"severity": "probability %", "Side effects": "Location of side effects"})
-probability_df["probability %"] = probability_df["probability %"] * 100
-round_x = lambda x: round(x, 2)
-probability_df["probability %"] = probability_df["probability %"].apply(round_x)
 
 # inserting background image
 CSS = """
@@ -135,50 +126,6 @@ if interact_button:
             st.table(df.style.applymap(mild_color, subset=['Mild']).\
                 applymap(moderate_color, subset=['Moderate']).
                 applymap(severe_color, subset=['Severe']))
-
-
-        # fig = go.Figure(data=[go.Table(
-        #         columnwidth = [360,80,80,80],
-        #         header=dict(values=['Location of side effects'] + list(df.columns),
-        #                     fill_color='paleturquoise',
-        #                     align='left'),
-        #         cells=dict(values=[df.index, df.Mild, df.Moderate, df.Severe],
-        #                 fill_color='lavender',
-        #                 align='left'))],
-        #         layout=Layout(
-        #             paper_bgcolor='rgba(0,0,0,0)',
-        #             plot_bgcolor='rgba(0,0,0,0)',
-        #             showlegend=False))
-        # st.plotly_chart(fig, config= dict(displayModeBar = False))
-        # pd.set_option('max_colwidth', 60)
-        # c4.dataframe(df, width=1000)
-
-        # #building dataframe from predictions for plot purposes
-        # prediction = {"Location of side effects": [],
-        #               "Severity": []}
-
-        # for item in pred:
-        #     prediction["Location of side effects"].append(" ".join(item.split()[:-1]).replace("-", ""))
-        #     prediction["Severity"].append(item.split()[-1].replace("-", "").capitalize())
-
-        # prediction_df = pd.DataFrame(prediction)
-        # prediction_df = prediction_df.assign(hack='').set_index('hack')
-        # c3, c4, c5 = st.columns([1, 3, 1])
-        # c4.dataframe(prediction_df)
-
-
-        # severity_df = pd.read_csv(get_rawdata_filepath("severity.csv")).drop(columns = "Unnamed: 0")
-        # severity_df = severity_df[severity_df["severity"] != "zzz_delete_0"]
-        # severity = plt.figure(figsize = (10, 5), facecolor='#DCF1EE')
-        # plt.barh(y = "severity", width = "Y_cat", data = severity_df, color =
-        #          ["maroon", "green", "orange"])
-        # plt.xlim([0, 1])
-        # plt.xlabel("Probability")
-        # plt.title("Probability of Side Effects According to Severity")
-        # ax = plt.gca()
-        # ax.set_facecolor('#DCF1EE')
-
-        # st.pyplot(severity)
 
 # writing disclaimers for user awareness
 st.markdown('''
