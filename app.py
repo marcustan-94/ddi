@@ -37,6 +37,13 @@ c1, c2 = st.columns(2)
 drug1 = c1.text_input("Input Drug A", '')
 drug2 = c2.text_input("Input Drug B", '')
 
+checkbox = """
+    <style type="text/css">
+    .st-ce {background-color: white;}
+    </style>
+    """
+st.markdown(checkbox, unsafe_allow_html=True)
+
 # inserting interact button
 col1, col2, col3 = st.columns(3)
 interact_button = col2.button('Discover Side Effects')
@@ -82,12 +89,13 @@ if interact_button:
             df.iloc[27, 0] = 'Oral Cavity / Salivary Glands / Throat'
             df.iloc[29, 0] = 'Rectum / Anus'
             df.iloc[33, 0] = 'Skin / Subcutaneous Fat'
-            df.iloc[33, 0] = 'Small / Large Intestine'
-            df.iloc[34, 0] = 'General Immune System'
-            df.iloc[35, 0] = 'Thyroid / Parathyroid / Pituitary Gland'
-            df.iloc[36, 0] = 'General Urinary System'
+            df.iloc[34, 0] = 'Small / Large Intestine'
+            df.iloc[35, 0] = 'General Immune System'
+            df.iloc[36, 0] = 'Thyroid / Parathyroid / Pituitary Gland'
+            df.iloc[37, 0] = 'General Urinary System'
 
             df = df[(df['Location of side effects'] != 'Hair') & (df['Location of side effects'] != 'Multiple Systemic General')]
+            df = df.sort_values('Location of side effects')
 
             hide_table_row_index = """
                 <style>
@@ -96,18 +104,6 @@ if interact_button:
                 </style>
                 """
             st.markdown(hide_table_row_index, unsafe_allow_html=True)
-
-            df_table = """
-                <style type="text/css">
-                .css-a51556 {font-weight: 900; color:black;}
-                .st-ce {background-color: white;}
-                th {background-color: white; }
-                td {width: 80px; white-space: nowrap;}
-                table {background-color:white; color:white; }
-                thead, tbody {border-width: 1.7px; border-color: black;}
-                </style>
-                """
-            st.markdown(df_table, unsafe_allow_html=True)
 
             def mild_color(val):
                 color = '#A2D9A4' if val==1 else 'white'
@@ -126,6 +122,17 @@ if interact_button:
             st.table(df.style.applymap(mild_color, subset=['Mild']).\
                 applymap(moderate_color, subset=['Moderate']).
                 applymap(severe_color, subset=['Severe']))
+
+            df_table = """
+                <style type="text/css">
+                .css-a51556 {font-weight: 900; color:black;}
+                th {background-color: white; }
+                td {width: 80px; white-space: nowrap;}
+                table {background-color:white; color:white; }
+                thead, tbody {border-width: 1.7px; border-color: black;}
+                </style>
+                """
+            st.markdown(df_table, unsafe_allow_html=True)
 
 # writing disclaimers for user awareness
 st.markdown('''
