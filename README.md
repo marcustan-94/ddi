@@ -1,6 +1,8 @@
+# DDI: A drug-drug interaction side effect predictor
+
 # Predicting polypharmacy side effects of drug pairs
 - Objective: The main objective of this project is to predict accurately all polypharmacy side effects given any drug pair, using only the SMILES strings of the drugs.
-- Data Sources: Therapeutic Drug Commons, Therapeutic Target Database
+- Data Sources: Therapeutic Drug Commons
 - Type of analysis: Multilabel classification
 
 
