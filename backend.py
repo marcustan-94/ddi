@@ -17,7 +17,7 @@ Y_class = Y_class[(Y_class['Y_cat'] != 26) & (Y_class['Y_cat'] != 87)]
 df = pd.read_csv(get_data_filepath('final_dataset.csv'), nrows =0 )
 X = df[df.columns[91:]]
 
-pca = joblib.load('pca.joblib')
+pca = joblib.load('pca.joblib') #PCA Joblib
 
 def get_smiles(drug1,drug2):
 

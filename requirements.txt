@@ -11,7 +11,7 @@ scikit-learn
 
 # visualisation
 matplotlib
-seaborn
+# seaborn
 
 ## ddi packages
 rdkit-pypi
@@ -25,8 +25,8 @@ pytest
 yapf
 
 # API
-gcsfs
-google-cloud-storage
+# gcsfs
+# google-cloud-storage
 mlflow
 s3fs
 requests
@@ -40,6 +40,6 @@ termcolor
 # others
 pylint
 ipdb
-jupyterlab
+# jupyterlab
 openpyxl
 streamlit
