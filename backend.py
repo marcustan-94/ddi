@@ -15,8 +15,9 @@ Y_class = pd.read_csv('Y_class.csv')
 Y_class = Y_class[(Y_class['Y_cat'] != 26) & (Y_class['Y_cat'] != 87)]
 
 # df = pd.read_csv(get_data_filepath('final_dataset.csv'), nrows =0 )
-df = pd.read_csv('X_columns.csv', nrows = 0)
-X = df[df.columns[91:]]
+# X = df[df.columns[91:]]
+X = pd.read_csv('X_columns.csv', nrows = 0)
+
 
 pca = joblib.load('pca.joblib') #PCA Joblib
 
