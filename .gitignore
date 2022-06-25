@@ -4,10 +4,9 @@
 .DS_Store
 raw_data/
 articles/
-*.joblib
 *.csv
 **/__pycache__/
 .env
 ddi/data/final_dataset.csv
 ddi/data/feature_engineering.csv
-*.joblib
+model.joblib
