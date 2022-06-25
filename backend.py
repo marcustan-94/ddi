@@ -13,15 +13,15 @@ warnings.filterwarnings('ignore')
 # reclassification of predictions from numbers into words
 # As the class number 86 is miscellaneous, the class is dropped from our target
 # groups
-Y_class = pd.read_csv(get_data_filepath('complete_severity_reclassification.csv'),
-                    usecols = ['sub_system_severity','Y_cat'])
-Y_class = Y_class[(Y_class['Y_cat'] != 86)]
+Y_class = pd.read_csv('https://drive.google.com/uc?id=1cRxG2Mz_poU7YhszzuOeJ_lSuqPPZm1K')
+Y_class = Y_class[(Y_class['Y_cat'] != 26) & (Y_class['Y_cat'] != 87)]
+
+
 
 # Mordred calculates all molecular features of the drugs, but as only certain
 # features are taken into consideration, these feature column names are loaded
 # so that only these features are taken into consideration from all drug features
-features_df = pd.read_csv(get_data_filepath('final_dataset.csv'), nrows =0 )
-X = features_df[features_df.columns[90:]]
+X = pd.read_csv('https://drive.google.com/uc?id=1lNkRV1hiGsVrgqhbwW3IIHL3leNkIbPO', nrows = 0)
 
 # Principal Component Analysis is loaded to reduce the dimensionality of the
 # features
