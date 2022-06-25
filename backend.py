@@ -11,12 +11,12 @@ warnings.filterwarnings('ignore')
 
 # Y_class = pd.read_csv(get_data_filepath('complete_severity_reclassification.csv'),
 #                     usecols = ['sub_system_severity','Y_cat'])
-Y_class = pd.read_csv('Y_class.csv')
+Y_class = pd.read_csv('https://drive.google.com/uc?id=1cRxG2Mz_poU7YhszzuOeJ_lSuqPPZm1K') # getting Y columns
 Y_class = Y_class[(Y_class['Y_cat'] != 26) & (Y_class['Y_cat'] != 87)]
 
 # df = pd.read_csv(get_data_filepath('final_dataset.csv'), nrows =0 )
 # X = df[df.columns[91:]]
-X = pd.read_csv('X_columns.csv', nrows = 0)
+X = pd.read_csv('https://drive.google.com/uc?id=1lNkRV1hiGsVrgqhbwW3IIHL3leNkIbPO', nrows = 0) #Getting X columns name
 
 
 pca = joblib.load('pca.joblib') #PCA Joblib
