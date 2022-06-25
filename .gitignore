@@ -10,3 +10,4 @@ articles/
 ddi/data/final_dataset.csv
 ddi/data/feature_engineering.csv
 model.joblib
+./lewagon-ddi
