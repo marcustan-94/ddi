@@ -1,15 +1,16 @@
-from google.cloud import storage
 import pandas as pd
 import joblib
+import os
+import warnings
+warnings.filterwarnings('ignore')
+
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import hamming_loss
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-import os
-import warnings
-warnings.filterwarnings('ignore')
+
 from ddi.utils import df_optimized, get_data_filepath
 
 
@@ -17,7 +18,7 @@ def get_data():
     '''retrieve and clean the final_dataset'''
     df = pd.read_csv(get_data_filepath('final_dataset.csv'))
     df.drop(columns =[col for col in df.columns if 'Unnamed' in col], inplace = True)
-    df.drop(columns = ['26','87'], inplace = True)
+    df.drop(columns = ['86'], inplace = True)
     df = df_optimized(df)
     return df
 
@@ -33,7 +34,7 @@ def preprocess(df):
     X_train = pd.DataFrame(std_scaler.transform(X_train), columns = X.columns)
 
     '''pca_transform'''
-    pca = PCA(n_components = 150)
+    pca = PCA(n_components = 60)
     pca.fit(X_train)
     X_train = pca.transform(X_train)
 
@@ -44,8 +45,8 @@ def preprocess(df):
 
 def train(X_train,y_train):
     '''train the model'''
-    forest = RandomForestClassifier(n_estimators=40, random_state=1, criterion= 'gini' )
-    clf = MultiOutputClassifier(forest, n_jobs = -1)
+    forest = RandomForestClassifier(n_estimators=20, random_state=1, criterion= 'gini' )
+    clf = MultiOutputClassifier(forest, n_jobs = -3)
     clf.fit(X_train,y_train)
     return clf
 
@@ -63,7 +64,7 @@ def train_full(df):
 
     std_scaler = StandardScaler()
     X = std_scaler.fit_transform(X)
-    pca = PCA(n_components = 150)
+    pca = PCA(n_components = 60)
     pca.fit(X)
     X = pca.transform(X)
     model = train(X,y)
@@ -72,7 +73,7 @@ def train_full(df):
 
 def save_model_joblib(model):
     '''saving models'''
-    joblib.dump(model, 'model.joblib', compress = 3)
+    joblib.dump(model, 'model.joblib', compress = 5)
     print("saved model.joblib locally")
 
 def save_model_pca(model):
@@ -87,5 +88,5 @@ if __name__ == "__main__":
     pca, model = train_full(df)
     save_model_joblib(model)
     save_model_pca(pca)
-    size_bytes = os.stat('../model.joblib',).st_size
+    size_bytes = os.stat('model.joblib',).st_size
     print(f"size_bytes is {size_bytes}")
