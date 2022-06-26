@@ -16,7 +16,7 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 
 from ddi.utils import df_optimized, get_data_filepath
 
-
+'''modified hamming_loss to perform grid search'''
 hamming_loss_neg = make_scorer(lambda y_true, y_pred: 1-hamming_loss(y_true,y_pred))
 
 def get_data():
@@ -100,7 +100,7 @@ def grid_search(X_train,y_train):
     """return the random search best parameters """
     random_search_params = random_grid_search(X_train,y_train)
 
-    ''' create a range of values for each hyperparameter based on random search best parameters'''
+    ''' create a range of values for each hyperparameter based on random search parameters'''
     param_grid = {}
     for k,v in random_search_params.items():
         param_grid[k] = [floor(v*0.9), v, ceil(v*1.1)]
@@ -110,7 +110,7 @@ def grid_search(X_train,y_train):
         estimator = clf,
         param_grid = param_grid,
         cv = 3,
-        n_jobs = -2,
+        n_jobs = -3,
         verbose = 1,
         scoring = hamming_loss_neg)
 
