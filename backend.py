@@ -104,3 +104,7 @@ def classify(drug1, drug2, model):
         side_effect_list.append(y_dict[i])
 
     return side_effect_list
+
+if __name__ == "__main__":
+    model = load_model()
+    print(classify('Aspirin','Paracetamol', model))
