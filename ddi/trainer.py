@@ -1,9 +1,9 @@
-import pandas as pd
 import joblib
 import os
 import warnings
 warnings.filterwarnings('ignore')
 
+import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.model_selection import train_test_split
@@ -15,7 +15,7 @@ from ddi.utils import df_optimized, get_data_filepath
 
 
 def get_data():
-    '''retrieve and clean the final_dataset'''
+    '''Retrieve, clean and optimize memory usage of the final_dataset'''
     df = pd.read_csv(get_data_filepath('final_dataset.csv'))
     df.drop(columns =[col for col in df.columns if 'Unnamed' in col], inplace = True)
     df.drop(columns = ['86'], inplace = True)
@@ -23,22 +23,23 @@ def get_data():
     return df
 
 def preprocess(df):
-    '''transform the df into pca features'''
-    X = df[df.columns[89:]]  # check with marcus what are X and y columns -
+    '''Perform train_test_split, scaling and PCA transformation of X_train and X_test'''
+    X = abs(df[df.columns[89:]])
     y = df[df.columns[3:89]]
-    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.3 )
+    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.3)
 
-    '''scaling_train X'''
+    # Scaling X_train
     std_scaler = StandardScaler()
     std_scaler.fit(X_train)
-    X_train = pd.DataFrame(std_scaler.transform(X_train), columns = X.columns)
+    X_train = pd.DataFrame(std_scaler.transform(X_train), columns=X.columns)
 
     '''pca_transform'''
-    pca = PCA(n_components = 60)
+    pca = PCA(n_components = 60)  # 60 components were used
     pca.fit(X_train)
     X_train = pca.transform(X_train)
 
-    X_test = std_scaler.transform(X_test)
+    # Scaling and PCA transformation of X_test
+    X_test = pd.DataFrame(std_scaler.transform(X_test), columns=X.columns)
     X_test = pca.transform(X_test)
 
     return X_train, X_test, y_train, y_test
