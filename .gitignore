@@ -8,6 +8,6 @@ articles/
 **/__pycache__/
 .env
 ddi/data/final_dataset.csv
-ddi/data/feature_engineering.csv
+ddi/original_code
 model.joblib
 ./lewagon-ddi
