@@ -1,22 +1,20 @@
-import streamlit as st
 import joblib
-from ddi.utils import get_data_filepath
-from backend import get_smiles, classify
 import pandas as pd
+import streamlit as st
 
+from backend import get_smiles, classify
+from ddi.utils import get_data_filepath
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    '''This function loads the trained model in order to predict the side
-    effects'''
-    pipeline = joblib.load('model.joblib')
-    return pipeline
+    '''Loads the trained model in order to predict the side effects'''
+    model = joblib.load('model.joblib')
+    return model
 
 # The model is loaded directly onto the website so that the user do not need to
 # wait for the model to load once they click the "Discover" button. This saves
 # waiting time.
-pipeline = load_model()
-
+model = load_model()
 
 # Background image is inserted using CSS code
 CSS = """
@@ -31,16 +29,18 @@ h1 {
 st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
 
 # Title of the website is inserted using HTML code
-original_title = '''<p style="font-family:Courier; font-size: 50px;
-font-weight:bold; text-align:center;"><span style="color:Blue;">DRUG</span><span style="color:Red;">-</span><span style="color:Green;">DRUG</span>
-<span style="color:Black;">INTERACTION</span></p>'''
-st.markdown(original_title, unsafe_allow_html=True)
+title = '''
+<p style="font-family:Courier; font-size: 50px;font-weight:bold; text-align:center;">
+<span style="color:Blue;">DRUG</span><span style="color:Red;">-</span><span style="color:Green;">DRUG</span>
+<span style="color:Black;">INTERACTION</span></p>
+'''
+st.write(title, unsafe_allow_html=True)
 
 # Input boxes for Drug A and Drug B are inserted into the webpage and placed
 # side by side in one row
 c1, c2 = st.columns(2)
-drug1 = c1.text_input("Input Drug A", '')
-drug2 = c2.text_input("Input Drug B", '')
+drug1 = c1.text_input("Input Drug A", "")
+drug2 = c2.text_input("Input Drug B", "")
 
 # "Discover side Effects" button is inserted into the middle section of the next row
 col1, col2, col3 = st.columns(3)
@@ -51,38 +51,35 @@ if interact_button:
     # Spinner is inserted for aesthetic purpose
     with st.spinner(text="Discovering possible side effects..."):
 
-        #If any of the input drugs cannot be converted into smiles structure,
+        # If any of the input drugs cannot be converted into smiles structure,
         # an error message will be printed
         if 'Unable to find the drug, please try again.' in get_smiles(drug1, drug2):
             st.write('Unable to find the drug, please try again.')
 
-        # If all drugs are successfully converted into smiles structures by the API,
+        # If both drugs are successfully converted into smiles structures by the API,
         # prediction will be called from backend.py
-
         else:
-            pred = classify(drug1, drug2, pipeline)
+            pred = classify(drug1, drug2, model)
 
-            #The prediction list is converted into dataframe
+            # The prediction list is converted into a dataframe
             reclass_df = pd.read_csv(get_data_filepath('complete_severity_reclassification.csv'))
             reclass_df = reclass_df[(reclass_df['sub_system_severity']!='zzz_delete_0')]
             reclass_df['sub_system'] = reclass_df['sub_system_severity'].apply(lambda x: x[:x.find('-') - 1])
 
             df = pd.DataFrame(columns=['Mild', 'Moderate', 'Severe'], index=reclass_df['sub_system'].unique(), data=0)
-
             for col in df:
                 for row in df.index:
                     if pred.count(row + ' -' + col) != 0:
                         df.loc[row, col] = 1
 
-            #Index of the dataframe is reset and renamed
+            # Index of the dataframe is reset and renamed
             df = df.reset_index()
             df = df.rename(columns={'index': 'Location of side effects'})
 
-            #Location of side effects (which are the target classes) are sorted
-            #according to their class numbers
+            # Location of side effects (which are the target classes) are sorted by alphabetical order
             df = df.sort_values('Location of side effects')
 
-            #Index name of the table is displayed
+            #Index of the table is hidden
             hide_table_row_index = """
                 <style>
                 tbody th {display:none}
@@ -91,8 +88,9 @@ if interact_button:
                 """
             st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
-            # The severity columns of the dataframe is highlighted using colors
+            # The severity columns of the dataframe are highlighted using colors
             # Mild: Green, Moderate: Orange, Severe: Red
+            # Highlighting is only done if the cell contains value 1
             def mild_color(val):
                 color = '#A2D9A4' if val==1 else 'white'
                 return f'background-color: {color}; color: {color}'
@@ -105,9 +103,9 @@ if interact_button:
                 color = '#DB5C4A' if val==1 else 'white'
                 return f'background-color: {color}; color: {color}'
 
-            #The dataframe is displayed and styled as table
+            #The dataframe is displayed and styled using css
             st.table(df.style.applymap(mild_color, subset=['Mild']).\
-                applymap(moderate_color, subset=['Moderate']).
+                applymap(moderate_color, subset=['Moderate']).\
                 applymap(severe_color, subset=['Severe']))
 
             df_table = """
@@ -121,7 +119,7 @@ if interact_button:
                 """
             st.markdown(df_table, unsafe_allow_html=True)
 
-# Disclaimer is written for user awareness purpose
+# Disclaimer is written for user awareness
 st.markdown('''
         **Disclaimer:**
 

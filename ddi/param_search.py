@@ -1,4 +1,3 @@
-import joblib
 from math import floor, ceil
 import warnings
 warnings.filterwarnings('ignore')
@@ -27,7 +26,7 @@ def get_data():
 
 def preprocess(df):
     '''Perform train_test_split, scaling and PCA transformation of X_train and X_test'''
-    X = abs(df[df.columns[89:]])
+    X = df[df.columns[89:]]
     y = df[df.columns[3:89]]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
@@ -66,8 +65,8 @@ hamming_loss_neg = make_scorer(
 
 def random_grid_search(X_train, y_train):
     '''Perform a random grid search to fine-tune hyperparameters'''
-    rfc = RandomForestClassifier()
-    clf = MultiOutputClassifier(rfc)
+    forest = RandomForestClassifier()
+    clf = MultiOutputClassifier(forest)
 
     n_estimators = [int(x) for x in np.linspace(start=10, stop=200, num=10)]
     max_depth = [int(x) for x in np.linspace(10, 20, num=10)]
@@ -97,8 +96,8 @@ def random_grid_search(X_train, y_train):
 
 def grid_search(X_train, y_train):
     '''Perform second round of grid search to further fine-tune hyperparameters'''
-    rfc = RandomForestClassifier()
-    clf = MultiOutputClassifier(rfc)
+    forest = RandomForestClassifier()
+    clf = MultiOutputClassifier(forest)
     # Return the random search best parameters
     random_search_params = random_grid_search(X_train, y_train)
     # Create a range of values for each hyperparameter based on random search results
@@ -123,4 +122,3 @@ if __name__ == "__main__":
     X_train, X_test, y_train, y_test = preprocess(df)
     best_params, best_estimator = grid_search(X_train, y_train)
     print(f"best estimators are {best_params}")
-    # joblib.dump(best_estimator, 'model.joblib')
