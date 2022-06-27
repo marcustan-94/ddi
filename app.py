@@ -5,15 +5,15 @@ import streamlit as st
 from backend import get_smiles, classify
 from ddi.utils import get_data_filepath
 
+
+# Loading the model beforehand so that the user do not need to wait for the model
+# to load when they click the "Discover" button. This saves waiting time.
 @st.cache(allow_output_mutation=True)
 def load_model():
     '''Loads the trained model in order to predict the side effects'''
     model = joblib.load('model.joblib')
     return model
 
-# The model is loaded directly onto the website so that the user do not need to
-# wait for the model to load once they click the "Discover" button. This saves
-# waiting time.
 model = load_model()
 
 # Background image is inserted using CSS code
@@ -36,13 +36,12 @@ title = '''
 '''
 st.write(title, unsafe_allow_html=True)
 
-# Input boxes for Drug A and Drug B are inserted into the webpage and placed
-# side by side in one row
+# Input boxes for Drug A and Drug B are inserted side by side in one row
 c1, c2 = st.columns(2)
 drug1 = c1.text_input("Input Drug A", "")
 drug2 = c2.text_input("Input Drug B", "")
 
-# "Discover side Effects" button is inserted into the middle section of the next row
+# "Discover side Effects" button is inserted in the middle of the next row
 col1, col2, col3 = st.columns(3)
 interact_button = col2.button('Discover Side Effects')
 
@@ -61,25 +60,25 @@ if interact_button:
         else:
             pred = classify(drug1, drug2, model)
 
-            # The prediction list is converted into a dataframe
+            # Creates an empty dataframe containing an index column containing location of side effects
+            # and 3 other columns: Mild, Moderate, Severe
             reclass_df = pd.read_csv(get_data_filepath('complete_severity_reclassification.csv'))
             reclass_df = reclass_df[(reclass_df['sub_system_severity']!='zzz_delete_0')]
             reclass_df['sub_system'] = reclass_df['sub_system_severity'].apply(lambda x: x[:x.find('-') - 1])
-
-            df = pd.DataFrame(columns=['Mild', 'Moderate', 'Severe'], index=reclass_df['sub_system'].unique(), data=0)
+            df = pd.DataFrame(columns=['Mild', 'Moderate', 'Severe'],
+                              index=reclass_df['sub_system'].unique(),
+                              data=0)
+            # Adding the value 1 to only the cells with the corresponding side effect location and severity
             for col in df:
                 for row in df.index:
                     if pred.count(row + ' -' + col) != 0:
                         df.loc[row, col] = 1
 
-            # Index of the dataframe is reset and renamed
-            df = df.reset_index()
-            df = df.rename(columns={'index': 'Location of side effects'})
-
-            # Location of side effects (which are the target classes) are sorted by alphabetical order
+            # Resetting index and sorting the dataframe according to the alphabetical order of side effect locations
+            df = df.reset_index().rename(columns={'index': 'Location of side effects'})
             df = df.sort_values('Location of side effects')
 
-            #Index of the table is hidden
+            # Hide table index
             hide_table_row_index = """
                 <style>
                 tbody th {display:none}
@@ -103,7 +102,7 @@ if interact_button:
                 color = '#DB5C4A' if val==1 else 'white'
                 return f'background-color: {color}; color: {color}'
 
-            #The dataframe is displayed and styled using css
+            # The dataframe is displayed and styled using css
             st.table(df.style.applymap(mild_color, subset=['Mild']).\
                 applymap(moderate_color, subset=['Moderate']).\
                 applymap(severe_color, subset=['Severe']))
