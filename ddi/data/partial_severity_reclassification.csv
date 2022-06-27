@@ -1,0 +1,1318 @@
+Y,side_effect,sub_system,sub_system_v2,score_lavertu,score_gottlieb,score_lavertu_cat,score_gottlieb_cat,score_consolidated
+91,biliary tract disorder,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.550246245,0.48,2,2,2
+1166,gallbladder polyp,kidneys_bladder_urethra,bile_duct_gallbladder_pancreas,0.615268294,0.46,2,2,2
+974,cholecystitis chronic,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.662646555,0.44,2,2,2
+163,cholelithiasis,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.668264348,0.51,2,2,2
+162,cholecystitis,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.676485641,0.56,2,2,2
+986,cholecystitis acute,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.693442247,0.47,2,2,2
+160,cholangitis sclerosing,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.712354762,0.49,2,2,2
+158,cholangitis,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.72738322,0.56,2,2,2
+340,gall bladder,delete,bile_duct_gallbladder_pancreas,,,0,0,0
+161,cholecystectomies,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,,,0,0,0
+987,pancreatitis relapsing,pancreas,bile_duct_gallbladder_pancreas,0.599350926,,2,0,2
+652,pancreatitis,pancreas,bile_duct_gallbladder_pancreas,0.682433823,0.63,2,2,2
+651,pancreatic pseudocyst,pancreas,bile_duct_gallbladder_pancreas,0.781088638,0.58,2,2,2
+13,acute pancreatitis,pancreas,bile_duct_gallbladder_pancreas,,,0,0,0
+1111,hyperamylasaemia,pancreas,bile_duct_gallbladder_pancreas,,0.66,0,2,2
+1130,gallbladder cancer,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,0.916303619,0.84,3,3,3
+1062,gallbladder perforation,bile_duct_gallbladder,bile_duct_gallbladder_pancreas,,,0,0,0
+1134,pancreatic cancer,pancreas,bile_duct_gallbladder_pancreas,,,0,0,0
+893,incontinence,kidneys_bladder_urethra,bladder_urethra,0.508011164,0.39,2,2,2
+892,urethritis,kidneys_bladder_urethra,bladder_urethra,0.525962787,0.33,2,1,0
+95,neurogenic bladder,kidneys_bladder_urethra,bladder_urethra,0.536521489,0.47,2,2,2
+1064,bladder diverticulum,kidneys_bladder_urethra,bladder_urethra,0.558259116,0.48,2,2,2
+1075,nephrogenic diabetes insipidus,kidneys_bladder_urethra,bladder_urethra,0.62632226,0.67,2,2,2
+953,micturition urgency,kidneys_bladder_urethra,bladder_urethra,0.645603291,0.34,2,1,0
+1006,urosepsis,kidneys_bladder_urethra,bladder_urethra,0.689197181,0.65,2,2,2
+93,distended bladder,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+207,bladder inflammation,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+208,cysto,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+890,calculus ureteric,kidneys_bladder_urethra,bladder_urethra,,0.42,0,2,2
+891,ureteral obstruction,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+894,stress incontinence,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+895,infection urinary tract,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+941,bladder retention,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+1092,obstructive uropathy,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+1202,cystitis interstitial,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+1222,bladder atony,kidneys_bladder_urethra,bladder_urethra,,,0,0,0
+1243,hydroureter,kidneys_bladder_urethra,bladder_urethra,,0.47,0,2,2
+94,bladder neoplasm,kidneys_bladder_urethra,bladder_urethra,0.553557525,0.71,2,3,0
+1266,bladder cancer,kidneys_bladder_urethra,bladder_urethra,0.795840618,0.78,2,3,0
+430,elevated cholesterol,blood,blood,,,0,0,0
+451,elevated triglycerides,blood,blood,,,0,0,0
+563,methaemoglobinaemia,blood,blood,0.404212845,0.62,2,2,2
+102,blood pressure abnormal,blood,blood,0.456917949,0.39,2,2,2
+441,hyperprolactinaemia,blood,blood,0.514132639,0.44,2,2,2
+1015,antinuclear antibody positive,blood,blood,0.517999461,0.37,2,2,2
+383,blood disorder,blood,blood,0.518865201,0.68,2,2,2
+1192,transfusion reaction,blood,blood,0.526317347,0.75,2,3,0
+457,hypoglycaemia,blood,blood,0.529344901,0.42,2,2,2
+1101,ketoacidosis,blood,blood,0.533392936,0.61,2,2,2
+433,hyperglycaemia,blood,blood,0.551057679,0.45,2,2,2
+1285,monoclonal gammopathy,blood,blood,0.579022745,0.54,2,2,2
+1102,metabolic alkalosis,blood,blood,0.592606511,0.53,2,2,2
+1274,phlebitis superficial,blood,blood,0.596634437,0.43,2,2,2
+1100,metabolic acidosis,blood,blood,0.612934519,0.47,2,2,2
+946,gestational diabetes,blood,blood,0.617196966,0.52,2,2,2
+384,haematoma,blood,blood,0.623270027,0.53,2,2,2
+9,acidosis,blood,blood,0.650264034,0.44,2,2,2
+25,alkalosis,blood,blood,0.656265732,0.51,2,2,2
+86,bacteraemia,blood,blood,0.659481453,0.57,2,2,2
+1139,cavernous sinus thrombosis,blood,blood,0.662562862,,2,0,2
+1072,hypoglycaemia neonatal,blood,blood,0.66983275,0.52,2,2,2
+1152,azotaemia,kidneys_bladder_urethra,blood,0.672114987,0.59,2,2,2
+429,hypercapnia,blood,blood,0.698688454,0.56,2,2,2
+1143,hypoxia,blood,blood,0.728560068,0.7,2,3,0
+1270,hyperuricaemia,blood,blood,0.770601664,0.5,2,2,2
+947,essential hypertension,blood,blood,0.79769038,0.52,2,2,2
+100,clotting,blood,blood,,,0,0,0
+426,bilirubinaemia,blood,blood,,,0,0,0
+436,hyperlipaemia,blood,blood,,,0,0,0
+444,high blood pressure,blood,blood,,,0,0,0
+445,malignant hypertension,blood,blood,,0.68,0,2,2
+464,arterial pressure nos decreased,blood,blood,,,0,0,0
+465,hypotension orthostatic,blood,blood,,,0,0,0
+910,phlebothrombosis,blood,blood,,,0,0,0
+1020,elevated erythrocyte sedimentation rate,blood,blood,,,0,0,0
+1056,disorders of lipid metabolism,blood,blood,,,0,0,0
+1236,arterial pressure nos increased,blood_vessels,blood,,,0,0,0
+167,hemophilia b,blood,blood,,,0,0,0
+233,diabetic acidosis,blood,blood,,,0,0,0
+283,eosinophil count increased,blood,blood_cells,0.421887728,0.36,2,2,2
+753,aplasia pure red cell,blood,blood_cells,0.479567548,0.63,2,2,2
+101,platelet disorder,blood,blood_cells,0.547846339,0.66,2,2,2
+1079,iron deficiency anaemia,blood,blood_cells,0.604713404,0.3,2,1,0
+853,thrombocytopenia,blood,blood_cells,0.631217254,0.58,2,2,2
+615,neutropenia,blood,blood_cells,0.671216383,0.65,2,2,2
+37,anaemia,blood,blood_cells,0.671635324,0.39,2,2,2
+39,haemolytic anaemia,blood,blood_cells,0.67540871,0.54,2,2,2
+968,macrocytosis,blood,blood_cells,0.678075496,0.48,2,2,2
+40,anaemia hypochromic,blood,blood_cells,,,0,0,0
+512,leucocytosis,blood,blood_cells,,,0,0,0
+514,leucopenia,blood,blood_cells,,,0,0,0
+539,lymphocytes decreased,blood,blood_cells,,,0,0,0
+852,essential thrombocythemia,blood,blood_cells,,,0,0,0
+931,idiopathic thrombocytopenic purpura,blood,blood_cells,,0.68,0,2,2
+1273,increased white blood cell count,blood,blood_cells,,,0,0,0
+1275,increased platelet count,blood,blood_cells,,,0,0,0
+741,thrombotic microangiopathy,blood,blood_cells,0.850554141,0.76,3,3,3
+510,leukaemia,blood,blood_cells,0.911927314,0.79,3,3,3
+20,agranulocytoses,blood,blood_cells,,,0,0,0
+38,anemia aplastic,blood,blood_cells,,,0,0,0
+511,acute myeloblastic leukemia,blood,blood_cells,,,0,0,0
+572,multiple myeloma,blood,blood_cells,,0.84,0,3,3
+461,blood sodium decreased,blood,blood_electrolytes_vitamins,0.35797232,,1,0,1
+427,blood calcium increased,blood,blood_electrolytes_vitamins,0.370316135,,1,0,1
+455,blood calcium decreased,blood,blood_electrolytes_vitamins,0.377320722,,1,0,1
+1308,hypovitaminosis,blood,blood_electrolytes_vitamins,0.589538552,0.26,2,1,0
+918,vitamin b 12 deficiency,blood,blood_electrolytes_vitamins,,,0,0,0
+919,vitamin b deficiency,blood,blood_electrolytes_vitamins,,,0,0,0
+920,vitamin d deficiency,blood,blood_electrolytes_vitamins,,0.31,0,1,1
+331,folate deficiency,blood,blood_electrolytes_vitamins,0.494928823,0.38,2,2,2
+1215,hypervitaminosis,blood,blood_electrolytes_vitamins,0.500594326,0.43,2,2,2
+1025,hypomagnesaemia,blood,blood_electrolytes_vitamins,0.620949711,0.44,2,2,2
+435,excess potassium,blood,blood_electrolytes_vitamins,,,0,0,0
+437,hypernatraemia,blood,blood_electrolytes_vitamins,,0.51,0,2,2
+459,hypokalaemia,blood,blood_electrolytes_vitamins,,0.4,0,2,2
+970,hyperchloremia,blood,blood_electrolytes_vitamins,,,0,0,0
+971,hypochloraemia,blood,blood_electrolytes_vitamins,,0.54,0,2,2
+972,hyperphosphatemia,blood,blood_electrolytes_vitamins,,,0,0,0
+973,hypophosphataemia,blood,blood_electrolytes_vitamins,,0.45,0,2,2
+1024,hypermagnesemia,blood,blood_electrolytes_vitamins,,,0,0,0
+1214,electrolyte disorder,blood,blood_electrolytes_vitamins,,,0,0,0
+774,vasomotor rhinitis,blood_vessels,blood_vessels,0.373676074,,1,0,1
+191,bruise,blood_vessels,blood_vessels,,,0,0,0
+263,ecchymoses,blood_vessels,blood_vessels,,,0,0,0
+330,facial flushing,blood_vessels,blood_vessels,,,0,0,0
+1194,cold extremities,blood_vessels,blood_vessels,,,0,0,0
+906,vascular headache,blood_vessels,blood_vessels,0.517365444,0.45,2,2,2
+269,fat embolism,blood_vessels,blood_vessels,0.520022077,0.47,2,2,2
+379,haemangioma,blood_vessels,blood_vessels,0.567187731,0.47,2,2,2
+844,temporal arteritis,blood_vessels,blood_vessels,0.606193509,0.51,2,2,2
+904,varicose vein,blood_vessels,blood_vessels,0.616001312,0.16,2,1,0
+341,gangrene,blood_vessels,blood_vessels,0.623227566,0.73,2,3,0
+64,arteritis,blood_vessels,blood_vessels,0.646898851,0.49,2,2,2
+685,phlebitis,blood_vessels,blood_vessels,0.692404662,0.51,2,2,2
+854,thrombophlebitis,blood_vessels,blood_vessels,0.694214192,0.56,2,2,2
+509,leriche syndrome,blood_vessels,blood_vessels,0.69898736,0.7,2,3,0
+63,arteriosclerosis,blood_vessels,blood_vessels,0.712376217,0.7,2,3,0
+1060,portal vein thrombosis,blood_vessels,blood_vessels,0.714392337,0.62,2,2,2
+62,arterial insufficiency,blood_vessels,blood_vessels,0.730333573,0.57,2,2,2
+905,angiopathy,blood_vessels,blood_vessels,0.732514635,0.72,2,3,0
+134,carotid artery stenosis,blood_vessels,blood_vessels,0.733114785,0.75,2,3,0
+133,carotid bruit,blood_vessels,blood_vessels,0.763764146,0.52,2,2,2
+681,petechia,blood_vessels,blood_vessels,,,0,0,0
+714,post thrombotic syndrome,blood_vessels,blood_vessels,,0.6,0,2,2
+748,raynauds phenomenon,blood_vessels,blood_vessels,,,0,0,0
+843,telangiectases,blood_vessels,blood_vessels,,,0,0,0
+907,angiitis,blood_vessels,blood_vessels,,,0,0,0
+908,syncope vasovagal,blood_vessels,blood_vessels,,0.53,0,2,2
+909,venous insufficiency,blood_vessels,blood_vessels,,0.49,0,2,2
+943,disorder peripheral vascular,blood_vessels,blood_vessels,,,0,0,0
+969,spider angioma,blood_vessels,blood_vessels,,,0,0,0
+1008,deep vein thromboses,blood_vessels,blood_vessels,,,0,0,0
+1011,allergic vasculitis,blood_vessels,blood_vessels,,,0,0,0
+1071,vascular anomaly,blood_vessels,blood_vessels,,0.37,0,2,2
+1210,pregnancy induced hypertension,blood_vessels,blood_vessels,,0.5,0,2,2
+1223,easy bruisability,blood_vessels,blood_vessels,,,0,0,0
+1307,superficial thrombophlebitis,blood_vessels,blood_vessels,,,0,0,0
+80,atherosclerosis,blood_vessels,blood_vessels,,0.71,0,3,3
+41,aneurysm,brain_spinal_cord,blood_vessels,0.777875601,0.86,2,3,0
+484,ischaemia,blood_vessels,blood_vessels,0.82207724,0.71,3,3,3
+268,embolism,blood_vessels,blood_vessels,0.861253768,0.72,3,3,3
+200,coronary artery bypass graft,blood_vessels,blood_vessels,,,0,0,0
+671,periarteritis nodosa,blood_vessels,blood_vessels,,,0,0,0
+1031,bone pain,bone,bone,0.386172018,0.33,1,1,1
+1252,chondrocalcinosis pyrophosphate,bone,bone,0.488149446,0.52,2,2,2
+1228,wrist fracture,bone,bone,0.516980865,,2,0,2
+1073,ankle fracture,bone,bone,0.521316698,,2,0,2
+421,humerus fracture,bone,bone,0.52671074,,2,0,2
+413,hip fracture,bone,bone,0.530393814,,2,0,2
+320,femoral neck fracture,bone,bone,0.546128937,,2,0,2
+319,femur fracture,bone,bone,0.550253005,,2,0,2
+337,fracture nonunion,bone,bone,0.557231338,,2,0,2
+775,rib fracture,bone,bone,0.561846913,,2,0,2
+776,rickets,bone,bone,0.583833454,0.57,2,2,2
+633,osteoarthritis,bone,bone,0.592220424,0.57,2,2,2
+634,osteochondrosis,bone,bone,0.617143723,0.59,2,2,2
+636,osteoma,bone,bone,0.625505855,,2,0,2
+637,osteomalacia,bone,bone,0.631109603,0.64,2,2,2
+640,osteoporosis,bone,bone,0.633396586,0.5,2,2,2
+639,osteopetrosis,bone,bone,0.643290375,,2,0,2
+638,osteomyelitis,bone,bone,0.682595503,0.53,2,2,2
+335,bone fracture,bone,bone,,,0,0,0
+336,bone fracture spontaneous,bone,bone,,,0,0,0
+632,bone inflammation,bone,bone,,,0,0,0
+667,pain pelvic,bone,bone,,,0,0,0
+988,fractured pelvis nos,bone,bone,,,0,0,0
+1107,avascular necrosis,bone,bone,,,0,0,0
+1304,bone spur,bone,bone,,,0,0,0
+104,bone neoplasm,bone,bone,0.619216109,0.72,2,3,0
+641,bone sarcoma,bone,bone,0.776924692,0.84,2,3,0
+1242,aseptic necrosis bone,bone,bone,,0.77,0,3,3
+729,tension headache,brain_spinal_cord,brain_spinal_cord,0.295033037,0.16,1,1,1
+1010,migraine,brain_spinal_cord,brain_spinal_cord,0.305264922,0.28,1,1,1
+1283,insomnia,brain_spinal_cord,brain_spinal_cord,0.451096663,0.2,2,1,0
+245,drowsiness,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+367,head ache,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+243,dizziness,brain_spinal_cord,brain_spinal_cord,0.459652784,0.17,2,1,0
+424,normal pressure hydrocephalus,brain_spinal_cord,brain_spinal_cord,0.497694869,0.54,2,2,2
+1277,sleep disorder,brain_spinal_cord,brain_spinal_cord,0.503086991,0.2,2,1,0
+962,synovial cyst,brain_spinal_cord,brain_spinal_cord,0.521749418,0.47,2,2,2
+174,coccydynia,brain_spinal_cord,brain_spinal_cord,0.535967717,0.36,2,2,2
+1069,intervertebral disc disorder,brain_spinal_cord,brain_spinal_cord,0.542248978,0.62,2,2,2
+18,agnosia,brain_spinal_cord,brain_spinal_cord,0.561425385,,2,0,2
+817,spondylitis,brain_spinal_cord,brain_spinal_cord,0.57714311,0.59,2,2,2
+1268,radiculopathy,brain_spinal_cord,brain_spinal_cord,0.578088698,0.58,2,2,2
+1254,sacroiliitis,brain_spinal_cord,brain_spinal_cord,0.580752677,0.48,2,2,2
+60,arachnoiditis,brain_spinal_cord,brain_spinal_cord,0.581964727,0.69,2,2,2
+818,ankylosing spondylitis,brain_spinal_cord,brain_spinal_cord,0.591122609,0.6,2,2,2
+1163,cervical vertebral fracture,brain_spinal_cord,brain_spinal_cord,0.594244461,,2,0,2
+1165,spinal compression fracture,brain_spinal_cord,brain_spinal_cord,0.60002894,,2,0,2
+788,scoliosis,brain_spinal_cord,brain_spinal_cord,0.601841845,,2,0,2
+54,aphasia,brain_spinal_cord,brain_spinal_cord,0.602698839,0.58,2,2,2
+939,spinal fracture,brain_spinal_cord,brain_spinal_cord,0.606587626,,2,0,2
+747,rabies,brain_spinal_cord,brain_spinal_cord,0.607907179,,2,0,2
+811,myelopathy,brain_spinal_cord,brain_spinal_cord,0.613535334,,2,0,2
+583,myelitis,brain_spinal_cord,brain_spinal_cord,0.620034904,0.59,2,2,2
+144,transient ischaemic attack,brain_spinal_cord,brain_spinal_cord,0.629354353,0.8,2,3,0
+1074,brachial plexus injury,brain_spinal_cord,brain_spinal_cord,0.632795766,,2,0,2
+140,cerebellar ataxia,brain_spinal_cord,brain_spinal_cord,0.654721615,0.73,2,3,0
+1154,encephalitis viral,brain_spinal_cord,brain_spinal_cord,0.656622155,,2,0,2
+1133,cerebral atrophy,brain_spinal_cord,brain_spinal_cord,0.667649776,0.78,2,3,0
+108,metabolic encephalopathy,brain_spinal_cord,brain_spinal_cord,0.679484673,0.69,2,2,2
+106,brain abscess,brain_spinal_cord,brain_spinal_cord,0.680293441,0.76,2,3,0
+271,encephalitis,brain_spinal_cord,brain_spinal_cord,0.68625726,0.75,2,3,0
+812,spinal cord injury,brain_spinal_cord,brain_spinal_cord,0.686287383,,2,0,2
+558,meningitis viral,brain_spinal_cord,brain_spinal_cord,0.689509278,0.6,2,2,2
+573,multiple sclerosis,brain_spinal_cord,brain_spinal_cord,0.704554633,0.77,2,3,0
+423,hydrocephalus,brain_spinal_cord,brain_spinal_cord,0.718158905,0.69,2,2,2
+949,encephalopathy,brain_spinal_cord,brain_spinal_cord,0.74052786,0.75,2,3,0
+554,meningioma,brain_spinal_cord,brain_spinal_cord,0.746810871,0.67,2,2,2
+24,alcoholic intoxication,delete,brain_spinal_cord,,,0,0,0
+933,whiplash injury,delete,brain_spinal_cord,,,0,0,0
+1233,dyslexia,brain_spinal_cord,brain_spinal_cord,,0.24,0,1,1
+107,brain concussion,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+148,cervicalgia,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+184,confusion,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+217,acute brain syndrome,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+366,head injury,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+555,meningeal irritation,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+556,meningitides,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+557,aseptic meningitis,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+819,spondylosis,brain_spinal_cord,brain_spinal_cord,,0.56,0,2,2
+884,loss of consciousness,brain_spinal_cord,brain_spinal_cord,,0.44,0,2,2
+913,spinning sensation,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1146,intervertebral disc herniation,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1267,near syncope,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1282,excessive sleepiness,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+727,benign intracranial hypertension,neurological,brain_spinal_cord,,0.42,0,2,2
+109,brain neoplasm,brain_spinal_cord,brain_spinal_cord,0.69230895,0.8,2,3,0
+182,coma,brain_spinal_cord,brain_spinal_cord,0.698498981,0.94,2,3,0
+145,cerebral palsy,brain_spinal_cord,brain_spinal_cord,0.709926374,0.83,2,3,0
+1022,haemorrhage intracranial,brain_spinal_cord,brain_spinal_cord,0.743917956,0.95,2,3,0
+832,subarachnoid haemorrhage,brain_spinal_cord,brain_spinal_cord,0.751822422,0.88,2,3,0
+142,cerebral haemorrhage,brain_spinal_cord,brain_spinal_cord,0.783816285,0.86,2,3,0
+141,cerebral artery embolism,brain_spinal_cord,brain_spinal_cord,0.798241602,0.88,2,3,0
+1281,cerebral ischaemia,brain_spinal_cord,brain_spinal_cord,0.819733731,0.86,3,3,3
+77,astrocytoma,brain_spinal_cord,brain_spinal_cord,0.828983573,0.88,3,3,3
+1316,glioblastoma multiforme,brain_spinal_cord,brain_spinal_cord,0.83028142,0.83,3,3,3
+938,cerebral thrombosis,brain_spinal_cord,brain_spinal_cord,0.831539868,0.84,3,3,3
+351,glioma,brain_spinal_cord,brain_spinal_cord,0.855530653,0.66,3,2,0
+35,als,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+143,cerebral infarct,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+146,cerebral vascular disorder,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+385,hematoma subdural,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+513,multifocal leukoencephalopathy,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+700,polio,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+831,apoplexy,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1019,encephalopathy hypertensive,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1138,epidural hematoma,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1148,parkinson,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+1185,epidural abscess,brain_spinal_cord,brain_spinal_cord,,,0,0,0
+546,breast pain,breast,breast,0.295272668,0.12,1,1,1
+1162,breast tenderness,breast,breast,0.306099023,0.19,1,1,1
+112,breast swelling,breast,breast,0.358437702,0.19,1,1,1
+1000,breast discharge,breast,breast,0.368314243,0.17,1,1,1
+452,breast enlargement,breast,breast,0.38581674,0.13,1,1,1
+1177,breast malformation,breast,breast,0.39134225,0.27,1,1,1
+544,breast inflammation,breast,breast,0.403865964,,2,0,2
+1012,breast abscess,breast,breast,0.404870494,0.42,2,2,2
+110,breast cyst,breast,breast,0.415929639,0.48,2,2,2
+1306,breast neoplasm,breast,breast,0.446115268,0.67,2,2,2
+111,breast disorder,breast,breast,0.493404328,,2,0,2
+322,breast dysplasia,breast,breast,0.516045787,,2,0,2
+361,gynaecomastia,breast,breast,0.558432205,0.54,2,2,2
+526,breast lump,breast,breast,,,0,0,0
+1090,fibroadenoma of breast,breast,breast,,0.47,0,2,2
+1128,galactorrhea,breast,breast,,,0,0,0
+1260,breast cancer,breast,breast,0.676761624,0.94,2,3,0
+1291,allergic bronchitis,lungs_bronchi,bronchi_respiratory_general,0.368148076,,1,0,1
+889,infection upper respiratory,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+932,wheeze,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+116,bronchitis,lungs_bronchi,bronchi_respiratory_general,0.51270862,0.31,2,1,0
+259,dyspnoea paroxysmal nocturnal,lungs_bronchi,bronchi_respiratory_general,0.565820087,0.64,2,2,2
+415,histoplasmosis,lungs_bronchi,bronchi_respiratory_general,0.629429736,0.58,2,2,2
+830,stridor,lungs_bronchi,bronchi_respiratory_general,0.645160838,0.27,2,1,0
+875,tracheobronchitis,lungs_bronchi,bronchi_respiratory_general,0.677126837,0.43,2,2,2
+115,bronchiolitis,lungs_bronchi,bronchi_respiratory_general,0.688891514,0.47,2,2,2
+1221,hypoventilation,lungs_bronchi,bronchi_respiratory_general,0.704823897,0.36,2,2,2
+270,empyema,lungs_bronchi,bronchi_respiratory_general,0.715734973,0.63,2,2,2
+114,bronchiectasis,lungs_bronchi,bronchi_respiratory_general,0.767739932,0.47,2,2,2
+113,bronchial spasm,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+258,difficulty breathing,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+390,coughing blood,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+529,chronic obstructive airway disease,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+806,sleep apnea,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+874,tracheitis,lungs_bronchi,bronchi_respiratory_general,,0.42,0,2,2
+957,orthopnea,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+984,acute bronchitis,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+1117,dyspnea exertional,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+1286,respiratory failure,lungs_bronchi,bronchi_respiratory_general,0.727426981,0.86,2,3,0
+876,tracheostomy,lungs_bronchi,bronchi_respiratory_general,,,0,0,0
+169,cleft lip,mouth_salivary_gland_throat,congenital,0.288535317,0.37,1,2,0
+170,cleft palate,mouth_salivary_gland_throat,congenital,0.426081795,0.48,2,2,2
+244,trisomy 21,congenital,congenital,0.546128231,0.68,2,2,2
+252,dwarfism,congenital,congenital,0.548919997,0.44,2,2,2
+1276,hypospadias,reproductive_system_male,congenital,0.56495724,0.4,2,2,2
+404,diaphragmatic hernia,lungs_bronchi,congenital,0.574244397,0.55,2,2,2
+1199,musculoskeletal deformity,muscles_tendon,congenital,0.584042235,0.77,2,3,0
+635,osteogenesis imperfecta,bone,congenital,0.599221193,0.71,2,3,0
+1099,limb malformation,congenital,congenital,0.61205881,0.62,2,2,2
+1292,meningocele,brain_spinal_cord,congenital,0.628467591,0.74,2,3,0
+486,jaundice neonatal,liver,congenital,0.647588821,0.39,2,2,2
+1261,haemophilia,blood,congenital,0.691858945,,2,0,2
+376,ventricular septal defect,heart,congenital,0.731802422,0.77,2,3,0
+375,atrial septal defect,heart,congenital,0.734988349,0.7,2,3,0
+2,birth defect,congenital,congenital,,,0,0,0
+249,patent ductus arteriosis,heart,congenital,,,0,0,0
+431,familial hypercholesterolemia,blood,congenital,,,0,0,0
+545,mast cell disease,blood,congenital,,,0,0,0
+851,tetralogy of fallot,heart,congenital,,,0,0,0
+1041,congenital heart disease,heart,congenital,,,0,0,0
+206,cystic fibrosis,multiple,congenital,0.728248607,0.79,2,3,0
+1237,amentia,congenital,congenital,,,0,0,0
+1246,renal agenesis,kidneys_bladder_urethra,congenital,,0.82,0,3,3
+469,cerumen impaction,ears,ears,0.566728158,0.29,2,1,0
+261,ear ache,ears,ears,,,0,0,0
+642,external ear infection,ears,ears,,,0,0,0
+1058,ear discharge,ears,ears,,,0,0,0
+1263,ear infection,ears,ears,0.412483922,0.3,2,1,0
+593,myringitis,ears,ears,0.491413949,0.42,2,2,2
+886,tympanic membrane disorder,ears,ears,0.504673369,0.51,2,2,2
+866,tinnitus,ears,ears,0.506333059,0.29,2,1,0
+982,eustachian tube obstruction,ears,ears,0.537462607,,2,0,2
+1098,tympanic membrane perforation,ears,ears,0.54552266,,2,0,2
+644,otosclerosis,ears,ears,0.558124951,,2,0,2
+368,deafness neurosensory,ears,ears,0.593575579,0.53,2,2,2
+212,deafness,ears,ears,0.595905359,0.62,2,2,2
+502,labyrinthitis,ears,ears,,0.34,0,1,1
+643,otitis media,ears,ears,,0.36,0,2,2
+749,hyperacusia,ears,ears,,,0,0,0
+1188,acute otitis media,ears,ears,,,0,0,0
+1189,eustachian tube disorder,ears,ears,,0.46,0,2,2
+1303,decreased hearing,ears,ears,,,0,0,0
+1206,dry eye,eyes,eyes,0.028599156,0.23,1,1,1
+1186,eye swelling,eyes,eyes,0.224321261,0.29,1,1,1
+1032,eye pain,eyes,eyes,0.309841629,0.28,1,1,1
+419,hordeolum,eyes,eyes,0.361314052,0.34,1,1,1
+1187,retinal scar,eyes,eyes,0.385544394,,1,0,1
+152,chalazion,eyes,eyes,0.437433092,0.27,2,1,0
+46,anisocoria,eyes,eyes,,,0,0,0
+97,blepharoptosis,eyes,eyes,,,0,0,0
+329,floaters,eyes,eyes,,,0,0,0
+827,strabismus,eyes,eyes,,0.34,0,1,1
+1124,eye redness,eyes,eyes,,0.16,0,1,1
+96,blepharitis,eyes,eyes,0.381327606,0.4,1,2,0
+617,night blindness,eyes,eyes,0.3885345,0.35,1,2,0
+1053,lagophthalmos,eyes,eyes,0.402225043,,2,0,2
+308,eye infection,eyes,eyes,0.410874878,0.28,2,1,0
+98,blepharospasm,eyes,eyes,0.436552695,0.32,2,1,0
+194,corneal abrasion,eyes,eyes,0.451046942,,2,0,2
+281,entropion,eyes,eyes,0.455719731,,2,0,2
+733,pterygium,eyes,eyes,0.46207009,,2,0,2
+195,corneal disorder,eyes,eyes,0.466299279,0.41,2,2,2
+755,refraction disorder,eyes,eyes,0.469017389,0.43,2,2,2
+185,conjunctivitis,eyes,eyes,0.47676735,0.31,2,1,0
+489,keratitis,eyes,eyes,0.482214595,0.47,2,2,2
+292,episcleritis,eyes,eyes,0.487615395,0.42,2,2,2
+481,iridocyclitis,eyes,eyes,0.488529031,0.45,2,2,2
+265,ectropion,eyes,eyes,0.489792402,0.39,2,2,2
+482,iritis,eyes,eyes,0.492994297,0.53,2,2,2
+622,nystagmus,eyes,eyes,0.496934836,0.4,2,2,2
+75,asthenopia,eyes,eyes,0.498883414,0.26,2,1,0
+765,retinitis,eyes,eyes,0.499775766,0.52,2,2,2
+438,hypermetropia,eyes,eyes,0.504182413,,2,0,2
+350,angle closure glaucoma,eyes,eyes,0.506518511,0.57,2,2,2
+922,vitreous detachment,eyes,eyes,0.5071312,0.52,2,2,2
+786,scleritis,eyes,eyes,0.51246378,0.48,2,2,2
+306,exophthalmos,eyes,eyes,0.524123837,0.57,2,2,2
+979,cataract,eyes,eyes,0.52838756,0.42,2,2,2
+349,glaucoma,eyes,eyes,0.529869669,0.54,2,2,2
+1220,dysaesthesia,eyes,eyes,0.534705113,0.41,2,2,2
+30,amblyopia,eyes,eyes,0.544594659,0.4,2,2,2
+1231,blindness,eyes,eyes,0.547092139,0.81,2,3,0
+240,diplopia,eyes,eyes,0.554028473,0.52,2,2,2
+410,herpes ophthalmic,eyes,eyes,0.555293521,,2,0,2
+1057,corneal degeneration,eyes,eyes,0.563250036,0.59,2,2,2
+196,corneal dystrophy,eyes,eyes,0.564477633,,2,0,2
+166,chorioretinitis,eyes,eyes,0.57505978,0.46,2,2,2
+591,myopia,eyes,eyes,0.583523395,0.29,2,1,0
+761,retinal degeneration,eyes,eyes,0.591204228,0.6,2,2,2
+1005,amaurosis fugax,eyes,eyes,0.591598215,0.55,2,2,2
+626,ophthalmoplegia,eyes,eyes,0.608157062,0.66,2,2,2
+187,conjunctivitis viral,eyes,eyes,0.6127437,,2,0,2
+627,optic atrophy,eyes,eyes,0.613197981,0.61,2,2,2
+923,vitreous haemorrhage,eyes,eyes,0.63021352,0.59,2,2,2
+236,diabetic retinopathy,eyes,eyes,0.644904976,0.62,2,2,2
+309,eye injury,eyes,eyes,0.665343263,,2,0,2
+1050,retinopathy hypertensive,eyes,eyes,0.667415914,,2,0,2
+760,retinal artery occlusion,eyes,eyes,0.676375704,0.51,2,2,2
+628,optic neuritis,eyes,eyes,0.685595501,0.57,2,2,2
+1315,retinal vein thrombosis,eyes,eyes,0.732582418,0.51,2,2,2
+624,ocular hypertension,eyes,eyes,0.796943361,0.42,2,2,2
+503,lacrimal disorder,eyes,eyes,,0.31,0,1,1
+186,bacterial conjunctivitis,eyes,eyes,,,0,0,0
+197,corneal clouding,eyes,eyes,,,0,0,0
+198,corneal ulcer,eyes,eyes,,0.53,0,2,2
+211,dacrocystitis,eyes,eyes,,,0,0,0
+310,eyelid diseases,eyes,eyes,,,0,0,0
+491,keratitis sicca,eyes,eyes,,,0,0,0
+541,macula lutea degeneration,eyes,eyes,,,0,0,0
+656,optic disc edema,eyes,eyes,,,0,0,0
+762,detached retina,eyes,eyes,,,0,0,0
+763,disorder retinal,eyes,eyes,,,0,0,0
+764,retinal bleeding,eyes,eyes,,,0,0,0
+766,pigmentary retinopathy,eyes,eyes,,,0,0,0
+767,retinopathy of prematurity,eyes,eyes,,0.49,0,2,2
+789,scotoma,eyes,eyes,,0.44,0,2,2
+901,intraocular inflammation,eyes,eyes,,,0,0,0
+917,abnormal vision,eyes,eyes,,,0,0,0
+1131,decreased lacrimation,eyes,eyes,,,0,0,0
+1144,color blindness,eyes,eyes,,,0,0,0
+1216,blurred vision,eyes,eyes,,,0,0,0
+1247,meibomianitis,eyes,eyes,,0.57,0,2,2
+1,abdominal pain,gastrointestinal_tract,gastrointestinal_tract_general,0.33353931,0.25,1,1,1
+1118,abdominal pain upper,gastrointestinal_tract,gastrointestinal_tract_general,0.359032146,,1,0,1
+334,food poisoning,delete,gastrointestinal_tract_general,0.431290844,,2,0,2
+0,abdominal distension,gastrointestinal_tract,gastrointestinal_tract_general,0.483688797,0.44,2,2,2
+542,malabsorption,gastrointestinal_tract,gastrointestinal_tract_general,0.602429496,0.36,2,2,2
+407,umbilical hernia,gastrointestinal_tract,gastrointestinal_tract_general,0.614371737,0.58,2,2,2
+1061,peritoneal adhesions,gastrointestinal_tract,gastrointestinal_tract_general,0.619895657,0.58,2,2,2
+1136,gastrointestinal obstruction,gastrointestinal_tract,gastrointestinal_tract_general,0.636748961,0.67,2,2,2
+346,giardiasis,gastrointestinal_tract,gastrointestinal_tract_general,0.648347617,,2,0,2
+679,peritonitis,gastrointestinal_tract,gastrointestinal_tract_general,0.684911109,0.45,2,2,2
+72,ascites,gastrointestinal_tract,gastrointestinal_tract_general,0.701886446,0.44,2,2,2
+768,retroperitoneal fibrosis,kidneys_bladder_urethra,gastrointestinal_tract_general,0.775403098,0.74,2,3,0
+975,exploratory laparotomy,delete,gastrointestinal_tract_general,,,0,0,0
+345,gastrointestinal bleed,gastrointestinal_tract,gastrointestinal_tract_general,,,0,0,0
+406,hernia inguinal,gastrointestinal_tract,gastrointestinal_tract_general,,,0,0,0
+780,salmonella,gastrointestinal_tract,gastrointestinal_tract_general,,,0,0,0
+882,typhoid,gastrointestinal_tract,gastrointestinal_tract_general,,,0,0,0
+1088,abdominal hernia,gastrointestinal_tract,gastrointestinal_tract_general,,0.51,0,2,2
+1207,gastroenteritis viral,gastrointestinal_tract,gastrointestinal_tract_general,,0.5,0,2,2
+1105,dandruff,hair,hair_nails,0.074281192,0.14,1,1,1
+28,alopecia,hair,hair_nails,0.343985272,0.22,1,1,1
+1145,furuncle,hair,hair_nails,0.500805409,0.19,2,1,0
+414,hirsuitism,hair,hair_nails,,,0,0,0
+595,ingrowing nail,nails,hair_nails,0.276804385,,1,0,1
+864,onychomycosis,nails,hair_nails,0.277966609,0.39,1,2,0
+967,onycholysis,nails,hair_nails,0.328105062,0.25,1,1,1
+594,nail disorder,nails,hair_nails,0.393455258,0.08,1,1,1
+663,paronychia,nails,hair_nails,,0.31,0,1,1
+450,hypertrichosis,hair,hair_nails,0.442410085,0.39,2,2,2
+665,lice infestation,hair,hair_nails,0.476296738,,2,0,2
+362,hair disease,hair,hair_nails,,,0,0,0
+840,heart rate increased,heart,heart,0.435942345,,2,0,2
+841,sinus tachycardia,heart,heart,0.606695183,0.59,2,2,2
+1091,sinus arrest,heart,heart,0.643532225,0.51,2,2,2
+672,pericardial effusion,heart,heart,0.649259874,0.74,2,3,0
+739,cor pulmonale,heart,heart,0.650048217,0.73,2,3,0
+954,sinus bradycardia,heart,heart,0.654740755,0.55,2,2,2
+835,superior vena cava syndrome,heart,heart,0.659327396,0.69,2,2,2
+273,endocarditis,heart,heart,0.670470897,0.78,2,3,0
+507,bundle branch block left,heart,heart,0.682540873,,2,0,2
+53,aortic stenosis,heart,heart,0.693668146,0.73,2,3,0
+1175,atrioventricular block second degree,heart,heart,0.706422275,0.78,2,3,0
+566,mitral valve prolapse,heart,heart,0.716327348,,2,0,2
+1059,trifascicular block,heart,heart,0.716807412,0.77,2,3,0
+989,bicuspid aortic valve,heart,heart,0.7197804,,2,0,2
+119,bundle branch block,heart,heart,0.725990212,0.64,2,2,2
+673,pericarditis,heart,heart,0.728083208,0.68,2,2,2
+61,arrhythmia,heart,heart,0.739075666,0.6,2,2,2
+588,myocarditis,heart,heart,0.739763947,0.74,2,3,0
+842,supraventricular tachycardia,heart,heart,0.745947908,0.66,2,2,2
+83,atrioventricular block,heart,heart,0.75029374,0.82,2,3,0
+51,aortic aneurysm,heart,heart,0.757027945,0.73,2,3,0
+82,atrial flutter,heart,heart,0.76149363,0.46,2,2,2
+772,rheumatic heart disease,heart,heart,0.767807013,0.83,2,3,0
+374,cardiac murmur,heart,heart,0.771143644,0.48,2,2,2
+1280,cardiomyopathy,heart,heart,0.778956136,0.87,2,3,0
+42,angina,heart,heart,,,0,0,0
+43,prinzmetal variant angina,heart,heart,,,0,0,0
+52,aortic regurgitation,heart,heart,,,0,0,0
+81,afib,heart,heart,,,0,0,0
+155,chest wall pain,heart,heart,,0.47,0,2,2
+199,arteriosclerotic heart disease,heart,heart,,,0,0,0
+274,bacterial endocarditis,heart,heart,,,0,0,0
+324,fib,heart,heart,,,0,0,0
+370,cardiac disease,heart,heart,,,0,0,0
+371,cardiac enlargement,heart,heart,,,0,0,0
+373,cardiac decompensation,heart,heart,,,0,0,0
+377,cardiac valvulopathy,heart,heart,,,0,0,0
+565,mitral valve disease nos,heart,heart,,,0,0,0
+650,palpitation,heart,heart,,,0,0,0
+674,constrictive pericarditis,heart,heart,,,0,0,0
+716,atrial ectopic beats,heart,heart,,,0,0,0
+800,sick sinus syndrome,heart,heart,,0.48,0,2,2
+912,tachycardia ventricular,heart,heart,,,0,0,0
+956,bundle branch block right,heart,heart,,,0,0,0
+995,left ventricular hypertrophy,heart,heart,,,0,0,0
+1018,abnormal eeg,heart,heart,,,0,0,0
+1021,extrasystoles ventricular,heart,heart,,,0,0,0
+1093,coronary angioplasty,heart,heart,,,0,0,0
+1127,right heart failure,heart,heart,,,0,0,0
+1226,bradycardia,heart,heart,,0.51,0,2,2
+1244,abnormal ecg,heart,heart,,,0,0,0
+1296,wandering atrial pacemaker,heart,heart,,,0,0,0
+955,atrioventricular block first degree,heart,heart,,0.72,0,3,3
+1017,atrioventricular block complete,heart,heart,0.726383438,0.89,2,3,0
+132,cardiac tamponade,heart,heart,0.81595608,0.63,3,2,0
+372,cardiac failure,heart,heart,0.825734654,0.79,3,3,3
+911,ventricular fibrillation,heart,heart,0.832398037,0.73,3,3,3
+369,asystole,heart,heart,,,0,0,0
+587,heart attack,heart,heart,,,0,0,0
+795,cardiovascular collapse,heart,heart,,,0,0,0
+1026,cardiac ischemia,heart,heart,,,0,0,0
+1077,joint stiffness,joints_connective_tissues,joints_connective_tissues,0.48205808,0.21,2,1,0
+1046,joint swelling,joints_connective_tissues,joints_connective_tissues,0.428989477,0.22,2,1,0
+314,fasciitis,joints_connective_tissues,joints_connective_tissues,0.525213213,0.43,2,2,2
+677,periostitis,joints_connective_tissues,joints_connective_tissues,0.531362545,0.4,2,2,2
+1287,joint effusion,joints_connective_tissues,joints_connective_tissues,0.57665558,0.37,2,2,2
+487,arthropathy,joints_connective_tissues,joints_connective_tissues,0.58455953,0.42,2,2,2
+66,arthritis,joints_connective_tissues,joints_connective_tissues,0.590605289,0.4,2,2,2
+1080,polyarthritis,joints_connective_tissues,joints_connective_tissues,0.591563232,0.53,2,2,2
+838,synovitis,joints_connective_tissues,joints_connective_tissues,0.596816671,0.36,2,2,2
+67,gouty arthritis,joints_connective_tissues,joints_connective_tissues,0.601595758,0.49,2,2,2
+68,arthritis infective,joints_connective_tissues,joints_connective_tissues,0.611901781,0.53,2,2,2
+359,gout,joints_connective_tissues,joints_connective_tissues,0.642714842,0.37,2,2,2
+65,aching joints,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+69,psoriatic arthritis,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+70,arthritis rheumatoid,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+164,chondrodystrophy,joints_connective_tissues,joints_connective_tissues,,0.57,0,2,2
+178,collagen disease,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+188,connective tissue disease,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+241,dislocation,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+380,haemarthrosis,joints_connective_tissues,joints_connective_tissues,,0.59,0,2,2
+859,costochondritis,heart,joints_connective_tissues,,0.47,0,2,2
+1048,traumatic arthropathy,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+1250,jra,joints_connective_tissues,joints_connective_tissues,,,0,0,0
+1293,sarcoma,joints_connective_tissues,joints_connective_tissues,0.787268582,0.84,2,3,0
+327,flank pain,kidneys_bladder_urethra,kidneys,0.382888448,0.31,1,1,1
+1170,renal mass,kidneys_bladder_urethra,kidneys,0.524536503,0.63,2,2,2
+1013,renal abscess,kidneys_bladder_urethra,kidneys,0.62885973,0.6,2,2,2
+500,renal cyst,kidneys_bladder_urethra,kidneys,0.631096165,0.51,2,2,2
+234,diabetic nephropathy,kidneys_bladder_urethra,kidneys,0.638170334,,2,0,2
+1219,nephrolithiasis,kidneys_bladder_urethra,kidneys,0.649787314,0.41,2,2,2
+604,nephrocalcinosis,kidneys_bladder_urethra,kidneys,0.66620551,0.48,2,2,2
+1052,renal colic,kidneys_bladder_urethra,kidneys,0.673063475,0.58,2,2,2
+742,pyelonephritis,kidneys_bladder_urethra,kidneys,0.676258979,0.66,2,2,2
+425,hydronephrosis,kidneys_bladder_urethra,kidneys,0.679414449,0.58,2,2,2
+352,glomerulonephritis,kidneys_bladder_urethra,kidneys,0.69877455,0.71,2,3,0
+353,iga nephropathy,kidneys_bladder_urethra,kidneys,0.69967884,,2,0,2
+10,renal tubular acidosis,kidneys_bladder_urethra,kidneys,0.71080468,0.61,2,2,2
+606,nephrotic syndrome,kidneys_bladder_urethra,kidneys,0.726292139,0.65,2,2,2
+496,chronic kidney disease,kidneys_bladder_urethra,kidneys,0.746908225,,2,0,2
+448,renovascular hypertension,kidneys_bladder_urethra,kidneys,0.803914891,0.56,3,2,0
+471,adh inappropriate,kidneys_bladder_urethra,kidneys,,,0,0,0
+494,disorder renal,kidneys_bladder_urethra,kidneys,,,0,0,0
+498,papillary necrosis,kidneys_bladder_urethra,kidneys,,,0,0,0
+603,interstitial nephritis,kidneys_bladder_urethra,kidneys,,,0,0,0
+1063,acute glomerulonephritis,kidneys_bladder_urethra,kidneys,,,0,0,0
+1253,kidney pain,kidneys_bladder_urethra,kidneys,,,0,0,0
+605,nephrosclerosis,kidneys_bladder_urethra,kidneys,,0.76,0,3,3
+1299,renal cancer,kidneys_bladder_urethra,kidneys,0.87431175,,3,0,3
+495,acute kidney failure,kidneys_bladder_urethra,kidneys,,,0,0,0
+497,kidney neoplasm,kidneys_bladder_urethra,kidneys,,,0,0,0
+499,kidney transplant,kidneys_bladder_urethra,kidneys,,,0,0,0
+756,kidney failure,kidneys_bladder_urethra,kidneys,,,0,0,0
+399,hepatitis toxic,liver,liver,0.667050478,,2,0,2
+519,liver abscess,liver,liver,0.686295542,0.71,2,3,0
+398,chronic hepatitis,liver,liver,0.686334632,0.71,2,3,0
+395,hepatitis,liver,liver,0.721751453,0.71,2,3,0
+522,biliary cirrhosis,liver,liver,0.755510016,,2,0,2
+1030,hepatic necrosis,liver,liver,0.765154174,0.73,2,3,0
+446,portal hypertension,liver,liver,0.820267699,0.6,3,2,0
+159,primary biliary cirrhosis,liver,liver,,,0,0,0
+316,fatty liver,liver,liver,,,0,0,0
+396,hepatitis a,liver,liver,,0.67,0,2,2
+401,enlarged liver,liver,liver,,,0,0,0
+520,cirrhosis,liver,liver,,,0,0,0
+521,alcoholic cirrhosis,liver,liver,,,0,0,0
+523,disease of liver,liver,liver,,,0,0,0
+740,peliosis,liver,liver,,,0,0,0
+994,hepatitis b surface antigen positive,liver,liver,,,0,0,0
+1027,abnormal lfts,liver,liver,,,0,0,0
+1033,aspartate aminotransferase increase,liver,liver,,,0,0,0
+1198,hepatitis c antibody positive,liver,liver,,0.6,0,2,2
+1241,chronic active hepatitis,liver,liver,,,0,0,0
+397,hepatitis b,liver,liver,,0.74,0,3,3
+400,hepatitis c,liver,liver,,0.81,0,3,3
+952,hepatic failure,liver,liver,0.736109132,0.83,2,3,0
+394,hepatic encephalopathy,liver,liver,0.747308158,0.85,2,3,0
+524,hepatic neoplasia,liver,liver,,,0,0,0
+710,tuberculin test positive,lungs_bronchi,lungs,0.435483487,0.59,2,2,2
+76,asthma,lungs_bronchi,lungs,0.516449428,0.45,2,2,2
+997,pulmonary mass,lungs_bronchi,lungs,0.521153052,0.7,2,3,0
+1097,radiation pneumonitis,lungs_bronchi,lungs,0.52273524,,2,0,2
+360,granuloma,lungs_bronchi,lungs,0.530005175,0.39,2,2,2
+527,lung abscess,lungs_bronchi,lungs,0.592497474,0.63,2,2,2
+734,alveolar proteinosis,lungs_bronchi,lungs,0.599432658,0.73,2,3,0
+828,streptococcal infection,lungs_bronchi,lungs,0.603431895,0.56,2,2,2
+202,cryptococcosis,lungs_bronchi,lungs,0.610853171,0.71,2,3,0
+934,pertussis,lungs_bronchi,lungs,0.65799563,,2,0,2
+688,pleural effusion,lungs_bronchi,lungs,0.658289669,0.49,2,2,2
+689,pleurisy,lungs_bronchi,lungs,0.663378958,0.56,2,2,2
+690,pneumoconiosis,lungs_bronchi,lungs,0.66398436,0.71,2,3,0
+782,sarcoidosis,lungs_bronchi,lungs,0.671114724,0.64,2,2,2
+737,emphysema,lungs_bronchi,lungs,0.684241899,0.65,2,2,2
+1151,eosinophilic pneumonia acute,lungs_bronchi,lungs,0.685042354,0.67,2,2,2
+79,atelectasis,lungs_bronchi,lungs,0.686814907,0.69,2,2,2
+757,neonatal respiratory distress syndrome,lungs_bronchi,lungs,0.688257975,,2,0,2
+1240,pneumonia klebsiella,lungs_bronchi,lungs,0.692555349,0.72,2,3,0
+1314,eosinophilic pneumonia,lungs_bronchi,lungs,0.693535097,0.69,2,2,2
+26,respiratory alkalosis,lungs_bronchi,lungs,0.697116476,0.4,2,2,2
+1132,lung infiltration,lungs_bronchi,lungs,0.746780278,0.55,2,2,2
+699,pneumothorax,lungs_bronchi,lungs,0.75001263,0.61,2,2,2
+697,pneumonia staphylococcal,lungs_bronchi,lungs,0.759811639,,2,0,2
+447,pulmonary hypertension,lungs_bronchi,lungs,0.818977364,0.58,3,2,0
+29,allergic alveolitis,lungs_bronchi,lungs,,,0,0,0
+88,bacterial pneumonia,lungs_bronchi,lungs,,,0,0,0
+154,pleural pain,lungs_bronchi,lungs,,,0,0,0
+508,legionella,lungs_bronchi,lungs,,,0,0,0
+528,disorder lung,lungs_bronchi,lungs,,,0,0,0
+692,neumonia,lungs_bronchi,lungs,,,0,0,0
+693,aspiration pneumonia,lungs_bronchi,lungs,,,0,0,0
+694,lobar pneumonia,lungs_bronchi,lungs,,0.59,0,2,2
+695,pneumonia primary atypical,lungs_bronchi,lungs,,,0,0,0
+696,pneumocystis carinii pneumonia,lungs_bronchi,lungs,,0.66,0,2,2
+698,viral pneumonia,lungs_bronchi,lungs,,,0,0,0
+735,lung edema,lungs_bronchi,lungs,,,0,0,0
+738,lung fibrosis,lungs_bronchi,lungs,,,0,0,0
+881,mycobacterium tuberculosis infection,lungs_bronchi,lungs,,,0,0,0
+977,fibrosing alveolitis,lungs_bronchi,lungs,,,0,0,0
+996,chest infection,lungs_bronchi,lungs,,,0,0,0
+1096,ild,lungs_bronchi,lungs,,,0,0,0
+1278,pneumocystis carinii infection,lungs_bronchi,lungs,,0.75,0,3,3
+758,acute respiratory distress syndrome,lungs_bronchi,lungs,0.651008881,0.72,2,3,0
+1038,lung adenocarcinoma,lungs_bronchi,lungs,0.737889772,0.78,2,3,0
+1147,lung neoplasm malignant,lungs_bronchi,lungs,0.771711944,0.87,2,3,0
+1174,pleural fibrosis,lungs_bronchi,lungs,0.808844995,,3,0,3
+393,hemothorax,lungs_bronchi,lungs,,,0,0,0
+530,lung neoplasms,lungs_bronchi,lungs,,,0,0,0
+691,pneumonectomy,lungs_bronchi,lungs,,,0,0,0
+736,embolism pulmonary,lungs_bronchi,lungs,,,0,0,0
+1009,sclc,lungs_bronchi,lungs,,,0,0,0
+1076,pulmonary arrest,lungs_bronchi,lungs,,,0,0,0
+571,movement disorder,motor,motor,0.491071365,0.52,2,2,2
+1256,balance disorder,motor,motor,0.513198125,0.27,2,1,0
+1104,paraparesis,motor,motor,0.571775279,0.72,2,3,0
+1169,peripheral nerve injury,motor,motor,0.62735597,,2,0,2
+1262,tardive dyskinesia,motor,motor,0.631798253,0.59,2,2,2
+659,paraplegia,motor,motor,0.640985492,0.74,2,3,0
+388,hemiplegia,motor,motor,0.648819464,0.72,2,3,0
+948,choreoathetosis,motor,motor,0.651737582,0.47,2,2,2
+387,hemiparesis,motor,motor,0.665443776,0.62,2,2,2
+78,ataxia,motor,motor,0.667272171,0.63,2,2,2
+59,apraxia,motor,motor,,0.63,0,2,2
+255,abnormal movements,motor,motor,,,0,0,0
+1205,difficulty in walking,motor,motor,,0.4,0,2,2
+1224,motor retardation,motor,motor,,,0,0,0
+1255,abnormal gait,motor,motor,,,0,0,0
+746,quadriplegia,motor,motor,0.635989218,0.83,2,3,0
+232,mod,delete,multiple_systemic_general,,,0,0,0
+648,pain,multiple,multiple_systemic_general,0.294585524,,1,0,1
+153,chest pain,lungs_bronchi,multiple_systemic_general,0.326556931,0.34,1,1,1
+992,food intolerance,multiple,multiple_systemic_general,0.369530899,,1,0,1
+216,dehydration,kidneys_bladder_urethra,multiple_systemic_general,0.397815586,0.3,1,1,1
+315,fatigue,multiple,multiple_systemic_general,0.526828494,0.09,2,1,0
+620,nodule,multiple,multiple_systemic_general,0.583050663,0.26,2,1,0
+883,ulcer,multiple,multiple_systemic_general,0.620266733,0.34,2,1,0
+321,body temperature increased,multiple,multiple_systemic_general,,0.33,0,1,1
+466,decreased body temperature,multiple,multiple_systemic_general,,,0,0,0
+618,night sweat,multiple,multiple_systemic_general,,,0,0,0
+649,extremity pain,multiple,multiple_systemic_general,,,0,0,0
+950,chill,multiple,multiple_systemic_general,,,0,0,0
+1115,feeling unwell,multiple,multiple_systemic_general,,,0,0,0
+999,neck mass,multiple,multiple_systemic_general,0.425193714,0.33,2,1,0
+378,heat stroke,multiple,multiple_systemic_general,0.45082045,,2,0,2
+547,mediastinal disorder,multiple,multiple_systemic_general,0.494466712,0.6,2,2,2
+275,endocrine disorder,multiple,multiple_systemic_general,0.532425491,0.5,2,2,2
+771,rheumatic fever,multiple,multiple_systemic_general,0.572528255,0.63,2,2,2
+706,polyp,multiple,multiple_systemic_general,0.578086579,0.38,2,2,2
+326,fistula,multiple,multiple_systemic_general,0.585134244,0.47,2,2,2
+1171,seroma,multiple,multiple_systemic_general,0.596825892,0.5,2,2,2
+403,hernia,multiple,multiple_systemic_general,0.604434471,0.46,2,2,2
+709,porphyria,multiple,multiple_systemic_general,0.619731755,0.59,2,2,2
+778,rubella,multiple,multiple_systemic_general,0.663602937,,2,0,2
+34,amyloidosis,multiple,multiple_systemic_general,0.697498992,0.61,2,2,2
+543,carcinoid syndrome,multiple,multiple_systemic_general,0.707445357,,2,0,2
+313,failure to thrive,delete,multiple_systemic_general,,0.38,0,2,2
+73,aspergillosis,multiple,multiple_systemic_general,,0.46,0,2,2
+99,bleb,skin_subcutaneous fat,multiple_systemic_general,,,0,0,0
+230,diabetes,multiple,multiple_systemic_general,,,0,0,0
+231,insulin dependent diabetes mellitus,multiple,multiple_systemic_general,,,0,0,0
+267,edema,multiple,multiple_systemic_general,,,0,0,0
+391,bleeding,multiple,multiple_systemic_general,,,0,0,0
+440,hyperalimentation,multiple,multiple_systemic_general,,,0,0,0
+702,erythremia,multiple,multiple_systemic_general,,,0,0,0
+808,soft tissue injuries,multiple,multiple_systemic_general,,,0,0,0
+837,fainting,multiple,multiple_systemic_general,,,0,0,0
+896,urogenital abnormalities,multiple,multiple_systemic_general,,,0,0,0
+951,excessive thirst,multiple,multiple_systemic_general,,,0,0,0
+963,edema extremities,multiple,multiple_systemic_general,,,0,0,0
+1082,malnourished,multiple,multiple_systemic_general,,,0,0,0
+1084,acute intermittent porphyria,multiple,multiple_systemic_general,,,0,0,0
+1157,herxheimer reaction,multiple,multiple_systemic_general,,,0,0,0
+1190,glucose intolerance,multiple,multiple_systemic_general,,,0,0,0
+1235,adenopathy,multiple,multiple_systemic_general,,,0,0,0
+1311,sjogrens syndrome,multiple,multiple_systemic_general,,,0,0,0
+796,septic shock,multiple,multiple_systemic_general,0.629572496,0.84,2,3,0
+402,hepatorenal syndrome,multiple,multiple_systemic_general,,0.83,0,3,3
+548,mediastinal tumor,multiple,multiple_systemic_general,,,0,0,0
+602,neoplasia,multiple,multiple_systemic_general,,,0,0,0
+1155,sepsis,multiple,multiple_systemic_general,,0.71,0,3,3
+1070,trigger finger,muscles_tendon,muscles_tendon,0.352404415,0.22,1,1,1
+84,back injury,brain_spinal_cord,muscles_tendon,,,0,0,0
+85,back ache,muscles_tendon,muscles_tendon,,,0,0,0
+311,face pain,muscles_tendon,muscles_tendon,,,0,0,0
+575,cramp,muscles_tendon,muscles_tendon,,,0,0,0
+797,shoulder pain,muscles_tendon,muscles_tendon,,0.12,0,1,1
+810,muscle spasm,muscles_tendon,muscles_tendon,,,0,0,0
+1116,aching muscles,muscles_tendon,muscles_tendon,,,0,0,0
+1168,night cramps,muscles_tendon,muscles_tendon,,0.15,0,1,1
+578,musculoskeletal pain,muscles_tendon,muscles_tendon,0.399198075,0.56,1,2,0
+998,muscle rupture,muscles_tendon,muscles_tendon,0.426197255,,2,0,2
+940,muscle strain,muscles_tendon,muscles_tendon,0.435103885,,2,0,2
+1003,soft tissue infection,muscles_tendon,muscles_tendon,0.456694355,0.41,2,2,2
+577,muscle disorder,muscles_tendon,muscles_tendon,0.492627297,,2,0,2
+136,cataplexy,muscles_tendon,muscles_tendon,0.55403537,0.49,2,2,2
+284,epicondylitis,muscles_tendon,muscles_tendon,0.556345816,0.35,2,2,2
+847,tenosynovitis,muscles_tendon,muscles_tendon,0.579432006,0.45,2,2,2
+704,polymyalgia rheumatica,muscles_tendon,muscles_tendon,0.589664841,0.59,2,2,2
+323,fibromyalgia,muscles_tendon,muscles_tendon,0.611297871,0.62,2,2,2
+966,polymyositis,muscles_tendon,muscles_tendon,0.615344661,0.62,2,2,2
+849,tetanus,muscles_tendon,muscles_tendon,0.620961837,0.68,2,2,2
+850,tetany,muscles_tendon,muscles_tendon,0.62331551,0.57,2,2,2
+1173,rotator cuff syndrome,muscles_tendon,muscles_tendon,0.62724809,0.39,2,2,2
+74,asthenia,muscles_tendon,muscles_tendon,0.652919929,0.4,2,2,2
+579,myasthenia gravis,muscles_tendon,muscles_tendon,0.658184578,0.66,2,2,2
+846,tendon injury,muscles_tendon,muscles_tendon,0.675779673,,2,0,2
+122,cachectic,muscles_tendon,muscles_tendon,,,0,0,0
+137,causalgia,muscles_tendon,muscles_tendon,,,0,0,0
+190,contracture,gastrointestinal_tract,muscles_tendon,,,0,0,0
+592,muscle inflammation,muscles_tendon,muscles_tendon,,,0,0,0
+601,injury of neck,muscles_tendon,muscles_tendon,,,0,0,0
+661,muscle paresis,muscles_tendon,muscles_tendon,,,0,0,0
+791,convulsion,muscles_tendon,muscles_tendon,,0.59,0,2,2
+845,tendinitis,muscles_tendon,muscles_tendon,,,0,0,0
+872,retrocollis,muscles_tendon,muscles_tendon,,,0,0,0
+1002,fascitis plantar,muscles_tendon,muscles_tendon,,,0,0,0
+1028,muscle weakness,muscles_tendon,muscles_tendon,,,0,0,0
+33,traumatic amputation,delete,muscles_tendon,0.655260951,,2,0,2
+769,rhabdomyolysis,muscles_tendon,muscles_tendon,0.769128041,0.76,2,3,0
+770,rhabdomyosarcoma,muscles_tendon,muscles_tendon,0.807913631,,3,0,3
+958,burning sensation,neurological,neurological,0.176465882,0.29,1,1,1
+569,motion sickness,neurological,neurological,0.487800544,0.11,2,1,0
+171,cluster headache,neurological,neurological,0.28796809,0.36,1,2,0
+878,tremor,neurological,neurological,0.458424196,0.36,2,2,2
+914,vestibular disorder,neurological,neurological,0.499897592,0.5,2,2,2
+662,paraesthesia,neurological,neurological,0.503074538,0.34,2,1,0
+192,conversion disorder,neurological,neurological,0.510238884,,2,0,2
+1043,sensory disturbance,neurological,neurological,0.520645695,0.31,2,1,0
+596,narcolepsy,neurological,neurological,0.540256394,0.51,2,2,2
+175,cognitive disorder,neurological,neurological,0.542262137,0.5,2,2,2
+880,trigeminal neuralgia,neurological,neurological,0.562371679,0.65,2,2,2
+608,neuralgia,neurological,neurological,0.564171723,0.57,2,2,2
+612,neuroma,neurological,neurological,0.576794285,0.55,2,2,2
+253,dysarthria,neurological,neurological,0.593864236,0.5,2,2,2
+432,hyperaesthesia,neurological,neurological,0.612714523,0.47,2,2,2
+23,delirium tremens,neurological,neurological,0.616088459,0.6,2,2,2
+678,neuropathy peripheral,neurological,neurological,0.618544817,0.4,2,2,2
+1085,neurofibromatosis,neurological,neurological,0.624067287,0.65,2,2,2
+576,amyotrophy,neurological,neurological,0.640158994,,2,0,2
+609,neuritis,neurological,neurological,0.668348549,0.55,2,2,2
+1042,polyneuropathy,neurological,neurological,0.678254998,0.59,2,2,2
+235,diabetic neuropathy,neurological,neurological,0.683454971,0.6,2,2,2
+264,eclampsia,neurological,neurological,0.686997656,0.71,2,3,0
+193,febrile convulsion,neurological,neurological,0.688479463,0.49,2,2,2
+290,myoclonic epilepsy,neurological,neurological,0.711077987,0.74,2,3,0
+288,epilepsy,neurological,neurological,0.714691014,0.79,2,3,0
+1156,autonomic neuropathy,neurological,neurological,0.736823958,0.51,2,2,2
+135,carpal tunnel,neurological,neurological,,,0,0,0
+289,convulsions grand mal,neurological,neurological,,,0,0,0
+291,petit mal,neurological,neurological,,,0,0,0
+312,facial palsy,neurological,neurological,,,0,0,0
+613,neuromuscular disorder,neurological,neurological,,,0,0,0
+711,postherpetic neuralgia,neurological,neurological,,,0,0,0
+754,reflex sympathetic dystrophy,neurological,neurological,,0.51,0,2,2
+785,ischias,neurological,neurological,,,0,0,0
+809,sleep walking,neurological,neurological,,,0,0,0
+960,flashing lights,neurological,neurological,,,0,0,0
+961,light sensitivity,neurological,neurological,,,0,0,0
+1110,brachial neuritis,lungs_bronchi,neurological,,,0,0,0
+1137,flashbacks,neurological,neurological,,,0,0,0
+1161,autonomic instability,neurological,neurological,,,0,0,0
+1167,global amnesia,neurological,neurological,,0.58,0,2,2
+1184,cervical stenosis,neurological,neurological,,,0,0,0
+1230,neuropathy,neurological,neurological,,0.51,0,2,2
+1245,palsies,neurological,neurological,,,0,0,0
+1289,ganglion,neurological,neurological,,0.38,0,2,2
+821,status epilepticus,neurological,neurological,0.547453749,0.88,2,3,0
+610,neuroblastoma,neurological,neurological,0.856428049,0.82,3,3,3
+801,sinus headache,nose,nose,0.330181184,0.21,1,1,1
+773,rhinitis,nose,nose,0.461679584,0.24,2,1,0
+597,nasal congestion,nose,nose,0.483816056,0.07,2,1,0
+807,sneezing,nose,nose,0.486200252,0.11,2,1,0
+802,sinusitis,nails,nose,0.508832507,0.2,2,1,0
+983,acute sinusitis,nose,nose,0.590379613,0.34,2,1,0
+599,nasopharyngitis,nose,nose,0.605471929,0.3,2,1,0
+27,allergic rhinitis,nose,nose,,,0,0,0
+713,post nasal drip,nose,nose,,,0,0,0
+1044,nasal sinus congestion,nose,nose,,,0,0,0
+1290,rhinorrhea,nose,nose,,,0,0,0
+1297,rhinitis seasonal,nose,nose,,,0,0,0
+48,anosmia,nose,nose,0.419436964,0.34,2,1,0
+1029,nasal septum disorder,nose,nose,0.45829524,0.35,2,2,2
+985,chronic sinusitis,nose,nose,0.550899897,,2,0,2
+293,epistaxis,nose,nose,0.572375206,0.27,2,1,0
+937,bradyarrhythmia,nose,nose,0.781756716,,2,0,2
+598,nasal polyp,nose,nose,,,0,0,0
+1007,adenoid hypertrophy,nose,nose,,,0,0,0
+1129,nasal septal perforation,nose,nose,,,0,0,0
+600,nausea,gastrointestinal_tract,oesophagus_stomach,0.394519031,0.16,1,1,1
+257,dyspepsia,gastrointestinal_tract,oesophagus_stomach,0.585208149,0.32,2,1,0
+1119,regurgitation,gastrointestinal_tract,oesophagus_stomach,0.560237895,0.31,2,1,0
+1103,odynophagia,gastrointestinal_tract,oesophagus_stomach,0.597437937,0.45,2,2,2
+670,gastroduodenal ulcer,gastrointestinal_tract,oesophagus_stomach,0.599531241,,2,0,2
+1135,gastric polyps,gastrointestinal_tract,oesophagus_stomach,0.634438745,0.56,2,2,2
+343,gastroenteritis,gastrointestinal_tract,oesophagus_stomach,0.638862754,0.47,2,2,2
+824,gastric ulcer,gastrointestinal_tract,oesophagus_stomach,0.653000462,0.55,2,2,2
+823,gastric dilatation,gastrointestinal_tract,oesophagus_stomach,0.659945785,0.46,2,2,2
+743,pyloric stenosis,gastrointestinal_tract,oesophagus_stomach,0.683396644,0.62,2,2,2
+381,haematemesis,gastrointestinal_tract,oesophagus_stomach,0.687056162,0.64,2,2,2
+215,deglutition disorder,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+299,esophageal spasm,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+300,esophageal stenosis,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+301,esophagitis,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+302,reflux esophagitis,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+342,gastric inflammation,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+344,acid reflux,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+405,hernia hiatal,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+888,upper gastrointestinal bleeding,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+926,emesis,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1036,esophageal ulcer,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1040,gastric stasis,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1180,erosive gastritis,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1197,esophageal rupture,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1265,gastric cancer,gastrointestinal_tract,oesophagus_stomach,0.902596126,0.87,3,3,3
+298,esophageal perforation,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1039,esophageal cancer,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+1212,gastric ulcer perforated,gastrointestinal_tract,oesophagus_stomach,,,0,0,0
+201,cough,lungs_bronchi,oral_cavity_salivary_gland_throat,0.372394425,0.15,1,1,1
+294,belching,gastrointestinal_tract,oral_cavity_salivary_gland_throat,,,0,0,0
+363,bad breath,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+412,hiccough,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+418,hoarseness,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,0.19,0,1,1
+799,excessive salivation,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+1001,mouth ulcer,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+1112,mouth pain,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+1149,pain in throat,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+871,dental pain,teeth,oral_cavity_salivary_gland_throat,,,0,0,0
+172,coated tongue,tongue,oral_cavity_salivary_gland_throat,,,0,0,0
+157,choking,lungs_bronchi,oral_cavity_salivary_gland_throat,0.408894886,0.57,2,2,2
+682,pharyngeal inflammation,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.439196335,,2,0,2
+570,oral neoplasm,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.470010162,0.54,2,2,2
+676,periodontitis,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.487113035,0.56,2,2,2
+515,leukoplakia,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.498457479,0.54,2,2,2
+1211,parotid gland enlargement,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.545954187,0.53,2,2,2
+453,salivary gland enlargement,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.553699719,0.36,2,2,2
+779,salivary gland calculus,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.571065537,,2,0,2
+55,aphonia,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.573906773,0.38,2,2,2
+924,vocal cord paralysis,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.582664533,0.48,2,2,2
+1312,dysphonia,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.591143144,0.38,2,2,2
+792,pharyngitis streptococcal,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.611626838,0.5,2,2,2
+664,parotitis,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.63715875,0.34,2,1,0
+1193,viral pharyngitis,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.639173039,0.43,2,2,2
+239,diphtheria,gastrointestinal_tract,oral_cavity_salivary_gland_throat,0.687070564,,2,0,2
+574,mumps,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.693902374,,2,0,2
+675,periodontal disease,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,0.747595154,0.42,2,2,2
+56,apnea,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+126,candidiasis of mouth,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+347,bleeding gums,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+506,laryngitis,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,0.43,0,2,2
+516,leukoplakia of mouth,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+629,mouth bleeding,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+798,salivary gland inflammation,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+825,mucositis oral,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+826,aphthous stomatitis,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,0.36,0,2,2
+936,aptyalism,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+1284,dysphasia,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,0.55,0,2,2
+505,laryngeal neoplasia,mouth_salivary_gland_throat,oral_cavity_salivary_gland_throat,,,0,0,0
+1140,gingival pain,teeth,oral_cavity_salivary_gland_throat,0.334290181,0.4,1,2,0
+870,tooth impacted,teeth,oral_cavity_salivary_gland_throat,0.410145864,,2,0,2
+218,dental caries,teeth,oral_cavity_salivary_gland_throat,0.419880372,0.36,2,2,2
+117,bruxism,teeth,oral_cavity_salivary_gland_throat,0.4573851,0.27,2,1,0
+348,gingivitis,teeth,oral_cavity_salivary_gland_throat,0.513673251,0.31,2,1,0
+869,tooth disease,teeth,oral_cavity_salivary_gland_throat,,,0,0,0
+1239,dental abscess,teeth,oral_cavity_salivary_gland_throat,,,0,0,0
+355,glossitis,tongue,oral_cavity_salivary_gland_throat,0.533169551,0.33,2,1,0
+540,macroglossia,tongue,oral_cavity_salivary_gland_throat,0.566918279,,2,0,2
+287,epiglottitis,tongue,oral_cavity_salivary_gland_throat,0.65628425,0.7,2,3,0
+354,glossodynia,tongue,oral_cavity_salivary_gland_throat,,0.41,0,2,2
+619,nightmare,psychiatric,psychiatric,0.584554875,0.17,2,1,0
+50,anxiety,psychiatric,psychiatric,0.449786994,0.24,2,1,0
+262,eating disorder,psychiatric,psychiatric,0.467132282,0.34,2,1,0
+731,psychosexual disorder,psychiatric,psychiatric,0.503720441,0.3,2,1,0
+364,hallucination,psychiatric,psychiatric,0.504072702,0.36,2,2,2
+16,adjustment disorder,psychiatric,psychiatric,0.526846008,0.25,2,1,0
+680,personality disorder,psychiatric,psychiatric,0.531363839,0.41,2,2,2
+1305,paranoia,psychiatric,psychiatric,0.532411959,0.4,2,2,2
+92,bipolar disorder,psychiatric,psychiatric,0.542402523,0.46,2,2,2
+105,borderline personality disorder,psychiatric,psychiatric,0.543276874,0.56,2,2,2
+976,alcohol abuse,psychiatric,psychiatric,0.543884663,,2,0,2
+783,schizoaffective disorder,psychiatric,psychiatric,0.544749703,0.8,2,3,0
+1272,substance abuse,psychiatric,psychiatric,0.546290565,0.47,2,2,2
+614,neurosis,psychiatric,psychiatric,0.547701492,0.52,2,2,2
+944,seasonal affective disorder,psychiatric,psychiatric,0.549600443,,2,0,2
+654,panic disorder,psychiatric,psychiatric,0.550516782,0.32,2,1,0
+1218,phobia,eyes,psychiatric,0.555902681,0.26,2,1,0
+32,amnesia,psychiatric,psychiatric,0.558400905,0.47,2,2,2
+981,panic attack,psychiatric,psychiatric,0.577836458,0.22,2,1,0
+1294,major depression,psychiatric,psychiatric,0.579443363,0.53,2,2,2
+1196,acute psychosis,psychiatric,psychiatric,0.59065404,0.58,2,2,2
+784,schizophrenia,psychiatric,psychiatric,0.615448978,0.54,2,2,2
+19,agoraphobia,psychiatric,psychiatric,,0.32,0,1,1
+456,hypochondriasis,psychiatric,psychiatric,,0.34,0,1,1
+47,anorexia,psychiatric,psychiatric,,0.43,0,2,2
+118,bulimia,psychiatric,psychiatric,,,0,0,0
+607,nervous tension,psychiatric,psychiatric,,,0,0,0
+730,psychosomatic disease,psychiatric,psychiatric,,0.5,0,2,2
+732,psychoses,psychiatric,psychiatric,,,0,0,0
+759,ekbom syndrome,psychiatric,psychiatric,,,0,0,0
+820,dysphemia,psychiatric,psychiatric,,0.36,0,2,2
+829,post traumatic stress disorder,psychiatric,psychiatric,,0.55,0,2,2
+959,agitated,psychiatric,psychiatric,,,0,0,0
+1047,hesitancy,psychiatric,psychiatric,,,0,0,0
+1309,drug addiction,psychiatric,psychiatric,,,0,0,0
+562,mental retardation,psychiatric,psychiatric,,0.73,0,3,3
+586,mpd,spleen_bone_marrow_lymph_node_tonsils_immune,psychiatric,,,0,0,0
+833,attempted suicide,psychiatric,psychiatric,,,0,0,0
+328,flatulence,rectum_anus,rectum_anus,0.573000874,0.22,2,1,0
+1113,rectal discharge,rectum_anus,rectum_anus,0.409030114,0.41,2,2,2
+726,anal pruritus,rectum_anus,rectum_anus,0.44153848,0.55,2,2,2
+325,anal fissure,rectum_anus,rectum_anus,0.464087753,0.41,2,2,2
+750,proctalgia,rectum_anus,rectum_anus,0.499705534,0.64,2,2,2
+1094,anal fistula,rectum_anus,rectum_anus,0.515379616,,2,0,2
+1225,defaecation urgency,rectum_anus,rectum_anus,0.532949356,0.39,2,2,2
+1181,perirectal abscess,rectum_anus,rectum_anus,0.544967623,0.61,2,2,2
+272,encopresis,gastrointestinal_tract,rectum_anus,0.550674283,0.36,2,2,2
+752,rectal prolapse,rectum_anus,rectum_anus,0.552983747,0.64,2,2,2
+751,rectal polyp,rectum_anus,rectum_anus,0.553546789,0.47,2,2,2
+1120,rectal tenesmus,rectum_anus,rectum_anus,0.555589404,0.44,2,2,2
+392,haemorrhoids,rectum_anus,rectum_anus,0.569115442,0.39,2,2,2
+1183,incisional hernia,rectum_anus,rectum_anus,0.586331771,,2,0,2
+720,proctitis,rectum_anus,rectum_anus,0.633951832,0.43,2,2,2
+317,faecal incontinence,rectum_anus,rectum_anus,,0.39,0,2,2
+318,faecal impaction,rectum_anus,rectum_anus,,,0,0,0
+1176,bleeding hemorrhoids,rectum_anus,rectum_anus,,,0,0,0
+1182,haemorrhage rectum,rectum_anus,rectum_anus,,,0,0,0
+1051,ovulation pain,reproductive_system_female,reproductive_system_female,0.357966828,,1,0,1
+559,premature menopause,reproductive_system_female,reproductive_system_female,0.410708799,0.36,2,2,2
+1114,vaginal discharge,reproductive_system_female,reproductive_system_female,0.449722359,0.27,2,1,0
+927,vulvitis,reproductive_system_female,reproductive_system_female,0.468534069,0.43,2,2,2
+1122,menometrorrhagia,reproductive_system_female,reproductive_system_female,0.479363985,0.6,2,2,2
+561,menstrual disorder,reproductive_system_female,reproductive_system_female,0.487355787,0.36,2,2,2
+1153,high risk pregnancy,reproductive_system_female,reproductive_system_female,0.493278415,0.43,2,2,2
+1095,vaginal prolapse,reproductive_system_female,reproductive_system_female,0.493607236,0.51,2,2,2
+1213,adenomyosis,reproductive_system_female,reproductive_system_female,0.499229836,,2,0,2
+278,endometritis,reproductive_system_female,reproductive_system_female,0.503209491,0.49,2,2,2
+1172,vulval abscess,reproductive_system_female,reproductive_system_female,0.516303534,0.58,2,2,2
+928,vulvovaginitis,reproductive_system_female,reproductive_system_female,0.519974792,0.43,2,2,2
+277,endometriosis,reproductive_system_female,reproductive_system_female,0.527833554,0.58,2,2,2
+666,pelvic infection,reproductive_system_female,reproductive_system_female,0.530486713,0.71,2,3,0
+1066,uterine polyp,reproductive_system_female,reproductive_system_female,0.536610052,0.42,2,2,2
+646,ovarian cyst,reproductive_system_female,reproductive_system_female,0.545279931,0.54,2,2,2
+900,uterine infection,reproductive_system_female,reproductive_system_female,0.554221425,,2,0,2
+147,cervical polyp,reproductive_system_female,reproductive_system_female,0.556046744,,2,0,2
+1209,endometrial atrophy,reproductive_system_female,reproductive_system_female,0.557769684,,2,0,2
+879,trichomoniasis,reproductive_system_female,reproductive_system_female,0.576646906,,2,0,2
+781,salpingitis,reproductive_system_female,reproductive_system_female,0.586030359,0.51,2,2,2
+276,endometrial hyperplasia,reproductive_system_female,reproductive_system_female,0.586506306,0.58,2,2,2
+1067,vaginal dysplasia,reproductive_system_female,reproductive_system_female,0.589597796,0.62,2,2,2
+150,cervical dysplasia,reproductive_system_female,reproductive_system_female,0.593328744,0.44,2,2,2
+4,abortion missed,reproductive_system_female,reproductive_system_female,0.59915805,,2,0,2
+3,abortion spontaneous,reproductive_system_female,reproductive_system_female,0.613654626,0.63,2,2,2
+1142,pelvic inflammatory disease,reproductive_system_female,reproductive_system_female,0.621354047,0.52,2,2,2
+718,pms,reproductive_system_female,reproductive_system_female,,,0,0,0
+6,premature separation of placenta,reproductive_system_female,reproductive_system_female,,,0,0,0
+31,amenorrhea,reproductive_system_female,reproductive_system_female,,,0,0,0
+127,candidiasis of vagina,reproductive_system_female,reproductive_system_female,,,0,0,0
+149,cervicitis,reproductive_system_female,reproductive_system_female,,0.42,0,2,2
+151,caesarean section,reproductive_system_female,reproductive_system_female,,,0,0,0
+256,dysmenorrhea,reproductive_system_female,reproductive_system_female,,,0,0,0
+303,estrogen replacement,reproductive_system_female,reproductive_system_female,,,0,0,0
+460,hypomenorrhea,reproductive_system_female,reproductive_system_female,,,0,0,0
+560,heavy menstrual period,reproductive_system_female,reproductive_system_female,,,0,0,0
+564,breakthrough bleeding,reproductive_system_female,reproductive_system_female,,,0,0,0
+590,myoma,reproductive_system_female,reproductive_system_female,,,0,0,0
+625,oligomenorrhea,reproductive_system_female,reproductive_system_female,,,0,0,0
+647,oophorectomy,reproductive_system_female,reproductive_system_female,,,0,0,0
+701,polycystic ovary disease,reproductive_system_female,reproductive_system_female,,,0,0,0
+703,polymenorrhea,reproductive_system_female,reproductive_system_female,,,0,0,0
+712,postmenopausal bleeding,reproductive_system_female,reproductive_system_female,,,0,0,0
+715,ectopic pregnancies,reproductive_system_female,reproductive_system_female,,,0,0,0
+898,fibroids,reproductive_system_female,reproductive_system_female,,,0,0,0
+899,uterine bleeding,reproductive_system_female,reproductive_system_female,,,0,0,0
+902,colpitis,reproductive_system_female,reproductive_system_female,,,0,0,0
+915,masculinization,reproductive_system_female,reproductive_system_female,,,0,0,0
+945,bacterial vaginitis,reproductive_system_female,reproductive_system_female,,,0,0,0
+1023,bleeding vaginal,reproductive_system_female,reproductive_system_female,,,0,0,0
+1068,irregular menstrual cycle,reproductive_system_female,reproductive_system_female,,,0,0,0
+1160,abnormal mammogram,reproductive_system_female,reproductive_system_female,,,0,0,0
+1227,anovulatory,reproductive_system_female,reproductive_system_female,,,0,0,0
+1234,abnormal cervical smear,reproductive_system_female,reproductive_system_female,,,0,0,0
+165,choriocarcinoma,reproductive_system_female,reproductive_system_female,0.74186425,0.84,2,3,0
+645,ovarian cancer,reproductive_system_female,reproductive_system_female,0.821391098,0.87,3,3,3
+1232,endometrial cancer,reproductive_system_female,reproductive_system_female,0.870562455,0.85,3,3,3
+5,septic abortion,reproductive_system_female,reproductive_system_female,,,0,0,0
+1204,carcinoma of the cervix,reproductive_system_female,reproductive_system_female,,,0,0,0
+1257,still birth,reproductive_system_female,reproductive_system_female,,,0,0,0
+1259,toxic shock,reproductive_system_female,reproductive_system_female,,,0,0,0
+1178,supernumerary nipple,reproductive_system_general,reproductive_system_general,0.400008885,0.12,2,1,0
+474,infertility,reproductive_system_general,reproductive_system_general,0.534870486,0.54,2,2,2
+839,syphilis,reproductive_system_general,reproductive_system_general,0.698065477,0.7,2,3,0
+213,decreased libido,reproductive_system_general,reproductive_system_general,,,0,0,0
+358,gonorrhea,reproductive_system_general,reproductive_system_general,,,0,0,0
+408,genital herpes,reproductive_system_general,reproductive_system_general,,0.61,0,2,2
+501,hypogonadotropic hypogonadism,reproductive_system_general,reproductive_system_general,,,0,0,0
+794,sexually transmitted diseases,reproductive_system_general,reproductive_system_general,,,0,0,0
+1238,penile pain,reproductive_system_male,reproductive_system_male,0.315054329,0.42,1,2,0
+1141,testicular swelling,reproductive_system_male,reproductive_system_male,0.390306972,0.38,1,2,0
+1295,penile swelling,reproductive_system_male,reproductive_system_male,0.395724458,0.48,1,2,0
+1121,penile discharge,reproductive_system_male,reproductive_system_male,0.413584792,0.28,2,1,0
+684,phimosis,reproductive_system_male,reproductive_system_male,0.476359752,0.34,2,1,0
+458,hypogonadism,reproductive_system_male,reproductive_system_male,0.505491099,0.48,2,2,2
+422,hydrocele,reproductive_system_male,reproductive_system_male,0.530661819,0.42,2,2,2
+723,prostatitis,reproductive_system_male,reproductive_system_male,0.553698874,0.49,2,2,2
+286,epididymitis,reproductive_system_male,reproductive_system_male,0.562205833,0.4,2,2,2
+1065,testicular atrophy,reproductive_system_male,reproductive_system_male,0.57140768,0.56,2,2,2
+719,priapism,reproductive_system_male,reproductive_system_male,0.573622898,0.52,2,2,2
+631,orchitis,reproductive_system_male,reproductive_system_male,0.588266491,0.51,2,2,2
+722,neoplasm prostate,reproductive_system_male,reproductive_system_male,0.5904243,0.75,2,3,0
+90,benign prostatic hyperplasia,reproductive_system_male,reproductive_system_male,0.609820355,0.54,2,2,2
+89,balanitis,reproductive_system_male,reproductive_system_male,,0.55,0,2,2
+203,cryptorchidism,reproductive_system_male,reproductive_system_male,,,0,0,0
+630,orchiectomy,reproductive_system_male,reproductive_system_male,,,0,0,0
+669,peyronies disease,reproductive_system_male,reproductive_system_male,,0.57,0,2,2
+717,ejaculation premature,reproductive_system_male,reproductive_system_male,,,0,0,0
+848,testes pain,reproductive_system_male,reproductive_system_male,,,0,0,0
+877,transurethral resection of the prostate,reproductive_system_male,reproductive_system_male,,,0,0,0
+903,varicocele,reproductive_system_male,reproductive_system_male,,0.61,0,2,2
+993,hematospermia,reproductive_system_male,reproductive_system_male,,,0,0,0
+1089,elevated prostate specific antigen,reproductive_system_male,reproductive_system_male,,,0,0,0
+1150,prostatism,reproductive_system_male,reproductive_system_male,,0.51,0,2,2
+1201,swollen scrotum,reproductive_system_male,reproductive_system_male,,,0,0,0
+1258,carcinoma of prostate,reproductive_system_male,reproductive_system_male,,,0,0,0
+304,eruption,delete,skin_subcutaneous fat,,,0,0,0
+266,eczema,skin_subcutaneous fat,skin_subcutaneous fat,0.074362055,0.28,1,1,1
+611,neurodermatitis,skin_subcutaneous fat,skin_subcutaneous fat,0.085002374,0.35,1,2,0
+1034,dry skin,skin_subcutaneous fat,skin_subcutaneous fat,0.106504577,0.14,1,1,1
+834,sunburn,skin_subcutaneous fat,skin_subcutaneous fat,0.108681293,,1,0,1
+237,dermatitis diaper,skin_subcutaneous fat,skin_subcutaneous fat,0.109093402,0.17,1,1,1
+1054,skin striae,skin_subcutaneous fat,skin_subcutaneous fat,0.127869261,0.18,1,1,1
+1269,acne,skin_subcutaneous fat,skin_subcutaneous fat,0.15113915,0.19,1,1,1
+1159,xerosis,skin_subcutaneous fat,skin_subcutaneous fat,0.160003335,0.22,1,1,1
+728,psoriasis,skin_subcutaneous fat,skin_subcutaneous fat,0.199822667,0.4,1,2,0
+1217,milia,skin_subcutaneous fat,skin_subcutaneous fat,0.238495889,0.25,1,1,1
+493,seborrhoeic keratosis,skin_subcutaneous fat,skin_subcutaneous fat,0.258516835,,1,0,1
+803,skin lesion,skin_subcutaneous fat,skin_subcutaneous fat,0.259252892,0.38,1,2,0
+552,chloasma,skin_subcutaneous fat,skin_subcutaneous fat,0.265612898,0.34,1,1,1
+921,vitiligo,skin_subcutaneous fat,skin_subcutaneous fat,0.282639884,0.34,1,1,1
+492,actinic keratosis,skin_subcutaneous fat,skin_subcutaneous fat,0.285283325,0.51,1,2,0
+8,acanthosis nigricans,skin_subcutaneous fat,skin_subcutaneous fat,0.311018536,0.36,1,2,0
+296,erythema multiforme,skin_subcutaneous fat,skin_subcutaneous fat,0.311469512,0.33,1,1,1
+862,body tinea,skin_subcutaneous fat,skin_subcutaneous fat,0.317903447,,1,0,1
+332,folliculitis,skin_subcutaneous fat,skin_subcutaneous fat,0.318736066,0.32,1,1,1
+434,hyperhidrosis,skin_subcutaneous fat,skin_subcutaneous fat,0.34021243,0.22,1,1,1
+488,keloid scar,skin_subcutaneous fat,skin_subcutaneous fat,0.34517502,0.27,1,1,1
+168,scar,skin_subcutaneous fat,skin_subcutaneous fat,0.347240557,0.1,1,1,1
+1279,hyperkeratosis,skin_subcutaneous fat,skin_subcutaneous fat,0.355901189,0.4,1,2,0
+687,pityriasis,skin_subcutaneous fat,skin_subcutaneous fat,0.36008079,,1,0,1
+863,tinea pedis,skin_subcutaneous fat,skin_subcutaneous fat,0.366180317,0.31,1,1,1
+861,tinea capitis,skin_subcutaneous fat,skin_subcutaneous fat,0.381130583,,1,0,1
+1249,pigmentation disorder,skin_subcutaneous fat,skin_subcutaneous fat,0.385523651,0.3,1,1,1
+477,intertrigo,skin_subcutaneous fat,skin_subcutaneous fat,0.397616614,0.36,1,2,0
+551,melanosis,skin_subcutaneous fat,skin_subcutaneous fat,0.432568589,0.32,2,1,0
+338,ephelides,skin_subcutaneous fat,skin_subcutaneous fat,0.514515632,0.12,2,1,0
+120,bunion,skin_subcutaneous fat,skin_subcutaneous fat,,0.2,0,1,1
+219,skin abrasion,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+221,dermatitis exfoliative,skin_subcutaneous fat,skin_subcutaneous fat,,0.33,0,1,1
+420,hot flash,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+660,parapsoriasis,skin_subcutaneous fat,skin_subcutaneous fat,,0.33,0,1,1
+708,dyshidrosis,skin_subcutaneous fat,skin_subcutaneous fat,,0.29,0,1,1
+725,itch,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+777,acne rosacea,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+790,dermatitis seborrheic,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+929,weight gain,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+930,loss of weight,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1045,irritation skin,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1055,viral rash nos,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1081,heat rash,skin_subcutaneous fat,skin_subcutaneous fat,,0.16,0,1,1
+1086,hyperpigmentation,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1087,depigmentation,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1123,oily skin,skin_subcutaneous fat,skin_subcutaneous fat,,0.1,0,1,1
+297,erythema nodosum,skin_subcutaneous fat,skin_subcutaneous fat,0.283840152,0.53,1,2,0
+1301,tinea cruris,skin_subcutaneous fat,skin_subcutaneous fat,0.366138041,0.39,1,2,0
+1108,cheilosis,skin_subcutaneous fat,skin_subcutaneous fat,0.405925202,0.35,2,2,2
+568,molluscum contagiosum,skin_subcutaneous fat,skin_subcutaneous fat,0.430066887,0.29,2,1,0
+887,erythema,skin_subcutaneous fat,skin_subcutaneous fat,0.448448104,0.35,2,2,2
+616,melanocytic naevus,skin_subcutaneous fat,skin_subcutaneous fat,0.452087723,0.48,2,2,2
+668,pemphigus,skin_subcutaneous fat,skin_subcutaneous fat,0.465407103,0.49,2,2,2
+744,pyoderma,skin_subcutaneous fat,skin_subcutaneous fat,0.485288829,0.4,2,2,2
+468,ichthyosis,skin_subcutaneous fat,skin_subcutaneous fat,0.493047353,0.49,2,2,2
+517,lichen planus,skin_subcutaneous fat,skin_subcutaneous fat,0.49763412,0.2,2,1,0
+964,pyoderma gangrenosum,skin_subcutaneous fat,skin_subcutaneous fat,0.499689632,0.75,2,3,0
+209,cyst,skin_subcutaneous fat,skin_subcutaneous fat,0.501387421,0.29,2,1,0
+183,anogenital warts,skin_subcutaneous fat,skin_subcutaneous fat,0.503079055,0.44,2,2,2
+686,pilonidal cyst,skin_subcutaneous fat,skin_subcutaneous fat,0.513336513,0.44,2,2,2
+7,abscess,skin_subcutaneous fat,skin_subcutaneous fat,0.517205704,0.39,2,2,2
+44,angioedema,skin_subcutaneous fat,skin_subcutaneous fat,0.520148332,0.46,2,2,2
+227,dermatophytosis,skin_subcutaneous fat,skin_subcutaneous fat,0.520596098,0.38,2,2,2
+128,carbuncle,skin_subcutaneous fat,skin_subcutaneous fat,0.524829151,0.37,2,2,2
+228,dermoid cyst,skin_subcutaneous fat,skin_subcutaneous fat,0.525034347,0.5,2,2,2
+139,cellulitis,skin_subcutaneous fat,skin_subcutaneous fat,0.525310031,0.34,2,1,0
+623,obesity,skin_subcutaneous fat,skin_subcutaneous fat,0.526580262,0.44,2,2,2
+124,candida infection,skin_subcutaneous fat,skin_subcutaneous fat,0.528390588,,2,0,2
+1203,xanthoma,skin_subcutaneous fat,skin_subcutaneous fat,0.537569257,0.4,2,2,2
+965,pyogenic granuloma,skin_subcutaneous fat,skin_subcutaneous fat,0.53845361,0.36,2,2,2
+409,herpes simplex,skin_subcutaneous fat,skin_subcutaneous fat,0.539344634,0.46,2,2,2
+121,bursitis,skin_subcutaneous fat,skin_subcutaneous fat,0.548374527,0.49,2,2,2
+411,herpes zoster,skin_subcutaneous fat,skin_subcutaneous fat,0.55131471,0.46,2,2,2
+1158,wound dehiscence,skin_subcutaneous fat,skin_subcutaneous fat,0.551673778,0.39,2,2,2
+787,scleroderma,skin_subcutaneous fat,skin_subcutaneous fat,0.559288293,0.6,2,2,2
+657,papilloma,skin_subcutaneous fat,skin_subcutaneous fat,0.565788753,0.47,2,2,2
+226,dermatomyositis,skin_subcutaneous fat,skin_subcutaneous fat,0.576264273,0.49,2,2,2
+71,arthritis bacterial,skin_subcutaneous fat,skin_subcutaneous fat,0.582857761,0.49,2,2,2
+518,lipoma,skin_subcutaneous fat,skin_subcutaneous fat,0.589071608,0.46,2,2,2
+1208,burns second degree,skin_subcutaneous fat,skin_subcutaneous fat,0.594551187,,2,0,2
+214,decubitus ulcer,skin_subcutaneous fat,skin_subcutaneous fat,0.611128269,0.5,2,2,2
+470,impetigo,skin_subcutaneous fat,skin_subcutaneous fat,0.612206052,0.39,2,2,2
+295,erysipelas,skin_subcutaneous fat,skin_subcutaneous fat,0.645608797,0.43,2,2,2
+655,panniculitis,skin_subcutaneous fat,skin_subcutaneous fat,0.659383536,0.45,2,2,2
+942,acute febrile neutrophilic dermatosis,skin_subcutaneous fat,skin_subcutaneous fat,0.68140925,0.51,2,2,2
+125,cutaneous candidiasis,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+156,chicken pox,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+205,cystic acne,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+220,dermatitides,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+222,dermatitis medicamentosa,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+223,allergic dermatitis,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+224,contact dermatitis,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+225,cutaneous mycosis,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+305,excoriation,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+485,icterus,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+490,keratoacanthomas,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+804,nodule skin,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+805,cutaneous ulcer,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+860,tinea,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+865,tinea versicolor,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+897,hive,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+935,laceration,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1016,atrophy of skin,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1106,rhagades,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+1251,squamous cell carcinoma of skin,skin_subcutaneous fat,skin_subcutaneous fat,,0.6,0,2,2
+1313,morphea,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+550,malignant melanoma,skin_subcutaneous fat,skin_subcutaneous fat,0.736901958,0.87,2,3,0
+131,basal cell carcinoma,skin_subcutaneous fat,skin_subcutaneous fat,0.746959279,0.76,2,3,0
+285,lyell,spleen_bone_marrow_lymph_node_tonsils_immune,skin_subcutaneous fat,,,0,0,0
+582,mycosis fungoides,skin_subcutaneous fat,skin_subcutaneous fat,,,0,0,0
+504,lactose intolerance,gastrointestinal_tract,small_large_intestine,0.40285324,0.21,2,1,0
+189,constipated,gastrointestinal_tract,small_large_intestine,,,0,0,0
+238,diarrhea,gastrointestinal_tract,small_large_intestine,,,0,0,0
+822,fatty stools,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1037,intestinal ulcer,gastrointestinal_tract,small_large_intestine,0.624241705,0.58,2,2,2
+250,duodenal ulcer,gastrointestinal_tract,small_large_intestine,0.625012024,0.55,2,2,2
+279,enteritis,gastrointestinal_tract,small_large_intestine,0.625369951,0.41,2,2,2
+251,duodenitis,gastrointestinal_tract,small_large_intestine,0.627851081,0.44,2,2,2
+1126,small intestinal obstruction,gastrointestinal_tract,small_large_intestine,0.631737432,0.49,2,2,2
+58,appendicitis,gastrointestinal_tract,small_large_intestine,0.643804243,0.59,2,2,2
+480,intussusception,gastrointestinal_tract,small_large_intestine,0.644106431,0.55,2,2,2
+475,inflammatory bowel disease,gastrointestinal_tract,small_large_intestine,0.644766638,0.59,2,2,2
+176,colitis,gastrointestinal_tract,small_large_intestine,0.65958541,0.56,2,2,2
+280,enterocolitis,gastrointestinal_tract,small_large_intestine,0.664392043,0.56,2,2,2
+242,diverticulitis,gastrointestinal_tract,small_large_intestine,0.676822454,0.56,2,2,2
+549,megacolon,gastrointestinal_tract,small_large_intestine,0.677688272,0.55,2,2,2
+925,volvulus,gastrointestinal_tract,small_large_intestine,0.683820101,,2,0,2
+179,colon neoplasm,gastrointestinal_tract,small_large_intestine,0.689163805,,2,0,2
+138,coeliac disease,gastrointestinal_tract,small_large_intestine,0.77285501,,2,0,2
+1035,duodenal ulcer haemorrhage,gastrointestinal_tract,small_large_intestine,0.779188811,0.69,2,2,2
+57,appendectomy,gastrointestinal_tract,small_large_intestine,,,0,0,0
+177,chronic ulcerative colitis,gastrointestinal_tract,small_large_intestine,,,0,0,0
+180,colonic polyp,gastrointestinal_tract,small_large_intestine,,0.52,0,2,2
+204,cryptosporidiosis,gastrointestinal_tract,small_large_intestine,,,0,0,0
+254,diarrhea infectious,gastrointestinal_tract,small_large_intestine,,,0,0,0
+339,intestinal functional disorder,gastrointestinal_tract,small_large_intestine,,0.52,0,2,2
+382,haematochezia,gastrointestinal_tract,small_large_intestine,,0.45,0,2,2
+478,parasitic infection intestinal,gastrointestinal_tract,small_large_intestine,,,0,0,0
+483,colon spastic,gastrointestinal_tract,small_large_intestine,,,0,0,0
+525,lower gi bleeding,gastrointestinal_tract,small_large_intestine,,,0,0,0
+553,black stools,gastrointestinal_tract,small_large_intestine,,,0,0,0
+658,adynamic ileus,gastrointestinal_tract,small_large_intestine,,,0,0,0
+705,familial adenomatous polyposis,gastrointestinal_tract,small_large_intestine,,,0,0,0
+991,colon polypectomy,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1083,colitis ischemic,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1125,colonic obstruction,gastrointestinal_tract,small_large_intestine,,0.51,0,2,2
+1179,fecal occult blood,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1195,altered bowel function,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1288,colitis pseudomembranous,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1310,diverticulosis,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1271,duodenal ulcer perforation,gastrointestinal_tract,small_large_intestine,0.647260839,0.7,2,3,0
+479,intestinal perforation,gastrointestinal_tract,small_large_intestine,0.677165362,0.79,2,3,0
+181,colostomy,gastrointestinal_tract,small_large_intestine,,,0,0,0
+1264,carcinoma of the colon,gastrointestinal_tract,small_large_intestine,,,0,0,0
+333,food allergy,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.372362429,,1,0,1
+365,hay fever,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+442,allergies,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+476,flu,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+868,tonsillitis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,0.29,0,1,1
+916,infection viral,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+793,serum sickness,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.348061273,0.43,1,2,0
+1191,tonsillar hypertrophy,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.420792452,0.35,2,2,2
+36,anaphylactic reaction,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.50642,,2,0,2
+247,drug hypersensitivity,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.513498123,0.53,2,2,2
+472,infection,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.528791077,0.42,2,2,2
+87,bacterial infection,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.544921028,0.41,2,2,2
+567,mixed connective tissue disease,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.565295484,0.57,2,2,2
+580,atypical mycobacterial infection,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.603904718,0.67,2,2,2
+653,bone marrow failure,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.61840535,,2,0,2
+173,coccidioidomycosis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.624054521,,2,0,2
+537,lymphocytosis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.625886887,0.59,2,2,2
+873,toxoplasmosis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.642772789,0.53,2,2,2
+473,infectious mononucleosis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.668445997,0.48,2,2,2
+534,lymphangitis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.670390094,0.48,2,2,2
+980,benign neoplasm,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.706837097,0.37,2,2,2
+532,lyme disease,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.767561748,0.57,2,2,2
+814,splenic infarction,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.93592339,0.6,3,2,0
+15,adenoma,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+49,anthrax,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+130,carcinoma,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,0.67,0,2,2
+210,cmv infection,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+443,hypersplenism,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,0.47,0,2,2
+531,disseminated lupus erythematosus,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+533,adenitis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+535,lymphatic disorders,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+536,lymphedema,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+581,fungal disease,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+585,bone marrow fibrosis,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+813,splenectomy,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+816,enlarged spleen,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+867,tonsillectomy,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+978,hypogammaglobulinaemia,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,0.68,0,2,2
+990,ebv infection,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+1004,corticosteroid therapy,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+1164,collagenvascular disease,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+129,carcinoid tumour,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.739793098,0.76,2,3,0
+14,adenocarcinoma,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.806116154,0.84,3,3,3
+538,lymphoma,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,0.830532737,0.83,3,3,3
+11,acquired immune deficiency syndrome,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+103,bone marrow transplant,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+123,cancer,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+416,hiv disease,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+417,hiv positive,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+584,myelodysplasia,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+815,rupture of spleen,spleen_bone_marrow_lymph_node_tonsils_immune,spleen_bone_marrow_lymph_node_tonsils_immune,,,0,0,0
+463,hypopituitarism,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.5096525,0.59,2,2,2
+12,acromegaly,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.552556089,,2,0,2
+1078,thyroid cyst,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.61794402,,2,0,2
+449,hyperthyroidism,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.629398675,0.59,2,2,2
+462,hypoparathyroidism,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.639290322,0.5,2,2,2
+439,hyperparathyroidism,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.654091358,0.49,2,2,2
+17,adrenal insufficiency,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.663297882,0.55,2,2,2
+858,thyroiditis,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.665599081,0.5,2,2,2
+1014,thyroid adenoma,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.671428195,0.58,2,2,2
+454,hypoaldosteronism,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.689467919,,2,0,2
+357,goiter,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,,0,0,0
+467,hypothyroid,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,,0,0,0
+721,prolactinoma,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,0.55,0,2,2
+855,thyroid disease,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,,0,0,0
+856,thyroid neoplasia,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,,0,0,0
+857,thyroidectomy,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,,0,0,0
+683,phaeochromocytoma,kidneys_bladder_urethra,thyroid_pituitary_gland_adrenal_parathyroids,0.702549235,0.8,2,3,0
+1248,thyroid cancer,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,0.785091318,0.91,2,3,0
+1298,adrenal carcinoma,thyroid_pituitary_gland_adrenal_parathyroids,thyroid_pituitary_gland_adrenal_parathyroids,,,0,0,0
+621,nocturia,kidneys_bladder_urethra,urinary_system_general,0.563320393,0.29,2,1,0
+1302,dyspareunia,kidneys_bladder_urethra,urinary_system_general,0.540601404,0.34,2,1,0
+282,enuresis,kidneys_bladder_urethra,urinary_system_general,0.550373804,0.35,2,2,2
+589,myoglobinuria,kidneys_bladder_urethra,urinary_system_general,0.569210056,0.51,2,2,2
+21,albuminuria,kidneys_bladder_urethra,urinary_system_general,0.600645018,0.47,2,2,2
+260,dysuria,kidneys_bladder_urethra,urinary_system_general,0.624538685,0.4,2,2,2
+229,diabetes insipidus,kidneys_bladder_urethra,urinary_system_general,0.630480888,0.55,2,2,2
+724,proteinuria,kidneys_bladder_urethra,urinary_system_general,0.642903667,0.39,2,2,2
+707,polyuria,kidneys_bladder_urethra,urinary_system_general,0.65109858,0.34,2,1,0
+745,pyuria,kidneys_bladder_urethra,urinary_system_general,0.659666642,0.44,2,2,2
+356,glucosuria,kidneys_bladder_urethra,urinary_system_general,,,0,0,0
+386,blood in urine,kidneys_bladder_urethra,urinary_system_general,,,0,0,0
+389,hemoglobinuria,kidneys_bladder_urethra,urinary_system_general,,,0,0,0
+428,hypercalcinuria,kidneys_bladder_urethra,urinary_system_general,,,0,0,0
+248,drug toxicity nos,delete,zzz_delete,,,0,0,0
+836,bulging,delete,zzz_delete,,,0,0,0
+22,alcohol consumption,delete,zzz_delete,,,0,0,0
+246,abuse,delete,zzz_delete,,,0,0,0
+307,foreign body in eye,delete,zzz_delete,,,0,0,0
+885,adverse drug effect,delete,zzz_delete,,,0,0,0
+1049,drug withdrawal,delete,zzz_delete,,,0,0,0
+1229,abnormal laboratory findings,delete,zzz_delete,,,0,0,0
+45,animal bite,delete,zzz_delete,0.388005568,,1,0,1
+1300,infestation,delete,zzz_delete,0.449956873,,2,0,2
+1200,splinter,delete,zzz_delete,0.531628815,,2,0,2
+1109,road traffic accident,delete,zzz_delete,0.781864324,,2,0,2

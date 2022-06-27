@@ -4,7 +4,6 @@
 .DS_Store
 raw_data/
 articles/
-*.csv
 **/__pycache__/
 .env
 ddi/data/final_dataset.csv

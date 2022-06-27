@@ -1,0 +1,1318 @@
+Y,side_effect,sub_system_severity,Y_cat
+91,biliary tract disorder,Bile Duct / Gallbladder / Pancreas -Moderate,0
+1166,gallbladder polyp,Bile Duct / Gallbladder / Pancreas -Moderate,0
+974,cholecystitis chronic,Bile Duct / Gallbladder / Pancreas -Moderate,0
+163,cholelithiasis,Bile Duct / Gallbladder / Pancreas -Moderate,0
+162,cholecystitis,Bile Duct / Gallbladder / Pancreas -Moderate,0
+986,cholecystitis acute,Bile Duct / Gallbladder / Pancreas -Moderate,0
+160,cholangitis sclerosing,Bile Duct / Gallbladder / Pancreas -Moderate,0
+158,cholangitis,Bile Duct / Gallbladder / Pancreas -Moderate,0
+340,gall bladder,Bile Duct / Gallbladder / Pancreas -Moderate,0
+161,cholecystectomies,Bile Duct / Gallbladder / Pancreas -Moderate,0
+987,pancreatitis relapsing,Bile Duct / Gallbladder / Pancreas -Moderate,0
+652,pancreatitis,Bile Duct / Gallbladder / Pancreas -Moderate,0
+651,pancreatic pseudocyst,Bile Duct / Gallbladder / Pancreas -Moderate,0
+13,acute pancreatitis,Bile Duct / Gallbladder / Pancreas -Moderate,0
+1111,hyperamylasaemia,Bile Duct / Gallbladder / Pancreas -Moderate,0
+1130,gallbladder cancer,Bile Duct / Gallbladder / Pancreas -Severe,1
+1062,gallbladder perforation,Bile Duct / Gallbladder / Pancreas -Severe,1
+1134,pancreatic cancer,Bile Duct / Gallbladder / Pancreas -Severe,1
+893,incontinence,Bladder / Urethra -Moderate,2
+892,urethritis,Bladder / Urethra -Moderate,2
+95,neurogenic bladder,Bladder / Urethra -Moderate,2
+1064,bladder diverticulum,Bladder / Urethra -Moderate,2
+1075,nephrogenic diabetes insipidus,Bladder / Urethra -Moderate,2
+953,micturition urgency,Bladder / Urethra -Moderate,2
+1006,urosepsis,Bladder / Urethra -Moderate,2
+93,distended bladder,Bladder / Urethra -Moderate,2
+207,bladder inflammation,Bladder / Urethra -Moderate,2
+208,cysto,Bladder / Urethra -Moderate,2
+890,calculus ureteric,Bladder / Urethra -Moderate,2
+891,ureteral obstruction,Bladder / Urethra -Moderate,2
+894,stress incontinence,Bladder / Urethra -Moderate,2
+895,infection urinary tract,Bladder / Urethra -Moderate,2
+941,bladder retention,Bladder / Urethra -Moderate,2
+1092,obstructive uropathy,Bladder / Urethra -Moderate,2
+1202,cystitis interstitial,Bladder / Urethra -Moderate,2
+1222,bladder atony,Bladder / Urethra -Moderate,2
+1243,hydroureter,Bladder / Urethra -Moderate,2
+94,bladder neoplasm,Bladder / Urethra -Severe,3
+1266,bladder cancer,Bladder / Urethra -Severe,3
+430,elevated cholesterol,Blood -Moderate,4
+451,elevated triglycerides,Blood -Moderate,4
+563,methaemoglobinaemia,Blood -Moderate,4
+102,blood pressure abnormal,Blood -Moderate,4
+441,hyperprolactinaemia,Blood -Moderate,4
+1015,antinuclear antibody positive,Blood -Moderate,4
+383,blood disorder,Blood -Moderate,4
+1192,transfusion reaction,Blood -Moderate,4
+457,hypoglycaemia,Blood -Moderate,4
+1101,ketoacidosis,Blood -Moderate,4
+433,hyperglycaemia,Blood -Moderate,4
+1285,monoclonal gammopathy,Blood -Moderate,4
+1102,metabolic alkalosis,Blood -Moderate,4
+1274,phlebitis superficial,Blood -Moderate,4
+1100,metabolic acidosis,Blood -Moderate,4
+946,gestational diabetes,Blood -Moderate,4
+384,haematoma,Blood -Moderate,4
+9,acidosis,Blood -Moderate,4
+25,alkalosis,Blood -Moderate,4
+86,bacteraemia,Blood -Moderate,4
+1139,cavernous sinus thrombosis,Blood -Moderate,4
+1072,hypoglycaemia neonatal,Blood -Moderate,4
+1152,azotaemia,Blood -Moderate,4
+429,hypercapnia,Blood -Moderate,4
+1143,hypoxia,Blood -Moderate,4
+1270,hyperuricaemia,Blood -Moderate,4
+947,essential hypertension,Blood -Moderate,4
+100,clotting,Blood -Moderate,4
+426,bilirubinaemia,Blood -Moderate,4
+436,hyperlipaemia,Blood -Moderate,4
+444,high blood pressure,Blood -Moderate,4
+445,malignant hypertension,Blood -Moderate,4
+464,arterial pressure nos decreased,Blood -Moderate,4
+465,hypotension orthostatic,Blood -Moderate,4
+910,phlebothrombosis,Blood -Moderate,4
+1020,elevated erythrocyte sedimentation rate,Blood -Moderate,4
+1056,disorders of lipid metabolism,Blood -Moderate,4
+1236,arterial pressure nos increased,Blood -Moderate,4
+167,hemophilia b,Blood -Severe,5
+233,diabetic acidosis,Blood -Severe,5
+283,eosinophil count increased,Blood Cells -Moderate,6
+753,aplasia pure red cell,Blood Cells -Moderate,6
+101,platelet disorder,Blood Cells -Moderate,6
+1079,iron deficiency anaemia,Blood Cells -Moderate,6
+853,thrombocytopenia,Blood Cells -Moderate,6
+615,neutropenia,Blood Cells -Moderate,6
+37,anaemia,Blood Cells -Moderate,6
+39,haemolytic anaemia,Blood Cells -Moderate,6
+968,macrocytosis,Blood Cells -Moderate,6
+40,anaemia hypochromic,Blood Cells -Moderate,6
+512,leucocytosis,Blood Cells -Moderate,6
+514,leucopenia,Blood Cells -Moderate,6
+539,lymphocytes decreased,Blood Cells -Moderate,6
+852,essential thrombocythemia,Blood Cells -Moderate,6
+931,idiopathic thrombocytopenic purpura,Blood Cells -Moderate,6
+1273,increased white blood cell count,Blood Cells -Moderate,6
+1275,increased platelet count,Blood Cells -Moderate,6
+741,thrombotic microangiopathy,Blood Cells -Severe,7
+510,leukaemia,Blood Cells -Severe,7
+20,agranulocytoses,Blood Cells -Severe,7
+38,anemia aplastic,Blood Cells -Severe,7
+511,acute myeloblastic leukemia,Blood Cells -Severe,7
+572,multiple myeloma,Blood Cells -Severe,7
+461,blood sodium decreased,Blood Electrolytes / Vitamins -Mild,8
+427,blood calcium increased,Blood Electrolytes / Vitamins -Mild,8
+455,blood calcium decreased,Blood Electrolytes / Vitamins -Mild,8
+1308,hypovitaminosis,Blood Electrolytes / Vitamins -Mild,8
+918,vitamin b 12 deficiency,Blood Electrolytes / Vitamins -Mild,8
+919,vitamin b deficiency,Blood Electrolytes / Vitamins -Mild,8
+920,vitamin d deficiency,Blood Electrolytes / Vitamins -Mild,8
+331,folate deficiency,Blood Electrolytes / Vitamins -Moderate,9
+1215,hypervitaminosis,Blood Electrolytes / Vitamins -Moderate,9
+1025,hypomagnesaemia,Blood Electrolytes / Vitamins -Moderate,9
+435,excess potassium,Blood Electrolytes / Vitamins -Moderate,9
+437,hypernatraemia,Blood Electrolytes / Vitamins -Moderate,9
+459,hypokalaemia,Blood Electrolytes / Vitamins -Moderate,9
+970,hyperchloremia,Blood Electrolytes / Vitamins -Moderate,9
+971,hypochloraemia,Blood Electrolytes / Vitamins -Moderate,9
+972,hyperphosphatemia,Blood Electrolytes / Vitamins -Moderate,9
+973,hypophosphataemia,Blood Electrolytes / Vitamins -Moderate,9
+1024,hypermagnesemia,Blood Electrolytes / Vitamins -Moderate,9
+1214,electrolyte disorder,Blood Electrolytes / Vitamins -Moderate,9
+774,vasomotor rhinitis,Blood Vessels -Mild,10
+191,bruise,Blood Vessels -Mild,10
+263,ecchymoses,Blood Vessels -Mild,10
+330,facial flushing,Blood Vessels -Mild,10
+1194,cold extremities,Blood Vessels -Mild,10
+906,vascular headache,Blood Vessels -Moderate,11
+269,fat embolism,Blood Vessels -Moderate,11
+379,haemangioma,Blood Vessels -Moderate,11
+844,temporal arteritis,Blood Vessels -Moderate,11
+904,varicose vein,Blood Vessels -Moderate,11
+341,gangrene,Blood Vessels -Moderate,11
+64,arteritis,Blood Vessels -Moderate,11
+685,phlebitis,Blood Vessels -Moderate,11
+854,thrombophlebitis,Blood Vessels -Moderate,11
+509,leriche syndrome,Blood Vessels -Moderate,11
+63,arteriosclerosis,Blood Vessels -Moderate,11
+1060,portal vein thrombosis,Blood Vessels -Moderate,11
+62,arterial insufficiency,Blood Vessels -Moderate,11
+905,angiopathy,Blood Vessels -Moderate,11
+134,carotid artery stenosis,Blood Vessels -Moderate,11
+133,carotid bruit,Blood Vessels -Moderate,11
+681,petechia,Blood Vessels -Moderate,11
+714,post thrombotic syndrome,Blood Vessels -Moderate,11
+748,raynauds phenomenon,Blood Vessels -Moderate,11
+843,telangiectases,Blood Vessels -Moderate,11
+907,angiitis,Blood Vessels -Moderate,11
+908,syncope vasovagal,Blood Vessels -Moderate,11
+909,venous insufficiency,Blood Vessels -Moderate,11
+943,disorder peripheral vascular,Blood Vessels -Moderate,11
+969,spider angioma,Blood Vessels -Moderate,11
+1008,deep vein thromboses,Blood Vessels -Moderate,11
+1011,allergic vasculitis,Blood Vessels -Moderate,11
+1071,vascular anomaly,Blood Vessels -Moderate,11
+1210,pregnancy induced hypertension,Blood Vessels -Moderate,11
+1223,easy bruisability,Blood Vessels -Moderate,11
+1307,superficial thrombophlebitis,Blood Vessels -Moderate,11
+80,atherosclerosis,Blood Vessels -Moderate,11
+41,aneurysm,Blood Vessels -Severe,12
+484,ischaemia,Blood Vessels -Severe,12
+268,embolism,Blood Vessels -Severe,12
+200,coronary artery bypass graft,Blood Vessels -Severe,12
+671,periarteritis nodosa,Blood Vessels -Severe,12
+1031,bone pain,Bone -Moderate,13
+1252,chondrocalcinosis pyrophosphate,Bone -Moderate,13
+1228,wrist fracture,Bone -Moderate,13
+1073,ankle fracture,Bone -Moderate,13
+421,humerus fracture,Bone -Moderate,13
+413,hip fracture,Bone -Moderate,13
+320,femoral neck fracture,Bone -Moderate,13
+319,femur fracture,Bone -Moderate,13
+337,fracture nonunion,Bone -Moderate,13
+775,rib fracture,Bone -Moderate,13
+776,rickets,Bone -Moderate,13
+633,osteoarthritis,Bone -Moderate,13
+634,osteochondrosis,Bone -Moderate,13
+636,osteoma,Bone -Moderate,13
+637,osteomalacia,Bone -Moderate,13
+640,osteoporosis,Bone -Moderate,13
+639,osteopetrosis,Bone -Moderate,13
+638,osteomyelitis,Bone -Moderate,13
+335,bone fracture,Bone -Moderate,13
+336,bone fracture spontaneous,Bone -Moderate,13
+632,bone inflammation,Bone -Moderate,13
+667,pain pelvic,Bone -Moderate,13
+988,fractured pelvis nos,Bone -Moderate,13
+1107,avascular necrosis,Bone -Moderate,13
+1304,bone spur,Bone -Moderate,13
+104,bone neoplasm,Bone -Severe,14
+641,bone sarcoma,Bone -Severe,14
+1242,aseptic necrosis bone,Bone -Severe,14
+729,tension headache,Brain / Spinal Cord -Mild,15
+1010,migraine,Brain / Spinal Cord -Mild,15
+1283,insomnia,Brain / Spinal Cord -Mild,15
+245,drowsiness,Brain / Spinal Cord -Mild,15
+367,head ache,Brain / Spinal Cord -Mild,15
+243,dizziness,Brain / Spinal Cord -Moderate,16
+424,normal pressure hydrocephalus,Brain / Spinal Cord -Moderate,16
+1277,sleep disorder,Brain / Spinal Cord -Moderate,16
+962,synovial cyst,Brain / Spinal Cord -Moderate,16
+174,coccydynia,Brain / Spinal Cord -Moderate,16
+1069,intervertebral disc disorder,Brain / Spinal Cord -Moderate,16
+18,agnosia,Brain / Spinal Cord -Moderate,16
+817,spondylitis,Brain / Spinal Cord -Moderate,16
+1268,radiculopathy,Brain / Spinal Cord -Moderate,16
+1254,sacroiliitis,Brain / Spinal Cord -Moderate,16
+60,arachnoiditis,Brain / Spinal Cord -Moderate,16
+818,ankylosing spondylitis,Brain / Spinal Cord -Moderate,16
+1163,cervical vertebral fracture,Brain / Spinal Cord -Moderate,16
+1165,spinal compression fracture,Brain / Spinal Cord -Moderate,16
+788,scoliosis,Brain / Spinal Cord -Moderate,16
+54,aphasia,Brain / Spinal Cord -Moderate,16
+939,spinal fracture,Brain / Spinal Cord -Moderate,16
+747,rabies,Brain / Spinal Cord -Moderate,16
+811,myelopathy,Brain / Spinal Cord -Moderate,16
+583,myelitis,Brain / Spinal Cord -Moderate,16
+144,transient ischaemic attack,Brain / Spinal Cord -Moderate,16
+1074,brachial plexus injury,Brain / Spinal Cord -Moderate,16
+140,cerebellar ataxia,Brain / Spinal Cord -Moderate,16
+1154,encephalitis viral,Brain / Spinal Cord -Moderate,16
+1133,cerebral atrophy,Brain / Spinal Cord -Moderate,16
+108,metabolic encephalopathy,Brain / Spinal Cord -Moderate,16
+106,brain abscess,Brain / Spinal Cord -Moderate,16
+271,encephalitis,Brain / Spinal Cord -Moderate,16
+812,spinal cord injury,Brain / Spinal Cord -Moderate,16
+558,meningitis viral,Brain / Spinal Cord -Moderate,16
+573,multiple sclerosis,Brain / Spinal Cord -Moderate,16
+423,hydrocephalus,Brain / Spinal Cord -Moderate,16
+949,encephalopathy,Brain / Spinal Cord -Moderate,16
+554,meningioma,Brain / Spinal Cord -Moderate,16
+24,alcoholic intoxication,Brain / Spinal Cord -Moderate,16
+933,whiplash injury,Brain / Spinal Cord -Moderate,16
+1233,dyslexia,Brain / Spinal Cord -Moderate,16
+107,brain concussion,Brain / Spinal Cord -Moderate,16
+148,cervicalgia,Brain / Spinal Cord -Moderate,16
+184,confusion,Brain / Spinal Cord -Moderate,16
+217,acute brain syndrome,Brain / Spinal Cord -Moderate,16
+366,head injury,Brain / Spinal Cord -Moderate,16
+555,meningeal irritation,Brain / Spinal Cord -Moderate,16
+556,meningitides,Brain / Spinal Cord -Moderate,16
+557,aseptic meningitis,Brain / Spinal Cord -Moderate,16
+819,spondylosis,Brain / Spinal Cord -Moderate,16
+884,loss of consciousness,Brain / Spinal Cord -Moderate,16
+913,spinning sensation,Brain / Spinal Cord -Moderate,16
+1146,intervertebral disc herniation,Brain / Spinal Cord -Moderate,16
+1267,near syncope,Brain / Spinal Cord -Moderate,16
+1282,excessive sleepiness,Brain / Spinal Cord -Moderate,16
+727,benign intracranial hypertension,Brain / Spinal Cord -Moderate,16
+109,brain neoplasm,Brain / Spinal Cord -Severe,17
+182,coma,Brain / Spinal Cord -Severe,17
+145,cerebral palsy,Brain / Spinal Cord -Severe,17
+1022,haemorrhage intracranial,Brain / Spinal Cord -Severe,17
+832,subarachnoid haemorrhage,Brain / Spinal Cord -Severe,17
+142,cerebral haemorrhage,Brain / Spinal Cord -Severe,17
+141,cerebral artery embolism,Brain / Spinal Cord -Severe,17
+1281,cerebral ischaemia,Brain / Spinal Cord -Severe,17
+77,astrocytoma,Brain / Spinal Cord -Severe,17
+1316,glioblastoma multiforme,Brain / Spinal Cord -Severe,17
+938,cerebral thrombosis,Brain / Spinal Cord -Severe,17
+351,glioma,Brain / Spinal Cord -Severe,17
+35,als,Brain / Spinal Cord -Severe,17
+143,cerebral infarct,Brain / Spinal Cord -Severe,17
+146,cerebral vascular disorder,Brain / Spinal Cord -Severe,17
+385,hematoma subdural,Brain / Spinal Cord -Severe,17
+513,multifocal leukoencephalopathy,Brain / Spinal Cord -Severe,17
+700,polio,Brain / Spinal Cord -Severe,17
+831,apoplexy,Brain / Spinal Cord -Severe,17
+1019,encephalopathy hypertensive,Brain / Spinal Cord -Severe,17
+1138,epidural hematoma,Brain / Spinal Cord -Severe,17
+1148,parkinson,Brain / Spinal Cord -Severe,17
+1185,epidural abscess,Brain / Spinal Cord -Severe,17
+546,breast pain,Breast -Mild,18
+1162,breast tenderness,Breast -Mild,18
+112,breast swelling,Breast -Mild,18
+1000,breast discharge,Breast -Mild,18
+452,breast enlargement,Breast -Mild,18
+1177,breast malformation,Breast -Mild,18
+544,breast inflammation,Breast -Moderate,19
+1012,breast abscess,Breast -Moderate,19
+110,breast cyst,Breast -Moderate,19
+1306,breast neoplasm,Breast -Moderate,19
+111,breast disorder,Breast -Moderate,19
+322,breast dysplasia,Breast -Moderate,19
+361,gynaecomastia,Breast -Moderate,19
+526,breast lump,Breast -Moderate,19
+1090,fibroadenoma of breast,Breast -Moderate,19
+1128,galactorrhea,Breast -Moderate,19
+1260,breast cancer,Breast -Severe,20
+1291,allergic bronchitis,General Respiratory System -Mild,21
+889,infection upper respiratory,General Respiratory System -Mild,21
+932,wheeze,General Respiratory System -Mild,21
+116,bronchitis,General Respiratory System -Moderate,22
+259,dyspnoea paroxysmal nocturnal,General Respiratory System -Moderate,22
+415,histoplasmosis,General Respiratory System -Moderate,22
+830,stridor,General Respiratory System -Moderate,22
+875,tracheobronchitis,General Respiratory System -Moderate,22
+115,bronchiolitis,General Respiratory System -Moderate,22
+1221,hypoventilation,General Respiratory System -Moderate,22
+270,empyema,General Respiratory System -Moderate,22
+114,bronchiectasis,General Respiratory System -Moderate,22
+113,bronchial spasm,General Respiratory System -Moderate,22
+258,difficulty breathing,General Respiratory System -Moderate,22
+390,coughing blood,General Respiratory System -Moderate,22
+529,chronic obstructive airway disease,General Respiratory System -Moderate,22
+806,sleep apnea,General Respiratory System -Moderate,22
+874,tracheitis,General Respiratory System -Moderate,22
+957,orthopnea,General Respiratory System -Moderate,22
+984,acute bronchitis,General Respiratory System -Moderate,22
+1117,dyspnea exertional,General Respiratory System -Moderate,22
+1286,respiratory failure,General Respiratory System -Severe,23
+876,tracheostomy,General Respiratory System -Severe,23
+169,cleft lip,Congenital -Moderate,24
+170,cleft palate,Congenital -Moderate,24
+244,trisomy 21,Congenital -Moderate,24
+252,dwarfism,Congenital -Moderate,24
+1276,hypospadias,Congenital -Moderate,24
+404,diaphragmatic hernia,Congenital -Moderate,24
+1199,musculoskeletal deformity,Congenital -Moderate,24
+635,osteogenesis imperfecta,Congenital -Moderate,24
+1099,limb malformation,Congenital -Moderate,24
+1292,meningocele,Congenital -Moderate,24
+486,jaundice neonatal,Congenital -Moderate,24
+1261,haemophilia,Congenital -Moderate,24
+376,ventricular septal defect,Congenital -Moderate,24
+375,atrial septal defect,Congenital -Moderate,24
+2,birth defect,Congenital -Moderate,24
+249,patent ductus arteriosis,Congenital -Moderate,24
+431,familial hypercholesterolemia,Congenital -Moderate,24
+545,mast cell disease,Congenital -Moderate,24
+851,tetralogy of fallot,Congenital -Moderate,24
+1041,congenital heart disease,Congenital -Moderate,24
+206,cystic fibrosis,Congenital -Severe,25
+1237,amentia,Congenital -Severe,25
+1246,renal agenesis,Congenital -Severe,25
+469,cerumen impaction,Ears -Mild,26
+261,ear ache,Ears -Mild,26
+642,external ear infection,Ears -Mild,26
+1058,ear discharge,Ears -Mild,26
+1263,ear infection,Ears -Moderate,27
+593,myringitis,Ears -Moderate,27
+886,tympanic membrane disorder,Ears -Moderate,27
+866,tinnitus,Ears -Moderate,27
+982,eustachian tube obstruction,Ears -Moderate,27
+1098,tympanic membrane perforation,Ears -Moderate,27
+644,otosclerosis,Ears -Moderate,27
+368,deafness neurosensory,Ears -Moderate,27
+212,deafness,Ears -Moderate,27
+502,labyrinthitis,Ears -Moderate,27
+643,otitis media,Ears -Moderate,27
+749,hyperacusia,Ears -Moderate,27
+1188,acute otitis media,Ears -Moderate,27
+1189,eustachian tube disorder,Ears -Moderate,27
+1303,decreased hearing,Ears -Moderate,27
+1206,dry eye,Eyes -Mild,28
+1186,eye swelling,Eyes -Mild,28
+1032,eye pain,Eyes -Mild,28
+419,hordeolum,Eyes -Mild,28
+1187,retinal scar,Eyes -Mild,28
+152,chalazion,Eyes -Mild,28
+46,anisocoria,Eyes -Mild,28
+97,blepharoptosis,Eyes -Mild,28
+329,floaters,Eyes -Mild,28
+827,strabismus,Eyes -Mild,28
+1124,eye redness,Eyes -Mild,28
+96,blepharitis,Eyes -Moderate,29
+617,night blindness,Eyes -Moderate,29
+1053,lagophthalmos,Eyes -Moderate,29
+308,eye infection,Eyes -Moderate,29
+98,blepharospasm,Eyes -Moderate,29
+194,corneal abrasion,Eyes -Moderate,29
+281,entropion,Eyes -Moderate,29
+733,pterygium,Eyes -Moderate,29
+195,corneal disorder,Eyes -Moderate,29
+755,refraction disorder,Eyes -Moderate,29
+185,conjunctivitis,Eyes -Moderate,29
+489,keratitis,Eyes -Moderate,29
+292,episcleritis,Eyes -Moderate,29
+481,iridocyclitis,Eyes -Moderate,29
+265,ectropion,Eyes -Moderate,29
+482,iritis,Eyes -Moderate,29
+622,nystagmus,Eyes -Moderate,29
+75,asthenopia,Eyes -Moderate,29
+765,retinitis,Eyes -Moderate,29
+438,hypermetropia,Eyes -Moderate,29
+350,angle closure glaucoma,Eyes -Moderate,29
+922,vitreous detachment,Eyes -Moderate,29
+786,scleritis,Eyes -Moderate,29
+306,exophthalmos,Eyes -Moderate,29
+979,cataract,Eyes -Moderate,29
+349,glaucoma,Eyes -Moderate,29
+1220,dysaesthesia,Eyes -Moderate,29
+30,amblyopia,Eyes -Moderate,29
+1231,blindness,Eyes -Moderate,29
+240,diplopia,Eyes -Moderate,29
+410,herpes ophthalmic,Eyes -Moderate,29
+1057,corneal degeneration,Eyes -Moderate,29
+196,corneal dystrophy,Eyes -Moderate,29
+166,chorioretinitis,Eyes -Moderate,29
+591,myopia,Eyes -Moderate,29
+761,retinal degeneration,Eyes -Moderate,29
+1005,amaurosis fugax,Eyes -Moderate,29
+626,ophthalmoplegia,Eyes -Moderate,29
+187,conjunctivitis viral,Eyes -Moderate,29
+627,optic atrophy,Eyes -Moderate,29
+923,vitreous haemorrhage,Eyes -Moderate,29
+236,diabetic retinopathy,Eyes -Moderate,29
+309,eye injury,Eyes -Moderate,29
+1050,retinopathy hypertensive,Eyes -Moderate,29
+760,retinal artery occlusion,Eyes -Moderate,29
+628,optic neuritis,Eyes -Moderate,29
+1315,retinal vein thrombosis,Eyes -Moderate,29
+624,ocular hypertension,Eyes -Moderate,29
+503,lacrimal disorder,Eyes -Moderate,29
+186,bacterial conjunctivitis,Eyes -Moderate,29
+197,corneal clouding,Eyes -Moderate,29
+198,corneal ulcer,Eyes -Moderate,29
+211,dacrocystitis,Eyes -Moderate,29
+310,eyelid diseases,Eyes -Moderate,29
+491,keratitis sicca,Eyes -Moderate,29
+541,macula lutea degeneration,Eyes -Moderate,29
+656,optic disc edema,Eyes -Moderate,29
+762,detached retina,Eyes -Moderate,29
+763,disorder retinal,Eyes -Moderate,29
+764,retinal bleeding,Eyes -Moderate,29
+766,pigmentary retinopathy,Eyes -Moderate,29
+767,retinopathy of prematurity,Eyes -Moderate,29
+789,scotoma,Eyes -Moderate,29
+901,intraocular inflammation,Eyes -Moderate,29
+917,abnormal vision,Eyes -Moderate,29
+1131,decreased lacrimation,Eyes -Moderate,29
+1144,color blindness,Eyes -Moderate,29
+1216,blurred vision,Eyes -Moderate,29
+1247,meibomianitis,Eyes -Moderate,29
+1,abdominal pain,General Gastrointestinal System -Mild,30
+1118,abdominal pain upper,General Gastrointestinal System -Mild,30
+334,food poisoning,General Gastrointestinal System -Moderate,31
+0,abdominal distension,General Gastrointestinal System -Moderate,31
+542,malabsorption,General Gastrointestinal System -Moderate,31
+407,umbilical hernia,General Gastrointestinal System -Moderate,31
+1061,peritoneal adhesions,General Gastrointestinal System -Moderate,31
+1136,gastrointestinal obstruction,General Gastrointestinal System -Moderate,31
+346,giardiasis,General Gastrointestinal System -Moderate,31
+679,peritonitis,General Gastrointestinal System -Moderate,31
+72,ascites,General Gastrointestinal System -Moderate,31
+768,retroperitoneal fibrosis,General Gastrointestinal System -Moderate,31
+975,exploratory laparotomy,General Gastrointestinal System -Moderate,31
+345,gastrointestinal bleed,General Gastrointestinal System -Moderate,31
+406,hernia inguinal,General Gastrointestinal System -Moderate,31
+780,salmonella,General Gastrointestinal System -Moderate,31
+882,typhoid,General Gastrointestinal System -Moderate,31
+1088,abdominal hernia,General Gastrointestinal System -Moderate,31
+1207,gastroenteritis viral,General Gastrointestinal System -Moderate,31
+1105,dandruff,Hair / Nails -Mild,32
+28,alopecia,Hair / Nails -Mild,32
+1145,furuncle,Hair / Nails -Mild,32
+414,hirsuitism,Hair / Nails -Mild,32
+595,ingrowing nail,Hair / Nails -Mild,32
+864,onychomycosis,Hair / Nails -Mild,32
+967,onycholysis,Hair / Nails -Mild,32
+594,nail disorder,Hair / Nails -Mild,32
+663,paronychia,Hair / Nails -Mild,32
+450,hypertrichosis,Hair / Nails -Moderate,33
+665,lice infestation,Hair / Nails -Moderate,33
+362,hair disease,Hair / Nails -Moderate,33
+840,heart rate increased,Heart -Moderate,34
+841,sinus tachycardia,Heart -Moderate,34
+1091,sinus arrest,Heart -Moderate,34
+672,pericardial effusion,Heart -Moderate,34
+739,cor pulmonale,Heart -Moderate,34
+954,sinus bradycardia,Heart -Moderate,34
+835,superior vena cava syndrome,Heart -Moderate,34
+273,endocarditis,Heart -Moderate,34
+507,bundle branch block left,Heart -Moderate,34
+53,aortic stenosis,Heart -Moderate,34
+1175,atrioventricular block second degree,Heart -Moderate,34
+566,mitral valve prolapse,Heart -Moderate,34
+1059,trifascicular block,Heart -Moderate,34
+989,bicuspid aortic valve,Heart -Moderate,34
+119,bundle branch block,Heart -Moderate,34
+673,pericarditis,Heart -Moderate,34
+61,arrhythmia,Heart -Moderate,34
+588,myocarditis,Heart -Moderate,34
+842,supraventricular tachycardia,Heart -Moderate,34
+83,atrioventricular block,Heart -Moderate,34
+51,aortic aneurysm,Heart -Moderate,34
+82,atrial flutter,Heart -Moderate,34
+772,rheumatic heart disease,Heart -Moderate,34
+374,cardiac murmur,Heart -Moderate,34
+1280,cardiomyopathy,Heart -Moderate,34
+42,angina,Heart -Moderate,34
+43,prinzmetal variant angina,Heart -Moderate,34
+52,aortic regurgitation,Heart -Moderate,34
+81,afib,Heart -Moderate,34
+155,chest wall pain,Heart -Moderate,34
+199,arteriosclerotic heart disease,Heart -Moderate,34
+274,bacterial endocarditis,Heart -Moderate,34
+324,fib,Heart -Moderate,34
+370,cardiac disease,Heart -Moderate,34
+371,cardiac enlargement,Heart -Moderate,34
+373,cardiac decompensation,Heart -Moderate,34
+377,cardiac valvulopathy,Heart -Moderate,34
+565,mitral valve disease nos,Heart -Moderate,34
+650,palpitation,Heart -Moderate,34
+674,constrictive pericarditis,Heart -Moderate,34
+716,atrial ectopic beats,Heart -Moderate,34
+800,sick sinus syndrome,Heart -Moderate,34
+912,tachycardia ventricular,Heart -Moderate,34
+956,bundle branch block right,Heart -Moderate,34
+995,left ventricular hypertrophy,Heart -Moderate,34
+1018,abnormal eeg,Heart -Moderate,34
+1021,extrasystoles ventricular,Heart -Moderate,34
+1093,coronary angioplasty,Heart -Moderate,34
+1127,right heart failure,Heart -Moderate,34
+1226,bradycardia,Heart -Moderate,34
+1244,abnormal ecg,Heart -Moderate,34
+1296,wandering atrial pacemaker,Heart -Moderate,34
+955,atrioventricular block first degree,Heart -Moderate,34
+1017,atrioventricular block complete,Heart -Severe,35
+132,cardiac tamponade,Heart -Severe,35
+372,cardiac failure,Heart -Severe,35
+911,ventricular fibrillation,Heart -Severe,35
+369,asystole,Heart -Severe,35
+587,heart attack,Heart -Severe,35
+795,cardiovascular collapse,Heart -Severe,35
+1026,cardiac ischemia,Heart -Severe,35
+1077,joint stiffness,Joints / Connective Tissues -Mild,36
+1046,joint swelling,Joints / Connective Tissues -Moderate,37
+314,fasciitis,Joints / Connective Tissues -Moderate,37
+677,periostitis,Joints / Connective Tissues -Moderate,37
+1287,joint effusion,Joints / Connective Tissues -Moderate,37
+487,arthropathy,Joints / Connective Tissues -Moderate,37
+66,arthritis,Joints / Connective Tissues -Moderate,37
+1080,polyarthritis,Joints / Connective Tissues -Moderate,37
+838,synovitis,Joints / Connective Tissues -Moderate,37
+67,gouty arthritis,Joints / Connective Tissues -Moderate,37
+68,arthritis infective,Joints / Connective Tissues -Moderate,37
+359,gout,Joints / Connective Tissues -Moderate,37
+65,aching joints,Joints / Connective Tissues -Moderate,37
+69,psoriatic arthritis,Joints / Connective Tissues -Moderate,37
+70,arthritis rheumatoid,Joints / Connective Tissues -Moderate,37
+164,chondrodystrophy,Joints / Connective Tissues -Moderate,37
+178,collagen disease,Joints / Connective Tissues -Moderate,37
+188,connective tissue disease,Joints / Connective Tissues -Moderate,37
+241,dislocation,Joints / Connective Tissues -Moderate,37
+380,haemarthrosis,Joints / Connective Tissues -Moderate,37
+859,costochondritis,Joints / Connective Tissues -Moderate,37
+1048,traumatic arthropathy,Joints / Connective Tissues -Moderate,37
+1250,jra,Joints / Connective Tissues -Moderate,37
+1293,sarcoma,Joints / Connective Tissues -Severe,38
+327,flank pain,Kidneys -Mild,39
+1170,renal mass,Kidneys -Moderate,40
+1013,renal abscess,Kidneys -Moderate,40
+500,renal cyst,Kidneys -Moderate,40
+234,diabetic nephropathy,Kidneys -Moderate,40
+1219,nephrolithiasis,Kidneys -Moderate,40
+604,nephrocalcinosis,Kidneys -Moderate,40
+1052,renal colic,Kidneys -Moderate,40
+742,pyelonephritis,Kidneys -Moderate,40
+425,hydronephrosis,Kidneys -Moderate,40
+352,glomerulonephritis,Kidneys -Moderate,40
+353,iga nephropathy,Kidneys -Moderate,40
+10,renal tubular acidosis,Kidneys -Moderate,40
+606,nephrotic syndrome,Kidneys -Moderate,40
+496,chronic kidney disease,Kidneys -Moderate,40
+448,renovascular hypertension,Kidneys -Moderate,40
+471,adh inappropriate,Kidneys -Moderate,40
+494,disorder renal,Kidneys -Moderate,40
+498,papillary necrosis,Kidneys -Moderate,40
+603,interstitial nephritis,Kidneys -Moderate,40
+1063,acute glomerulonephritis,Kidneys -Moderate,40
+1253,kidney pain,Kidneys -Moderate,40
+605,nephrosclerosis,Kidneys -Moderate,40
+1299,renal cancer,Kidneys -Severe,41
+495,acute kidney failure,Kidneys -Severe,41
+497,kidney neoplasm,Kidneys -Severe,41
+499,kidney transplant,Kidneys -Severe,41
+756,kidney failure,Kidneys -Severe,41
+399,hepatitis toxic,Liver -Moderate,42
+519,liver abscess,Liver -Moderate,42
+398,chronic hepatitis,Liver -Moderate,42
+395,hepatitis,Liver -Moderate,42
+522,biliary cirrhosis,Liver -Moderate,42
+1030,hepatic necrosis,Liver -Moderate,42
+446,portal hypertension,Liver -Moderate,42
+159,primary biliary cirrhosis,Liver -Moderate,42
+316,fatty liver,Liver -Moderate,42
+396,hepatitis a,Liver -Moderate,42
+401,enlarged liver,Liver -Moderate,42
+520,cirrhosis,Liver -Moderate,42
+521,alcoholic cirrhosis,Liver -Moderate,42
+523,disease of liver,Liver -Moderate,42
+740,peliosis,Liver -Moderate,42
+994,hepatitis b surface antigen positive,Liver -Moderate,42
+1027,abnormal lfts,Liver -Moderate,42
+1033,aspartate aminotransferase increase,Liver -Moderate,42
+1198,hepatitis c antibody positive,Liver -Moderate,42
+1241,chronic active hepatitis,Liver -Moderate,42
+397,hepatitis b,Liver -Moderate,42
+400,hepatitis c,Liver -Moderate,42
+952,hepatic failure,Liver -Severe,43
+394,hepatic encephalopathy,Liver -Severe,43
+524,hepatic neoplasia,Liver -Severe,43
+710,tuberculin test positive,Lungs -Moderate,44
+76,asthma,Lungs -Moderate,44
+997,pulmonary mass,Lungs -Moderate,44
+1097,radiation pneumonitis,Lungs -Moderate,44
+360,granuloma,Lungs -Moderate,44
+527,lung abscess,Lungs -Moderate,44
+734,alveolar proteinosis,Lungs -Moderate,44
+828,streptococcal infection,Lungs -Moderate,44
+202,cryptococcosis,Lungs -Moderate,44
+934,pertussis,Lungs -Moderate,44
+688,pleural effusion,Lungs -Moderate,44
+689,pleurisy,Lungs -Moderate,44
+690,pneumoconiosis,Lungs -Moderate,44
+782,sarcoidosis,Lungs -Moderate,44
+737,emphysema,Lungs -Moderate,44
+1151,eosinophilic pneumonia acute,Lungs -Moderate,44
+79,atelectasis,Lungs -Moderate,44
+757,neonatal respiratory distress syndrome,Lungs -Moderate,44
+1240,pneumonia klebsiella,Lungs -Moderate,44
+1314,eosinophilic pneumonia,Lungs -Moderate,44
+26,respiratory alkalosis,Lungs -Moderate,44
+1132,lung infiltration,Lungs -Moderate,44
+699,pneumothorax,Lungs -Moderate,44
+697,pneumonia staphylococcal,Lungs -Moderate,44
+447,pulmonary hypertension,Lungs -Moderate,44
+29,allergic alveolitis,Lungs -Moderate,44
+88,bacterial pneumonia,Lungs -Moderate,44
+154,pleural pain,Lungs -Moderate,44
+508,legionella,Lungs -Moderate,44
+528,disorder lung,Lungs -Moderate,44
+692,neumonia,Lungs -Moderate,44
+693,aspiration pneumonia,Lungs -Moderate,44
+694,lobar pneumonia,Lungs -Moderate,44
+695,pneumonia primary atypical,Lungs -Moderate,44
+696,pneumocystis carinii pneumonia,Lungs -Moderate,44
+698,viral pneumonia,Lungs -Moderate,44
+735,lung edema,Lungs -Moderate,44
+738,lung fibrosis,Lungs -Moderate,44
+881,mycobacterium tuberculosis infection,Lungs -Moderate,44
+977,fibrosing alveolitis,Lungs -Moderate,44
+996,chest infection,Lungs -Moderate,44
+1096,ild,Lungs -Moderate,44
+1278,pneumocystis carinii infection,Lungs -Moderate,44
+758,acute respiratory distress syndrome,Lungs -Severe,45
+1038,lung adenocarcinoma,Lungs -Severe,45
+1147,lung neoplasm malignant,Lungs -Severe,45
+1174,pleural fibrosis,Lungs -Severe,45
+393,hemothorax,Lungs -Severe,45
+530,lung neoplasms,Lungs -Severe,45
+691,pneumonectomy,Lungs -Severe,45
+736,embolism pulmonary,Lungs -Severe,45
+1009,sclc,Lungs -Severe,45
+1076,pulmonary arrest,Lungs -Severe,45
+571,movement disorder,Motor Movement -Moderate,46
+1256,balance disorder,Motor Movement -Moderate,46
+1104,paraparesis,Motor Movement -Moderate,46
+1169,peripheral nerve injury,Motor Movement -Moderate,46
+1262,tardive dyskinesia,Motor Movement -Moderate,46
+659,paraplegia,Motor Movement -Moderate,46
+388,hemiplegia,Motor Movement -Moderate,46
+948,choreoathetosis,Motor Movement -Moderate,46
+387,hemiparesis,Motor Movement -Moderate,46
+78,ataxia,Motor Movement -Moderate,46
+59,apraxia,Motor Movement -Moderate,46
+255,abnormal movements,Motor Movement -Moderate,46
+1205,difficulty in walking,Motor Movement -Moderate,46
+1224,motor retardation,Motor Movement -Moderate,46
+1255,abnormal gait,Motor Movement -Moderate,46
+746,quadriplegia,Motor Movement -Severe,47
+648,pain,Systemic / General -Mild,48
+153,chest pain,Systemic / General -Mild,48
+992,food intolerance,Systemic / General -Mild,48
+216,dehydration,Systemic / General -Mild,48
+315,fatigue,Systemic / General -Mild,48
+620,nodule,Systemic / General -Mild,48
+883,ulcer,Systemic / General -Mild,48
+321,body temperature increased,Systemic / General -Mild,48
+466,decreased body temperature,Systemic / General -Mild,48
+618,night sweat,Systemic / General -Mild,48
+649,extremity pain,Systemic / General -Mild,48
+950,chill,Systemic / General -Mild,48
+1115,feeling unwell,Systemic / General -Mild,48
+999,neck mass,Systemic / General -Moderate,49
+378,heat stroke,Systemic / General -Moderate,49
+547,mediastinal disorder,Systemic / General -Moderate,49
+275,endocrine disorder,Systemic / General -Moderate,49
+771,rheumatic fever,Systemic / General -Moderate,49
+706,polyp,Systemic / General -Moderate,49
+326,fistula,Systemic / General -Moderate,49
+1171,seroma,Systemic / General -Moderate,49
+403,hernia,Systemic / General -Moderate,49
+709,porphyria,Systemic / General -Moderate,49
+778,rubella,Systemic / General -Moderate,49
+34,amyloidosis,Systemic / General -Moderate,49
+543,carcinoid syndrome,Systemic / General -Moderate,49
+313,failure to thrive,Systemic / General -Moderate,49
+73,aspergillosis,Systemic / General -Moderate,49
+99,bleb,Systemic / General -Moderate,49
+230,diabetes,Systemic / General -Moderate,49
+231,insulin dependent diabetes mellitus,Systemic / General -Moderate,49
+267,edema,Systemic / General -Moderate,49
+391,bleeding,Systemic / General -Moderate,49
+440,hyperalimentation,Systemic / General -Moderate,49
+702,erythremia,Systemic / General -Moderate,49
+808,soft tissue injuries,Systemic / General -Moderate,49
+837,fainting,Systemic / General -Moderate,49
+896,urogenital abnormalities,Systemic / General -Moderate,49
+951,excessive thirst,Systemic / General -Moderate,49
+963,edema extremities,Systemic / General -Moderate,49
+1082,malnourished,Systemic / General -Moderate,49
+1084,acute intermittent porphyria,Systemic / General -Moderate,49
+1157,herxheimer reaction,Systemic / General -Moderate,49
+1190,glucose intolerance,Systemic / General -Moderate,49
+1235,adenopathy,Systemic / General -Moderate,49
+1311,sjogrens syndrome,Systemic / General -Moderate,49
+232,mod,Systemic / General -Severe,50
+796,septic shock,Systemic / General -Severe,50
+402,hepatorenal syndrome,Systemic / General -Severe,50
+548,mediastinal tumor,Systemic / General -Severe,50
+602,neoplasia,Systemic / General -Severe,50
+1155,sepsis,Systemic / General -Severe,50
+1070,trigger finger,Muscles / Tendons -Mild,51
+84,back injury,Muscles / Tendons -Mild,51
+85,back ache,Muscles / Tendons -Mild,51
+311,face pain,Muscles / Tendons -Mild,51
+575,cramp,Muscles / Tendons -Mild,51
+797,shoulder pain,Muscles / Tendons -Mild,51
+810,muscle spasm,Muscles / Tendons -Mild,51
+1116,aching muscles,Muscles / Tendons -Mild,51
+1168,night cramps,Muscles / Tendons -Mild,51
+578,musculoskeletal pain,Muscles / Tendons -Moderate,52
+998,muscle rupture,Muscles / Tendons -Moderate,52
+940,muscle strain,Muscles / Tendons -Moderate,52
+1003,soft tissue infection,Muscles / Tendons -Moderate,52
+577,muscle disorder,Muscles / Tendons -Moderate,52
+136,cataplexy,Muscles / Tendons -Moderate,52
+284,epicondylitis,Muscles / Tendons -Moderate,52
+847,tenosynovitis,Muscles / Tendons -Moderate,52
+704,polymyalgia rheumatica,Muscles / Tendons -Moderate,52
+323,fibromyalgia,Muscles / Tendons -Moderate,52
+966,polymyositis,Muscles / Tendons -Moderate,52
+849,tetanus,Muscles / Tendons -Moderate,52
+850,tetany,Muscles / Tendons -Moderate,52
+1173,rotator cuff syndrome,Muscles / Tendons -Moderate,52
+74,asthenia,Muscles / Tendons -Moderate,52
+579,myasthenia gravis,Muscles / Tendons -Moderate,52
+846,tendon injury,Muscles / Tendons -Moderate,52
+122,cachectic,Muscles / Tendons -Moderate,52
+137,causalgia,Muscles / Tendons -Moderate,52
+190,contracture,Muscles / Tendons -Moderate,52
+592,muscle inflammation,Muscles / Tendons -Moderate,52
+601,injury of neck,Muscles / Tendons -Moderate,52
+661,muscle paresis,Muscles / Tendons -Moderate,52
+791,convulsion,Muscles / Tendons -Moderate,52
+845,tendinitis,Muscles / Tendons -Moderate,52
+872,retrocollis,Muscles / Tendons -Moderate,52
+1002,fascitis plantar,Muscles / Tendons -Moderate,52
+1028,muscle weakness,Muscles / Tendons -Moderate,52
+33,traumatic amputation,Muscles / Tendons -Moderate,52
+769,rhabdomyolysis,Muscles / Tendons -Severe,53
+770,rhabdomyosarcoma,Muscles / Tendons -Severe,53
+958,burning sensation,Neurological -Mild,54
+569,motion sickness,Neurological -Mild,54
+171,cluster headache,Neurological -Moderate,55
+878,tremor,Neurological -Moderate,55
+914,vestibular disorder,Neurological -Moderate,55
+662,paraesthesia,Neurological -Moderate,55
+192,conversion disorder,Neurological -Moderate,55
+1043,sensory disturbance,Neurological -Moderate,55
+596,narcolepsy,Neurological -Moderate,55
+175,cognitive disorder,Neurological -Moderate,55
+880,trigeminal neuralgia,Neurological -Moderate,55
+608,neuralgia,Neurological -Moderate,55
+612,neuroma,Neurological -Moderate,55
+253,dysarthria,Neurological -Moderate,55
+432,hyperaesthesia,Neurological -Moderate,55
+23,delirium tremens,Neurological -Moderate,55
+678,neuropathy peripheral,Neurological -Moderate,55
+1085,neurofibromatosis,Neurological -Moderate,55
+576,amyotrophy,Neurological -Moderate,55
+609,neuritis,Neurological -Moderate,55
+1042,polyneuropathy,Neurological -Moderate,55
+235,diabetic neuropathy,Neurological -Moderate,55
+264,eclampsia,Neurological -Moderate,55
+193,febrile convulsion,Neurological -Moderate,55
+290,myoclonic epilepsy,Neurological -Moderate,55
+288,epilepsy,Neurological -Moderate,55
+1156,autonomic neuropathy,Neurological -Moderate,55
+135,carpal tunnel,Neurological -Moderate,55
+289,convulsions grand mal,Neurological -Moderate,55
+291,petit mal,Neurological -Moderate,55
+312,facial palsy,Neurological -Moderate,55
+613,neuromuscular disorder,Neurological -Moderate,55
+711,postherpetic neuralgia,Neurological -Moderate,55
+754,reflex sympathetic dystrophy,Neurological -Moderate,55
+785,ischias,Neurological -Moderate,55
+809,sleep walking,Neurological -Moderate,55
+960,flashing lights,Neurological -Moderate,55
+961,light sensitivity,Neurological -Moderate,55
+1110,brachial neuritis,Neurological -Moderate,55
+1137,flashbacks,Neurological -Moderate,55
+1161,autonomic instability,Neurological -Moderate,55
+1167,global amnesia,Neurological -Moderate,55
+1184,cervical stenosis,Neurological -Moderate,55
+1230,neuropathy,Neurological -Moderate,55
+1245,palsies,Neurological -Moderate,55
+1289,ganglion,Neurological -Moderate,55
+821,status epilepticus,Neurological -Severe,56
+610,neuroblastoma,Neurological -Severe,56
+801,sinus headache,Nose -Mild,57
+773,rhinitis,Nose -Mild,57
+597,nasal congestion,Nose -Mild,57
+807,sneezing,Nose -Mild,57
+802,sinusitis,Nose -Mild,57
+983,acute sinusitis,Nose -Mild,57
+599,nasopharyngitis,Nose -Mild,57
+27,allergic rhinitis,Nose -Mild,57
+713,post nasal drip,Nose -Mild,57
+1044,nasal sinus congestion,Nose -Mild,57
+1290,rhinorrhea,Nose -Mild,57
+1297,rhinitis seasonal,Nose -Mild,57
+48,anosmia,Nose -Moderate,58
+1029,nasal septum disorder,Nose -Moderate,58
+985,chronic sinusitis,Nose -Moderate,58
+293,epistaxis,Nose -Moderate,58
+937,bradyarrhythmia,Nose -Moderate,58
+598,nasal polyp,Nose -Moderate,58
+1007,adenoid hypertrophy,Nose -Moderate,58
+1129,nasal septal perforation,Nose -Moderate,58
+600,nausea,Oesophagus / Stomach -Mild,59
+257,dyspepsia,Oesophagus / Stomach -Mild,59
+1119,regurgitation,Oesophagus / Stomach -Moderate,60
+1103,odynophagia,Oesophagus / Stomach -Moderate,60
+670,gastroduodenal ulcer,Oesophagus / Stomach -Moderate,60
+1135,gastric polyps,Oesophagus / Stomach -Moderate,60
+343,gastroenteritis,Oesophagus / Stomach -Moderate,60
+824,gastric ulcer,Oesophagus / Stomach -Moderate,60
+823,gastric dilatation,Oesophagus / Stomach -Moderate,60
+743,pyloric stenosis,Oesophagus / Stomach -Moderate,60
+381,haematemesis,Oesophagus / Stomach -Moderate,60
+215,deglutition disorder,Oesophagus / Stomach -Moderate,60
+299,esophageal spasm,Oesophagus / Stomach -Moderate,60
+300,esophageal stenosis,Oesophagus / Stomach -Moderate,60
+301,esophagitis,Oesophagus / Stomach -Moderate,60
+302,reflux esophagitis,Oesophagus / Stomach -Moderate,60
+342,gastric inflammation,Oesophagus / Stomach -Moderate,60
+344,acid reflux,Oesophagus / Stomach -Moderate,60
+405,hernia hiatal,Oesophagus / Stomach -Moderate,60
+888,upper gastrointestinal bleeding,Oesophagus / Stomach -Moderate,60
+926,emesis,Oesophagus / Stomach -Moderate,60
+1036,esophageal ulcer,Oesophagus / Stomach -Moderate,60
+1040,gastric stasis,Oesophagus / Stomach -Moderate,60
+1180,erosive gastritis,Oesophagus / Stomach -Moderate,60
+1197,esophageal rupture,Oesophagus / Stomach -Moderate,60
+1265,gastric cancer,Oesophagus / Stomach -Severe,61
+298,esophageal perforation,Oesophagus / Stomach -Severe,61
+1039,esophageal cancer,Oesophagus / Stomach -Severe,61
+1212,gastric ulcer perforated,Oesophagus / Stomach -Severe,61
+201,cough,Oral Cavity / Salivary Glands / Throat -Mild,62
+294,belching,Oral Cavity / Salivary Glands / Throat -Mild,62
+363,bad breath,Oral Cavity / Salivary Glands / Throat -Mild,62
+412,hiccough,Oral Cavity / Salivary Glands / Throat -Mild,62
+418,hoarseness,Oral Cavity / Salivary Glands / Throat -Mild,62
+799,excessive salivation,Oral Cavity / Salivary Glands / Throat -Mild,62
+1001,mouth ulcer,Oral Cavity / Salivary Glands / Throat -Mild,62
+1112,mouth pain,Oral Cavity / Salivary Glands / Throat -Mild,62
+1149,pain in throat,Oral Cavity / Salivary Glands / Throat -Mild,62
+871,dental pain,Oral Cavity / Salivary Glands / Throat -Mild,62
+172,coated tongue,Oral Cavity / Salivary Glands / Throat -Mild,62
+157,choking,Oral Cavity / Salivary Glands / Throat -Moderate,63
+682,pharyngeal inflammation,Oral Cavity / Salivary Glands / Throat -Moderate,63
+570,oral neoplasm,Oral Cavity / Salivary Glands / Throat -Moderate,63
+676,periodontitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+515,leukoplakia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+1211,parotid gland enlargement,Oral Cavity / Salivary Glands / Throat -Moderate,63
+453,salivary gland enlargement,Oral Cavity / Salivary Glands / Throat -Moderate,63
+779,salivary gland calculus,Oral Cavity / Salivary Glands / Throat -Moderate,63
+55,aphonia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+924,vocal cord paralysis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+1312,dysphonia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+792,pharyngitis streptococcal,Oral Cavity / Salivary Glands / Throat -Moderate,63
+664,parotitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+1193,viral pharyngitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+239,diphtheria,Oral Cavity / Salivary Glands / Throat -Moderate,63
+574,mumps,Oral Cavity / Salivary Glands / Throat -Moderate,63
+675,periodontal disease,Oral Cavity / Salivary Glands / Throat -Moderate,63
+56,apnea,Oral Cavity / Salivary Glands / Throat -Moderate,63
+126,candidiasis of mouth,Oral Cavity / Salivary Glands / Throat -Moderate,63
+347,bleeding gums,Oral Cavity / Salivary Glands / Throat -Moderate,63
+506,laryngitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+516,leukoplakia of mouth,Oral Cavity / Salivary Glands / Throat -Moderate,63
+629,mouth bleeding,Oral Cavity / Salivary Glands / Throat -Moderate,63
+798,salivary gland inflammation,Oral Cavity / Salivary Glands / Throat -Moderate,63
+825,mucositis oral,Oral Cavity / Salivary Glands / Throat -Moderate,63
+826,aphthous stomatitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+936,aptyalism,Oral Cavity / Salivary Glands / Throat -Moderate,63
+1284,dysphasia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+505,laryngeal neoplasia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+1140,gingival pain,Oral Cavity / Salivary Glands / Throat -Moderate,63
+870,tooth impacted,Oral Cavity / Salivary Glands / Throat -Moderate,63
+218,dental caries,Oral Cavity / Salivary Glands / Throat -Moderate,63
+117,bruxism,Oral Cavity / Salivary Glands / Throat -Moderate,63
+348,gingivitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+869,tooth disease,Oral Cavity / Salivary Glands / Throat -Moderate,63
+1239,dental abscess,Oral Cavity / Salivary Glands / Throat -Moderate,63
+355,glossitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+540,macroglossia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+287,epiglottitis,Oral Cavity / Salivary Glands / Throat -Moderate,63
+354,glossodynia,Oral Cavity / Salivary Glands / Throat -Moderate,63
+619,nightmare,Psychiatric -Mild,64
+50,anxiety,Psychiatric -Moderate,65
+262,eating disorder,Psychiatric -Moderate,65
+731,psychosexual disorder,Psychiatric -Moderate,65
+364,hallucination,Psychiatric -Moderate,65
+16,adjustment disorder,Psychiatric -Moderate,65
+680,personality disorder,Psychiatric -Moderate,65
+1305,paranoia,Psychiatric -Moderate,65
+92,bipolar disorder,Psychiatric -Moderate,65
+105,borderline personality disorder,Psychiatric -Moderate,65
+976,alcohol abuse,Psychiatric -Moderate,65
+783,schizoaffective disorder,Psychiatric -Moderate,65
+1272,substance abuse,Psychiatric -Moderate,65
+614,neurosis,Psychiatric -Moderate,65
+944,seasonal affective disorder,Psychiatric -Moderate,65
+654,panic disorder,Psychiatric -Moderate,65
+1218,phobia,Psychiatric -Moderate,65
+32,amnesia,Psychiatric -Moderate,65
+981,panic attack,Psychiatric -Moderate,65
+1294,major depression,Psychiatric -Moderate,65
+1196,acute psychosis,Psychiatric -Moderate,65
+784,schizophrenia,Psychiatric -Moderate,65
+19,agoraphobia,Psychiatric -Moderate,65
+456,hypochondriasis,Psychiatric -Moderate,65
+47,anorexia,Psychiatric -Moderate,65
+118,bulimia,Psychiatric -Moderate,65
+607,nervous tension,Psychiatric -Moderate,65
+730,psychosomatic disease,Psychiatric -Moderate,65
+732,psychoses,Psychiatric -Moderate,65
+759,ekbom syndrome,Psychiatric -Moderate,65
+820,dysphemia,Psychiatric -Moderate,65
+829,post traumatic stress disorder,Psychiatric -Moderate,65
+959,agitated,Psychiatric -Moderate,65
+1047,hesitancy,Psychiatric -Moderate,65
+1309,drug addiction,Psychiatric -Moderate,65
+562,mental retardation,Psychiatric -Severe,66
+586,mpd,Psychiatric -Severe,66
+833,attempted suicide,Psychiatric -Severe,66
+328,flatulence,Rectum / Anus -Mild,67
+1113,rectal discharge,Rectum / Anus -Moderate,68
+726,anal pruritus,Rectum / Anus -Moderate,68
+325,anal fissure,Rectum / Anus -Moderate,68
+750,proctalgia,Rectum / Anus -Moderate,68
+1094,anal fistula,Rectum / Anus -Moderate,68
+1225,defaecation urgency,Rectum / Anus -Moderate,68
+1181,perirectal abscess,Rectum / Anus -Moderate,68
+272,encopresis,Rectum / Anus -Moderate,68
+752,rectal prolapse,Rectum / Anus -Moderate,68
+751,rectal polyp,Rectum / Anus -Moderate,68
+1120,rectal tenesmus,Rectum / Anus -Moderate,68
+392,haemorrhoids,Rectum / Anus -Moderate,68
+1183,incisional hernia,Rectum / Anus -Moderate,68
+720,proctitis,Rectum / Anus -Moderate,68
+317,faecal incontinence,Rectum / Anus -Moderate,68
+318,faecal impaction,Rectum / Anus -Moderate,68
+1176,bleeding hemorrhoids,Rectum / Anus -Moderate,68
+1182,haemorrhage rectum,Rectum / Anus -Moderate,68
+1051,ovulation pain,Female Reproductive System -Moderate,69
+559,premature menopause,Female Reproductive System -Moderate,69
+1114,vaginal discharge,Female Reproductive System -Moderate,69
+927,vulvitis,Female Reproductive System -Moderate,69
+1122,menometrorrhagia,Female Reproductive System -Moderate,69
+561,menstrual disorder,Female Reproductive System -Moderate,69
+1153,high risk pregnancy,Female Reproductive System -Moderate,69
+1095,vaginal prolapse,Female Reproductive System -Moderate,69
+1213,adenomyosis,Female Reproductive System -Moderate,69
+278,endometritis,Female Reproductive System -Moderate,69
+1172,vulval abscess,Female Reproductive System -Moderate,69
+928,vulvovaginitis,Female Reproductive System -Moderate,69
+277,endometriosis,Female Reproductive System -Moderate,69
+666,pelvic infection,Female Reproductive System -Moderate,69
+1066,uterine polyp,Female Reproductive System -Moderate,69
+646,ovarian cyst,Female Reproductive System -Moderate,69
+900,uterine infection,Female Reproductive System -Moderate,69
+147,cervical polyp,Female Reproductive System -Moderate,69
+1209,endometrial atrophy,Female Reproductive System -Moderate,69
+879,trichomoniasis,Female Reproductive System -Moderate,69
+781,salpingitis,Female Reproductive System -Moderate,69
+276,endometrial hyperplasia,Female Reproductive System -Moderate,69
+1067,vaginal dysplasia,Female Reproductive System -Moderate,69
+150,cervical dysplasia,Female Reproductive System -Moderate,69
+4,abortion missed,Female Reproductive System -Moderate,69
+3,abortion spontaneous,Female Reproductive System -Moderate,69
+1142,pelvic inflammatory disease,Female Reproductive System -Moderate,69
+718,pms,Female Reproductive System -Moderate,69
+6,premature separation of placenta,Female Reproductive System -Moderate,69
+31,amenorrhea,Female Reproductive System -Moderate,69
+127,candidiasis of vagina,Female Reproductive System -Moderate,69
+149,cervicitis,Female Reproductive System -Moderate,69
+151,caesarean section,Female Reproductive System -Moderate,69
+256,dysmenorrhea,Female Reproductive System -Moderate,69
+303,estrogen replacement,Female Reproductive System -Moderate,69
+460,hypomenorrhea,Female Reproductive System -Moderate,69
+560,heavy menstrual period,Female Reproductive System -Moderate,69
+564,breakthrough bleeding,Female Reproductive System -Moderate,69
+590,myoma,Female Reproductive System -Moderate,69
+625,oligomenorrhea,Female Reproductive System -Moderate,69
+647,oophorectomy,Female Reproductive System -Moderate,69
+701,polycystic ovary disease,Female Reproductive System -Moderate,69
+703,polymenorrhea,Female Reproductive System -Moderate,69
+712,postmenopausal bleeding,Female Reproductive System -Moderate,69
+715,ectopic pregnancies,Female Reproductive System -Moderate,69
+898,fibroids,Female Reproductive System -Moderate,69
+899,uterine bleeding,Female Reproductive System -Moderate,69
+902,colpitis,Female Reproductive System -Moderate,69
+915,masculinization,Female Reproductive System -Moderate,69
+945,bacterial vaginitis,Female Reproductive System -Moderate,69
+1023,bleeding vaginal,Female Reproductive System -Moderate,69
+1068,irregular menstrual cycle,Female Reproductive System -Moderate,69
+1160,abnormal mammogram,Female Reproductive System -Moderate,69
+1227,anovulatory,Female Reproductive System -Moderate,69
+1234,abnormal cervical smear,Female Reproductive System -Moderate,69
+165,choriocarcinoma,Female Reproductive System -Severe,70
+645,ovarian cancer,Female Reproductive System -Severe,70
+1232,endometrial cancer,Female Reproductive System -Severe,70
+5,septic abortion,Female Reproductive System -Severe,70
+1204,carcinoma of the cervix,Female Reproductive System -Severe,70
+1257,still birth,Female Reproductive System -Severe,70
+1259,toxic shock,Female Reproductive System -Severe,70
+1178,supernumerary nipple,General Reproductive System -Moderate,71
+474,infertility,General Reproductive System -Moderate,71
+839,syphilis,General Reproductive System -Moderate,71
+213,decreased libido,General Reproductive System -Moderate,71
+358,gonorrhea,General Reproductive System -Moderate,71
+408,genital herpes,General Reproductive System -Moderate,71
+501,hypogonadotropic hypogonadism,General Reproductive System -Moderate,71
+794,sexually transmitted diseases,General Reproductive System -Moderate,71
+1238,penile pain,Male Reproductive System -Moderate,72
+1141,testicular swelling,Male Reproductive System -Moderate,72
+1295,penile swelling,Male Reproductive System -Moderate,72
+1121,penile discharge,Male Reproductive System -Moderate,72
+684,phimosis,Male Reproductive System -Moderate,72
+458,hypogonadism,Male Reproductive System -Moderate,72
+422,hydrocele,Male Reproductive System -Moderate,72
+723,prostatitis,Male Reproductive System -Moderate,72
+286,epididymitis,Male Reproductive System -Moderate,72
+1065,testicular atrophy,Male Reproductive System -Moderate,72
+719,priapism,Male Reproductive System -Moderate,72
+631,orchitis,Male Reproductive System -Moderate,72
+722,neoplasm prostate,Male Reproductive System -Moderate,72
+90,benign prostatic hyperplasia,Male Reproductive System -Moderate,72
+89,balanitis,Male Reproductive System -Moderate,72
+203,cryptorchidism,Male Reproductive System -Moderate,72
+630,orchiectomy,Male Reproductive System -Moderate,72
+669,peyronies disease,Male Reproductive System -Moderate,72
+717,ejaculation premature,Male Reproductive System -Moderate,72
+848,testes pain,Male Reproductive System -Moderate,72
+877,transurethral resection of the prostate,Male Reproductive System -Moderate,72
+903,varicocele,Male Reproductive System -Moderate,72
+993,hematospermia,Male Reproductive System -Moderate,72
+1089,elevated prostate specific antigen,Male Reproductive System -Moderate,72
+1150,prostatism,Male Reproductive System -Moderate,72
+1201,swollen scrotum,Male Reproductive System -Moderate,72
+1258,carcinoma of prostate,Male Reproductive System -Moderate,72
+266,eczema,Skin / Subcutaneous Fat -Mild,73
+611,neurodermatitis,Skin / Subcutaneous Fat -Mild,73
+1034,dry skin,Skin / Subcutaneous Fat -Mild,73
+834,sunburn,Skin / Subcutaneous Fat -Mild,73
+237,dermatitis diaper,Skin / Subcutaneous Fat -Mild,73
+1054,skin striae,Skin / Subcutaneous Fat -Mild,73
+1269,acne,Skin / Subcutaneous Fat -Mild,73
+1159,xerosis,Skin / Subcutaneous Fat -Mild,73
+728,psoriasis,Skin / Subcutaneous Fat -Mild,73
+1217,milia,Skin / Subcutaneous Fat -Mild,73
+493,seborrhoeic keratosis,Skin / Subcutaneous Fat -Mild,73
+803,skin lesion,Skin / Subcutaneous Fat -Mild,73
+552,chloasma,Skin / Subcutaneous Fat -Mild,73
+921,vitiligo,Skin / Subcutaneous Fat -Mild,73
+492,actinic keratosis,Skin / Subcutaneous Fat -Mild,73
+8,acanthosis nigricans,Skin / Subcutaneous Fat -Mild,73
+296,erythema multiforme,Skin / Subcutaneous Fat -Mild,73
+862,body tinea,Skin / Subcutaneous Fat -Mild,73
+332,folliculitis,Skin / Subcutaneous Fat -Mild,73
+434,hyperhidrosis,Skin / Subcutaneous Fat -Mild,73
+488,keloid scar,Skin / Subcutaneous Fat -Mild,73
+168,scar,Skin / Subcutaneous Fat -Mild,73
+1279,hyperkeratosis,Skin / Subcutaneous Fat -Mild,73
+687,pityriasis,Skin / Subcutaneous Fat -Mild,73
+863,tinea pedis,Skin / Subcutaneous Fat -Mild,73
+861,tinea capitis,Skin / Subcutaneous Fat -Mild,73
+1249,pigmentation disorder,Skin / Subcutaneous Fat -Mild,73
+477,intertrigo,Skin / Subcutaneous Fat -Mild,73
+551,melanosis,Skin / Subcutaneous Fat -Mild,73
+338,ephelides,Skin / Subcutaneous Fat -Mild,73
+120,bunion,Skin / Subcutaneous Fat -Mild,73
+219,skin abrasion,Skin / Subcutaneous Fat -Mild,73
+221,dermatitis exfoliative,Skin / Subcutaneous Fat -Mild,73
+420,hot flash,Skin / Subcutaneous Fat -Mild,73
+660,parapsoriasis,Skin / Subcutaneous Fat -Mild,73
+708,dyshidrosis,Skin / Subcutaneous Fat -Mild,73
+725,itch,Skin / Subcutaneous Fat -Mild,73
+777,acne rosacea,Skin / Subcutaneous Fat -Mild,73
+790,dermatitis seborrheic,Skin / Subcutaneous Fat -Mild,73
+929,weight gain,Skin / Subcutaneous Fat -Mild,73
+930,loss of weight,Skin / Subcutaneous Fat -Mild,73
+1045,irritation skin,Skin / Subcutaneous Fat -Mild,73
+1055,viral rash nos,Skin / Subcutaneous Fat -Mild,73
+1081,heat rash,Skin / Subcutaneous Fat -Mild,73
+1086,hyperpigmentation,Skin / Subcutaneous Fat -Mild,73
+1087,depigmentation,Skin / Subcutaneous Fat -Mild,73
+1123,oily skin,Skin / Subcutaneous Fat -Mild,73
+304,eruption,Skin / Subcutaneous Fat -Moderate,74
+297,erythema nodosum,Skin / Subcutaneous Fat -Moderate,74
+1301,tinea cruris,Skin / Subcutaneous Fat -Moderate,74
+1108,cheilosis,Skin / Subcutaneous Fat -Moderate,74
+568,molluscum contagiosum,Skin / Subcutaneous Fat -Moderate,74
+887,erythema,Skin / Subcutaneous Fat -Moderate,74
+616,melanocytic naevus,Skin / Subcutaneous Fat -Moderate,74
+668,pemphigus,Skin / Subcutaneous Fat -Moderate,74
+744,pyoderma,Skin / Subcutaneous Fat -Moderate,74
+468,ichthyosis,Skin / Subcutaneous Fat -Moderate,74
+517,lichen planus,Skin / Subcutaneous Fat -Moderate,74
+964,pyoderma gangrenosum,Skin / Subcutaneous Fat -Moderate,74
+209,cyst,Skin / Subcutaneous Fat -Moderate,74
+183,anogenital warts,Skin / Subcutaneous Fat -Moderate,74
+686,pilonidal cyst,Skin / Subcutaneous Fat -Moderate,74
+7,abscess,Skin / Subcutaneous Fat -Moderate,74
+44,angioedema,Skin / Subcutaneous Fat -Moderate,74
+227,dermatophytosis,Skin / Subcutaneous Fat -Moderate,74
+128,carbuncle,Skin / Subcutaneous Fat -Moderate,74
+228,dermoid cyst,Skin / Subcutaneous Fat -Moderate,74
+139,cellulitis,Skin / Subcutaneous Fat -Moderate,74
+623,obesity,Skin / Subcutaneous Fat -Moderate,74
+124,candida infection,Skin / Subcutaneous Fat -Moderate,74
+1203,xanthoma,Skin / Subcutaneous Fat -Moderate,74
+965,pyogenic granuloma,Skin / Subcutaneous Fat -Moderate,74
+409,herpes simplex,Skin / Subcutaneous Fat -Moderate,74
+121,bursitis,Skin / Subcutaneous Fat -Moderate,74
+411,herpes zoster,Skin / Subcutaneous Fat -Moderate,74
+1158,wound dehiscence,Skin / Subcutaneous Fat -Moderate,74
+787,scleroderma,Skin / Subcutaneous Fat -Moderate,74
+657,papilloma,Skin / Subcutaneous Fat -Moderate,74
+226,dermatomyositis,Skin / Subcutaneous Fat -Moderate,74
+71,arthritis bacterial,Skin / Subcutaneous Fat -Moderate,74
+518,lipoma,Skin / Subcutaneous Fat -Moderate,74
+1208,burns second degree,Skin / Subcutaneous Fat -Moderate,74
+214,decubitus ulcer,Skin / Subcutaneous Fat -Moderate,74
+470,impetigo,Skin / Subcutaneous Fat -Moderate,74
+295,erysipelas,Skin / Subcutaneous Fat -Moderate,74
+655,panniculitis,Skin / Subcutaneous Fat -Moderate,74
+942,acute febrile neutrophilic dermatosis,Skin / Subcutaneous Fat -Moderate,74
+125,cutaneous candidiasis,Skin / Subcutaneous Fat -Moderate,74
+156,chicken pox,Skin / Subcutaneous Fat -Moderate,74
+205,cystic acne,Skin / Subcutaneous Fat -Moderate,74
+220,dermatitides,Skin / Subcutaneous Fat -Moderate,74
+222,dermatitis medicamentosa,Skin / Subcutaneous Fat -Moderate,74
+223,allergic dermatitis,Skin / Subcutaneous Fat -Moderate,74
+224,contact dermatitis,Skin / Subcutaneous Fat -Moderate,74
+225,cutaneous mycosis,Skin / Subcutaneous Fat -Moderate,74
+305,excoriation,Skin / Subcutaneous Fat -Moderate,74
+485,icterus,Skin / Subcutaneous Fat -Moderate,74
+490,keratoacanthomas,Skin / Subcutaneous Fat -Moderate,74
+804,nodule skin,Skin / Subcutaneous Fat -Moderate,74
+805,cutaneous ulcer,Skin / Subcutaneous Fat -Moderate,74
+860,tinea,Skin / Subcutaneous Fat -Moderate,74
+865,tinea versicolor,Skin / Subcutaneous Fat -Moderate,74
+897,hive,Skin / Subcutaneous Fat -Moderate,74
+935,laceration,Skin / Subcutaneous Fat -Moderate,74
+1016,atrophy of skin,Skin / Subcutaneous Fat -Moderate,74
+1106,rhagades,Skin / Subcutaneous Fat -Moderate,74
+1251,squamous cell carcinoma of skin,Skin / Subcutaneous Fat -Moderate,74
+1313,morphea,Skin / Subcutaneous Fat -Moderate,74
+550,malignant melanoma,Skin / Subcutaneous Fat -Severe,75
+131,basal cell carcinoma,Skin / Subcutaneous Fat -Severe,75
+285,lyell,Skin / Subcutaneous Fat -Severe,75
+582,mycosis fungoides,Skin / Subcutaneous Fat -Severe,75
+504,lactose intolerance,Small / Large Intestine -Mild,76
+189,constipated,Small / Large Intestine -Mild,76
+238,diarrhea,Small / Large Intestine -Mild,76
+822,fatty stools,Small / Large Intestine -Mild,76
+1037,intestinal ulcer,Small / Large Intestine -Moderate,77
+250,duodenal ulcer,Small / Large Intestine -Moderate,77
+279,enteritis,Small / Large Intestine -Moderate,77
+251,duodenitis,Small / Large Intestine -Moderate,77
+1126,small intestinal obstruction,Small / Large Intestine -Moderate,77
+58,appendicitis,Small / Large Intestine -Moderate,77
+480,intussusception,Small / Large Intestine -Moderate,77
+475,inflammatory bowel disease,Small / Large Intestine -Moderate,77
+176,colitis,Small / Large Intestine -Moderate,77
+280,enterocolitis,Small / Large Intestine -Moderate,77
+242,diverticulitis,Small / Large Intestine -Moderate,77
+549,megacolon,Small / Large Intestine -Moderate,77
+925,volvulus,Small / Large Intestine -Moderate,77
+179,colon neoplasm,Small / Large Intestine -Moderate,77
+138,coeliac disease,Small / Large Intestine -Moderate,77
+1035,duodenal ulcer haemorrhage,Small / Large Intestine -Moderate,77
+57,appendectomy,Small / Large Intestine -Moderate,77
+177,chronic ulcerative colitis,Small / Large Intestine -Moderate,77
+180,colonic polyp,Small / Large Intestine -Moderate,77
+204,cryptosporidiosis,Small / Large Intestine -Moderate,77
+254,diarrhea infectious,Small / Large Intestine -Moderate,77
+339,intestinal functional disorder,Small / Large Intestine -Moderate,77
+382,haematochezia,Small / Large Intestine -Moderate,77
+478,parasitic infection intestinal,Small / Large Intestine -Moderate,77
+483,colon spastic,Small / Large Intestine -Moderate,77
+525,lower gi bleeding,Small / Large Intestine -Moderate,77
+553,black stools,Small / Large Intestine -Moderate,77
+658,adynamic ileus,Small / Large Intestine -Moderate,77
+705,familial adenomatous polyposis,Small / Large Intestine -Moderate,77
+991,colon polypectomy,Small / Large Intestine -Moderate,77
+1083,colitis ischemic,Small / Large Intestine -Moderate,77
+1125,colonic obstruction,Small / Large Intestine -Moderate,77
+1179,fecal occult blood,Small / Large Intestine -Moderate,77
+1195,altered bowel function,Small / Large Intestine -Moderate,77
+1288,colitis pseudomembranous,Small / Large Intestine -Moderate,77
+1310,diverticulosis,Small / Large Intestine -Moderate,77
+1271,duodenal ulcer perforation,Small / Large Intestine -Severe,78
+479,intestinal perforation,Small / Large Intestine -Severe,78
+181,colostomy,Small / Large Intestine -Severe,78
+1264,carcinoma of the colon,Small / Large Intestine -Severe,78
+333,food allergy,General Immune System -Mild,79
+365,hay fever,General Immune System -Mild,79
+442,allergies,General Immune System -Mild,79
+476,flu,General Immune System -Mild,79
+868,tonsillitis,General Immune System -Mild,79
+916,infection viral,General Immune System -Mild,79
+793,serum sickness,General Immune System -Moderate,80
+87,bacterial infection,General Immune System -Moderate,80
+567,mixed connective tissue disease,General Immune System -Moderate,80
+580,atypical mycobacterial infection,General Immune System -Moderate,80
+653,bone marrow failure,General Immune System -Moderate,80
+173,coccidioidomycosis,General Immune System -Moderate,80
+537,lymphocytosis,General Immune System -Moderate,80
+873,toxoplasmosis,General Immune System -Moderate,80
+473,infectious mononucleosis,General Immune System -Moderate,80
+534,lymphangitis,General Immune System -Moderate,80
+980,benign neoplasm,General Immune System -Moderate,80
+532,lyme disease,General Immune System -Moderate,80
+814,splenic infarction,General Immune System -Moderate,80
+15,adenoma,General Immune System -Moderate,80
+49,anthrax,General Immune System -Moderate,80
+130,carcinoma,General Immune System -Moderate,80
+210,cmv infection,General Immune System -Moderate,80
+443,hypersplenism,General Immune System -Moderate,80
+531,disseminated lupus erythematosus,General Immune System -Moderate,80
+533,adenitis,General Immune System -Moderate,80
+535,lymphatic disorders,General Immune System -Moderate,80
+536,lymphedema,General Immune System -Moderate,80
+581,fungal disease,General Immune System -Moderate,80
+585,bone marrow fibrosis,General Immune System -Moderate,80
+813,splenectomy,General Immune System -Moderate,80
+816,enlarged spleen,General Immune System -Moderate,80
+867,tonsillectomy,General Immune System -Moderate,80
+978,hypogammaglobulinaemia,General Immune System -Moderate,80
+990,ebv infection,General Immune System -Moderate,80
+1004,corticosteroid therapy,General Immune System -Moderate,80
+1164,collagenvascular disease,General Immune System -Moderate,80
+1191,tonsillar hypertrophy,General Immune System -Moderate,80
+247,drug hypersensitivity,General Immune System -Moderate,80
+472,infection,General Immune System -Moderate,80
+36,anaphylactic reaction,General Immune System -Severe,81
+129,carcinoid tumour,General Immune System -Severe,81
+14,adenocarcinoma,General Immune System -Severe,81
+538,lymphoma,General Immune System -Severe,81
+11,acquired immune deficiency syndrome,General Immune System -Severe,81
+103,bone marrow transplant,General Immune System -Severe,81
+123,cancer,General Immune System -Severe,81
+416,hiv disease,General Immune System -Severe,81
+417,hiv positive,General Immune System -Severe,81
+584,myelodysplasia,General Immune System -Severe,81
+815,rupture of spleen,General Immune System -Severe,81
+463,hypopituitarism,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+12,acromegaly,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+1078,thyroid cyst,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+449,hyperthyroidism,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+462,hypoparathyroidism,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+439,hyperparathyroidism,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+17,adrenal insufficiency,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+858,thyroiditis,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+1014,thyroid adenoma,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+454,hypoaldosteronism,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+357,goiter,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+467,hypothyroid,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+721,prolactinoma,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+855,thyroid disease,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+856,thyroid neoplasia,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+857,thyroidectomy,Thyroid / Parathyroid / Pituitary Gland -Moderate,82
+683,phaeochromocytoma,Thyroid / Parathyroid / Pituitary Gland -Severe,83
+1248,thyroid cancer,Thyroid / Parathyroid / Pituitary Gland -Severe,83
+1298,adrenal carcinoma,Thyroid / Parathyroid / Pituitary Gland -Severe,83
+621,nocturia,General Urinary System -Mild,84
+1302,dyspareunia,General Urinary System -Moderate,85
+282,enuresis,General Urinary System -Moderate,85
+589,myoglobinuria,General Urinary System -Moderate,85
+21,albuminuria,General Urinary System -Moderate,85
+260,dysuria,General Urinary System -Moderate,85
+229,diabetes insipidus,General Urinary System -Moderate,85
+724,proteinuria,General Urinary System -Moderate,85
+707,polyuria,General Urinary System -Moderate,85
+745,pyuria,General Urinary System -Moderate,85
+356,glucosuria,General Urinary System -Moderate,85
+386,blood in urine,General Urinary System -Moderate,85
+389,hemoglobinuria,General Urinary System -Moderate,85
+428,hypercalcinuria,General Urinary System -Moderate,85
+248,drug toxicity nos,zzz_delete_0,86
+836,bulging,zzz_delete_0,86
+22,alcohol consumption,zzz_delete_0,86
+246,abuse,zzz_delete_0,86
+307,foreign body in eye,zzz_delete_0,86
+885,adverse drug effect,zzz_delete_0,86
+1049,drug withdrawal,zzz_delete_0,86
+1229,abnormal laboratory findings,zzz_delete_0,86
+45,animal bite,zzz_delete_0,86
+1300,infestation,zzz_delete_0,86
+1200,splinter,zzz_delete_0,86
+1109,road traffic accident,zzz_delete_0,86
