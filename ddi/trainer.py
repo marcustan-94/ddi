@@ -34,7 +34,7 @@ def preprocess(df):
     X_train = pd.DataFrame(std_scaler.transform(X_train), columns=X.columns)
 
     '''pca_transform'''
-    pca = PCA(n_components = 60)  # 60 components were used
+    pca = PCA(n_components = 46)
     pca.fit(X_train)
     X_train = pca.transform(X_train)
 
@@ -65,7 +65,7 @@ def train_full(df):
 
     std_scaler = StandardScaler()
     X = std_scaler.fit_transform(X)
-    pca = PCA(n_components = 60)
+    pca = PCA(n_components = 46)
     pca.fit(X)
     X = pca.transform(X)
     model = train(X,y)
@@ -90,4 +90,4 @@ if __name__ == "__main__":
     save_model_joblib(model)
     save_model_pca(pca)
     size_bytes = os.stat('model.joblib',).st_size
-    print(f"size_bytes is {size_bytes}")
+    print(f"size_bytes is {size_bytes}.")
