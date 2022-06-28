@@ -25,15 +25,14 @@ def get_data():
 
 
 def preprocess(df):
-    '''transform the df into pca features'''
-    X = df[df.columns[89:]]  # check with marcus what are X and y columns -
+    '''Transform the df into PCA features'''
+    X = df[df.columns[89:]]
     y = df[df.columns[3:89]]
-    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.3 )
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
-
-    # creatin a pipeline to process the data
+    # Creating a pipeline to process the data
     # 80% of the variation can be explained by 46 principal components from param_search.py
-    preproc = make_pipeline(StandardScaler(),PCA(n_components =46))
+    preproc = make_pipeline(StandardScaler(), PCA(n_components=46))
     preproc.fit(X_train)
     X_train = preproc.transform(X_train)
     X_test = preproc.transform(X_test)
@@ -43,6 +42,8 @@ def preprocess(df):
 
 def train(X_train, y_train):
     '''Train the model on train dataset'''
+    # Note: hyperparameters used here are not the optimized parameters. This is to
+    # minimize the file size of clf so that it can be run by streamlit without crashing
     forest = RandomForestClassifier(n_estimators=10, random_state=1, criterion='gini')
     clf = MultiOutputClassifier(forest, n_jobs =-3)
     clf.fit(X_train, y_train)
@@ -77,7 +78,7 @@ def save_model_joblib(model):
 
 
 def save_preproc(model):
-    '''saving prepoc model'''
+    '''Saving prepoc model'''
     joblib.dump(model,'preproc.joblib')
     print("saved preproc.joblib locally")
 
@@ -87,6 +88,10 @@ if __name__ == "__main__":
     preproc, X_train, X_test, y_train, y_test = preprocess(df)
     clf = train(X_train,y_train)
     test(X_test,y_test)
+
+    # Saving the train clf model instead of the full clf model, as the full
+    # clf model is too big to run on streamlit; hence using the train clf
+    # model for demonstration purposes only
     save_model_joblib(clf)
     save_preproc(preproc)
     size_bytes = os.stat('model.joblib',).st_size
