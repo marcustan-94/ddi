@@ -2,20 +2,15 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-from backend import get_smiles, classify
+from backend import load_model, get_smiles, classify
 from ddi.utils import get_data_filepath
 
 
 # Loading the model beforehand so that the user do not need to wait for the model
 # to load when they click the "Discover" button. This saves waiting time.
-# @st.cache(allow_output_mutation=True)
-# def load_model():
-#     '''Loads the trained model in order to predict the side effects'''
-#     model = joblib.load('model.joblib')
-#     return model
-# model = load_model()
 
-model = joblib.load('model.joblib')
+model = load_model()
+
 
 # Background image is inserted using CSS code
 CSS = """

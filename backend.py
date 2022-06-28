@@ -11,6 +11,12 @@ from urllib.parse import quote
 from ddi.utils import get_data_filepath
 
 
+def load_model():
+    '''Loads the trained model in order to predict the side effects'''
+    model = joblib.load('model.joblib')
+    return model
+
+
 # The target classes (sub system severity) are loaded as dataset to allow reclassification of predictions
 # from numbers into words. Class number 86 is dropped as it contains unclassified side effects.
 Y_class = pd.read_csv(get_data_filepath('complete_severity_reclassification.csv'),
