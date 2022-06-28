@@ -65,8 +65,8 @@ def preproc(drug1, drug2):
     # Obtaining absolute values as we are only interested in the magnitude of the difference between features
     X_test = X_test.abs()
     # PCA is performed to reduce the dimensionality of the differenced features
-    pca = joblib.load('pca.joblib')
-    X_test = pca.transform(X_test)
+    preproc = joblib.load('preproc.joblib')
+    X_test = preproc.transform(X_test)
 
     return X_test
 
@@ -99,7 +99,6 @@ def classify(drug1, drug2, model):
         side_effect_list.append(y_dict[i])
 
     return side_effect_list
-
 
 if __name__ == "__main__":
     model = joblib.load('model.joblib')

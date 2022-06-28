@@ -8,13 +8,14 @@ from ddi.utils import get_data_filepath
 
 # Loading the model beforehand so that the user do not need to wait for the model
 # to load when they click the "Discover" button. This saves waiting time.
-@st.cache(allow_output_mutation=True)
-def load_model():
-    '''Loads the trained model in order to predict the side effects'''
-    model = joblib.load('model.joblib')
-    return model
+# @st.cache(allow_output_mutation=True)
+# def load_model():
+#     '''Loads the trained model in order to predict the side effects'''
+#     model = joblib.load('model.joblib')
+#     return model
+# model = load_model()
 
-model = load_model()
+model = joblib.load('model.joblib')
 
 # Background image is inserted using CSS code
 CSS = """
