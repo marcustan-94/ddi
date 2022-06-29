@@ -43,9 +43,10 @@ def preprocess(df):
 
 def train(X_train, y_train):
     '''Train the model on train dataset'''
-    # Note: hyperparameters used here are not the optimized parameters. This is to
-    # minimize the file size of clf so that it can be run by streamlit without crashing
-    forest = RandomForestClassifier(n_estimators=10, random_state=1, criterion='gini')
+    # Note: Model used here is not a Random Forest Classifier, but rather a
+    # simplified Decision Tree Classifier model. This is to minimize the file
+    # size of clf so that it can be run by streamlit without crashing
+    forest = DecisionTreeClassifier(random_state=1, max_depth=30)
     clf = MultiOutputClassifier(forest, n_jobs =-3)
     clf.fit(X_train, y_train)
     return clf
@@ -73,8 +74,8 @@ def train_full(df):
 
 
 def save_model_joblib(model):
-    '''Saving Random Forest Classifier model'''
-    joblib.dump(model, 'model.joblib', compress=5)
+    '''Saving Decision Tree Classifier model'''
+    joblib.dump(model, 'model.joblib')
     print("saved model.joblib locally")
 
 
@@ -95,5 +96,5 @@ if __name__ == "__main__":
     # model for demonstration purposes only
     save_model_joblib(clf)
     save_preproc(preproc)
-    size_bytes = os.stat('model.joblib',).st_size
+    size_bytes = os.stat('model.joblib').st_size
     print(f"size_bytes is {size_bytes}.")
