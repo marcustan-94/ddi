@@ -25,10 +25,10 @@ After performing cleaning, preprocessing and splitting of the TWOSIDES dataset i
 
 Next, we ran the train set through a **multilabel Random Forest Classifier** model and tuned the hyperparameters of the model using a **random grid search** approach to give us a range that may contain the best hyperparemeters. Next, we used the normal **grid search** to narrow the search. Finally, we validated the results of the search using the test set.
 
-From there, the optimal hyperparameters were selected (disclaimer: the optimal number of estimators for the Random Forest model was 150 but we used 20 estimators instead to reduce the filesize of the model) and the model was retrained using the full TWOSIDES dataset. We managed to achieve an accuracy of 74.8%.
+From there, the optimal hyperparameters were selected and the model was retrained using the full TWOSIDES dataset. We managed to achieve an accuracy of 74.8%.
 
 ## Step 4 - Model deployment
-The model and relevant code were packaged into a web application using **Streamlit**, and deployed using **Heroku**. The link to the web application is as follows: [https://ddi-lewagon.herokuapp.com/](https://ddi-lewagon.herokuapp.com/)
+The model and relevant code were packaged into a web application using **Streamlit**, and deployed using **Heroku**. (Note: the model in Streamlit is not using the optimized version as the file size is too big. For demonstration purposes, a simplified model was used instead, with an overall accuracy of 69.1%.) The link to the web application is as follows: [https://ddi-lewagon.herokuapp.com/](https://ddi-lewagon.herokuapp.com/)
 
 In the user interface, the user is prompted to input the name of the two drugs:
 
