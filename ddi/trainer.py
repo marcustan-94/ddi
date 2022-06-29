@@ -4,6 +4,7 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.model_selection import train_test_split
