@@ -2,7 +2,7 @@
 .coverage
 .ipynb_checkpoints
 .DS_Store
-raw_data/
+raw_data/twosides.csv
 articles/
 **/__pycache__/
 .env
