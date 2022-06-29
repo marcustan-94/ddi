@@ -28,7 +28,9 @@ Next, we ran the train set through a **multilabel Random Forest Classifier** mod
 From there, the optimal hyperparameters were selected and the model was retrained using the full TWOSIDES dataset. We managed to achieve an accuracy of 74.8%.
 
 ## Step 4 - Model deployment
-The model and relevant code were packaged into a web application using **Streamlit**, and deployed using **Heroku**. (Note: the model in Streamlit is not using the optimized version as the file size is too big. For demonstration purposes, a simplified model was used instead, with an overall accuracy of 69.1%.) The link to the web application is as follows: [https://ddi-lewagon.herokuapp.com/](https://ddi-lewagon.herokuapp.com/)
+The model and relevant code were packaged into a web application using **Streamlit**, and deployed using **Heroku**. (*Note: the model in Streamlit is not using the optimized version as the file size is too big. For demonstration purposes, a simplified model was used instead, with an overall accuracy of 69.1%.*)
+
+The link to the web application is as follows: [https://ddi-lewagon.herokuapp.com/](https://ddi-lewagon.herokuapp.com/) (*Note: because we are using the free tier of Heroku, the Heroku dynos become idle when the website is not used for a while. Hence when loading the webpage for the first time, it takes about 30-60 seconds for the dynos to restart and get the page to load. Subsequent refreshes of the webpage will be much faster.*)
 
 In the user interface, the user is prompted to input the name of the two drugs:
 
