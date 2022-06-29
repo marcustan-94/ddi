@@ -86,8 +86,8 @@ def save_preproc(model):
 if __name__ == "__main__":
     df = get_data()
     preproc, X_train, X_test, y_train, y_test = preprocess(df)
-    clf = train(X_train,y_train)
-    test(X_test,y_test)
+    clf = train(X_train, y_train)
+    test(X_test, y_test)
 
     # Saving the train clf model instead of the full clf model, as the full
     # clf model is too big to run on streamlit; hence using the train clf

@@ -6,12 +6,6 @@ from backend import load_model, get_smiles, classify
 from ddi.utils import get_data_filepath
 
 
-# Loading the model beforehand so that the user do not need to wait for the model
-# to load when they click the "Discover" button. This saves waiting time.
-
-model = load_model()
-
-
 # Background image is inserted using CSS code
 CSS = """
 h1 {
@@ -44,8 +38,10 @@ interact_button = col2.button('Discover Side Effects')
 if interact_button:
 
     # Spinner is inserted for aesthetic purpose
-    with st.spinner(text="Discovering possible side effects..."):
+    with st.spinner(text="Loading model..."):
+        model = load_model()
 
+    with st.spinner(text="Discovering possible side effects..."):
         # If any of the input drugs cannot be converted into smiles structure,
         # an error message will be printed
         if 'Unable to find the drug, please try again.' in get_smiles(drug1, drug2):
